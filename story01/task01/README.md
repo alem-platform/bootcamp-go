@@ -1,10 +1,4 @@
-В этом таске хочу чтобы:
-- создали папки
-- перенесли файлы в папки
-- дали нужны права чтобы запустить скрипт
-- создали файлы с содержимым?
+## Task
 
-------------------------------------------------
-
-
+The `code` directory contains a script `student_build.sh`. You need to restore files, so that the script runs successfully without giving errors.
 
