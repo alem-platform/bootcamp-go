@@ -3,14 +3,14 @@
 directory_root="directory1"
 directory_modules="$directory_root/modules"
 directory_md5="$directory_root/checksums"
-directory_logs="$directory_root/logs"
+# directory_logs="$directory_root/logs"
 directory_conf="$directory_root/configurations"
 
 
 [[ ! -d "$directory_root" ]] && mkdir "$directory_root"
 [[ ! -d "$directory_modules" ]] && mkdir "$directory_modules"
 [[ ! -d "$directory_md5" ]] && mkdir "$directory_md5"
-[[ ! -d "$directory_logs" ]] && mkdir "$directory_logs"
+# [[ ! -d "$directory_logs" ]] && mkdir "$directory_logs"
 [[ ! -d "$directory_conf" ]] && mkdir "$directory_conf"
 
 create_file() {
@@ -41,7 +41,7 @@ create_md5() {
     local filename="$2"
     local filename_md5="$directory_md5/prefix2-$num.md5"
 
-    md5="$(md5sum "$filename" | cut -d ' ' -f 1)"
+    md5="$(md5sum "$filename" | sed 's/directory1/../g')"
     echo "$md5" > "$filename_md5"
 }
 
@@ -73,15 +73,15 @@ create_conf() {
     echo -n "$conf" > "$filename"
 }
 
-for i in {1..10}; do
+for i in {1..20}; do
     # ext1 files
     filename="$(create_file "$i")"
 
     # md5 files
     create_md5 "$i" "$filename"
 
-    # log files
-    create_logs "$i"
+    # # log files
+    # create_logs "$i"
 done
 
 create_conf
