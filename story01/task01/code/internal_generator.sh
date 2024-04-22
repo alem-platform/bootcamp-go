@@ -1,14 +1,21 @@
 #!/usr/bin/env bash
 
-[[ ! -d "directory1" ]] && mkdir directory1
+directory_root="directory1"
+directory_modules="$directory_root/modules"
+directory_md5="$directory_root/checksums"
+directory_logs="$directory_root/logs"
+directory_conf="$directory_root/configurations"
 
-[[ ! -d "directory1/nested-directory1" ]] && mkdir directory1/nested-directory1
-[[ ! -d "directory1/nested-directory2" ]] && mkdir directory1/nested-directory2
-[[ ! -d "directory1/nested-directory3" ]] && mkdir directory1/nested-directory3
+
+[[ ! -d "$directory_root" ]] && mkdir "$directory_root"
+[[ ! -d "$directory_modules" ]] && mkdir "$directory_modules"
+[[ ! -d "$directory_md5" ]] && mkdir "$directory_md5"
+[[ ! -d "$directory_logs" ]] && mkdir "$directory_logs"
+[[ ! -d "$directory_conf" ]] && mkdir "$directory_conf"
 
 create_file() {
     local num="$1"
-    local filename="directory1/nested-directory1/prefix1-$num.ext1"
+    local filename="$directory_modules/prefix1-$num.ext1"
 
     local statuses=(
         "LOADED"
@@ -32,7 +39,7 @@ create_file() {
 create_md5() {
     local num="$1"
     local filename="$2"
-    local filename_md5="directory1/nested-directory2/prefix1-$num.md5"
+    local filename_md5="$directory_md5/prefix2-$num.md5"
 
     md5="$(md5sum "$filename" | cut -d ' ' -f 1)"
     echo "$md5" > "$filename_md5"
@@ -40,7 +47,7 @@ create_md5() {
 
 create_logs() {
     local num="$1"
-    local filename="directory1/nested-directory3/prefix1-$num.log"
+    local filename="$directory_logs/prefix3-$num.log"
     local lines=$((RANDOM % 5 + 1))
 
     local dict=(
@@ -58,6 +65,14 @@ create_logs() {
     echo -ne "$result" > "$filename"
 }
 
+create_conf() {
+    local filename="$directory_conf/main.conf"
+    # shellcheck disable=SC2155
+    local conf="$(echo -n "https://youtu.be/dQw4w9WgXcQ" | base64 | tr -d "=")"
+
+    echo -n "$conf" > "$filename"
+}
+
 for i in {1..10}; do
     # ext1 files
     filename="$(create_file "$i")"
@@ -68,3 +83,5 @@ for i in {1..10}; do
     # log files
     create_logs "$i"
 done
+
+create_conf
