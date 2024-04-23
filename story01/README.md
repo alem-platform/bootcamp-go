@@ -23,9 +23,13 @@
 ---
 
 | TCP packet round trip between continents | 150,000,000 ns |
+
 | Read 1 MB sequentially from disk | 30,000,000 ns |
+
 | Read 1 MB sequentially from network | 10,000,000 ns |
+
 | Disk seek | 10,000,000 ns |
+
 | Round trip within same datacenter | 500,000 ns |
 | Read 1 MB sequentially from memory | 250,000 ns |
 | Send 1K bytes over 1 Gbps network | 10,000 ns |
