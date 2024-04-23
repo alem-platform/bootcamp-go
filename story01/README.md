@@ -8,9 +8,10 @@
 | 4.  | deadline      | [github.com](./deadline)      |
 | 5.  | blackhole     | [github.com](./blackhole)     |
 | 6.  | lost+found    | [github.com](./lost+found)    |
-| X.  | TODO          | [github.com](./TODO)          |
-| X.  | TODO          | [github.com](./TODO)          |
-| X.  | TODO          | [github.com](./TODO)          |
+| 7.  | total-files   | [github.com](./total-files)   |
+| 8.  | total-dirs    | [github.com](./total-dirs)    |
+| 9.  | file-head     | [github.com](./file-head)     |
+| 10. | file-tail     | [github.com](./file-tail)     |
 | X.  | TODO          | [github.com](./TODO)          |
 | X.  | TODO          | [github.com](./TODO)          |
 | X.  | TODO          | [github.com](./TODO)          |
@@ -18,7 +19,6 @@
 | X.  | TODO          | [github.com](./TODO)          |
 | 98. | restore-files | [github.com](./restore-files) |
 | 99. | needles       | [github.com](./needles)       |
-
 
 ---
 
