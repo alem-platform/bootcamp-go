@@ -1,6 +1,6 @@
 # file-head
 
-## Task
+### Task
 
 Write a script `file-head.sh` that shows first 10 lines of `access.log` file.
 
@@ -25,7 +25,7 @@ Example:
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 head -n 10 access.log

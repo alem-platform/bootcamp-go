@@ -1,6 +1,6 @@
 # second-touch
 
-## Task
+### Task
 
 Create a file `filename` with the content `content` and permissions:
 - Allow read and write to the owner
@@ -9,7 +9,7 @@ Create a file `filename` with the content `content` and permissions:
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 echo "content" > filename

@@ -1,6 +1,6 @@
 # replace
 
-## Task
+### Task
 
 Write a script `replace.sh` that outputs file `access.log` with replaced occurences of `Debian` to `Ubuntu`.
 
@@ -25,7 +25,7 @@ Example:
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 cat ./access.log | sed "s/Debian/Ubuntu/g"

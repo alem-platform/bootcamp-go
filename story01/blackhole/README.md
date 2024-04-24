@@ -1,5 +1,7 @@
 # blackhole
 
+### Task
+
 Create the following directories and file:
 
 1. Create directory `application` inside `code` directory
@@ -13,7 +15,7 @@ Create the following directories and file:
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 mkdir -p code/application/presentation/session/transport/network/data_link/physical

@@ -9,7 +9,7 @@ $ bash total-files.sh
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 find . -type f | wc -l

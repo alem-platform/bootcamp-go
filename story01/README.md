@@ -12,13 +12,24 @@
 | 8.  | total-dirs    | [github.com](./total-dirs)    |
 | 9.  | file-head     | [github.com](./file-head)     |
 | 10. | file-tail     | [github.com](./file-tail)     |
-| 11. | replace       | [github.com](./replace)       |
+| 11. | restore-files | [github.com](./restore-files) |
+| 12. | needles       | [github.com](./needles)       |
+| 13. | unixbox-1     | [github.com](./unixbox-1)     |
+| 14. | unixbox-2     | [github.com](./unixbox-2)     |
+| 15. | unixbox-3     | [github.com](./unixbox-3)     |
+| 16. | unixbox-4     | [github.com](./unixbox-4)     |
+| 17. | unixbox-5     | [github.com](./unixbox-5)     |
+| 18. | unixbox-6     | [github.com](./unixbox-6)     |
+| 19. | unixbox-7     | [github.com](./unixbox-7)     |
+| 20. | unixbox-8     | [github.com](./unixbox-8)     |
+| 21. | unixbox-9     | [github.com](./unixbox-9)     |
+| 22. | unixbox-10    | [github.com](./unixbox-10)    |
+| 23. | unixbox-12    | [github.com](./unixbox-12)    |
+| 24. | unixbox-13    | [github.com](./unixbox-13)    |
+| 25. | replace       | [github.com](./replace)       |
 | X.  | TODO          | [github.com](./TODO)          |
 | X.  | TODO          | [github.com](./TODO)          |
 | X.  | TODO          | [github.com](./TODO)          |
-| X.  | TODO          | [github.com](./TODO)          |
-| 98. | restore-files | [github.com](./restore-files) |
-| 99. | needles       | [github.com](./needles)       |
 
 ---
 

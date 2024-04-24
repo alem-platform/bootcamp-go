@@ -1,6 +1,6 @@
 # lost+found
 
-## Task
+### Task
 
 Create a script `find_force.sh`, which finds a file with a filename `force`.
 
@@ -8,7 +8,7 @@ Create a script `find_force.sh`, which finds a file with a filename `force`.
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 find . -type f -name "*force*"

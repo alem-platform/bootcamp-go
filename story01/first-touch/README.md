@@ -1,6 +1,6 @@
 # first-touch
 
-## Task
+### Task
 
 Create a file `filename` with the content `content`. The output should be as following:
 
@@ -11,7 +11,7 @@ content
 
 ---
 
-## Solution
+### Solution
 
 ```sh
 echo "content" > filename

@@ -1,6 +1,6 @@
 # project-tree
 
-## Task
+### Task
 
 Create the following directory structure.
 
@@ -28,7 +28,7 @@ Set the following permissions:
     - group can `read` and `execute`;
     - others cannot access at all.
 
-## Solution
+### Solution
 
 ```
 mkdir test/{internal,config}
