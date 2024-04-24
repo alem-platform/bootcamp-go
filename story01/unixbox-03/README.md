@@ -1,4 +1,4 @@
-# unixbox-5
+# unixbox-03
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `poem.txt`.
 
 Create a script `solution.sh` that does the following:
 
-- Prints the least common line
+- Prints the 7th line
 
 ### Available commands
 

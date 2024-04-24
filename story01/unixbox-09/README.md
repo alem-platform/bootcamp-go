@@ -1,4 +1,4 @@
-# unixbox-8
+# unixbox-09
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `poem.txt`.
 
 Create a script `solution.sh` that does the following:
 
-- Counts the lines that have `in` in them
+- Shows two random lines
 
 ### Available commands
 

@@ -1,4 +1,4 @@
-# unixbox-9
+# unixbox-02
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `poem.txt`.
 
 Create a script `solution.sh` that does the following:
 
-- Shows two random lines
+- Prints the second to last line
 
 ### Available commands
 
