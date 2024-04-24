@@ -27,32 +27,13 @@
 | 23. | unixbox-10    | [github.com](./unixbox-10)    |
 | 24. | unixbox-12    | [github.com](./unixbox-12)    |
 | 25. | unixbox-13    | [github.com](./unixbox-13)    |
-| X.  | TODO          | [github.com](./TODO)          |
-| X.  | TODO          | [github.com](./TODO)          |
-| X.  | TODO          | [github.com](./TODO)          |
-
----
-
-| TCP packet round trip between continents | 150,000,000 ns |
-| Read 1 MB sequentially from disk | 30,000,000 ns |
-| Read 1 MB sequentially from network | 10,000,000 ns |
-| Disk seek | 10,000,000 ns |
-| Round trip within same datacenter | 500,000 ns |
-| Read 1 MB sequentially from memory | 250,000 ns |
-| Send 1K bytes over 1 Gbps network | 10,000 ns |
-| Compress 1K bytes with Zippy | 10,000 ns |
-| Main memory reference | 100 ns |
-| Mutex lock/unlock | 100 ns |
-| L2 cache reference | 7 ns |
-| Branch mispredict | 5 ns |
-| L1 cache reference | 0.5 ns |
-
-* Swaps the rating and title column
-* Prints the last row's votes
-* Removes the Rank and Votes column
-* Prints only the title column uppercased
-* Sums the votes
-* Sums the votes of movies from 2016
-* Shows the best ranked title, only title, no other columns
-* Replaces commas with tabs, remove space
-* Prints the titles but as a giant string: Sing Interstellar ...
+| 26. | unixverse-01  | [github.com](./unixverse-01)  |
+| 27. | unixverse-02  | [github.com](./unixverse-02)  |
+| 28. | unixverse-03  | [github.com](./unixverse-03)  |
+| 29. | unixverse-04  | [github.com](./unixverse-04)  |
+| 30. | unixverse-05  | [github.com](./unixverse-05)  |
+| 31. | unixverse-06  | [github.com](./unixverse-06)  |
+| 32. | unixverse-07  | [github.com](./unixverse-07)  |
+| 33. | unixverse-08  | [github.com](./unixverse-08)  |
+| 34. | unixverse-09  | [github.com](./unixverse-09)  |
+| 35. | unixverse-10  | [github.com](./unixverse-10)  |
