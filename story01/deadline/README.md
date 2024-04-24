@@ -11,7 +11,7 @@ cat directory_name/filename | wc -l
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 mkdir directory_name

@@ -6,7 +6,7 @@
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 

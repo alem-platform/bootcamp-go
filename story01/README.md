@@ -12,7 +12,7 @@
 | 8.  | total-dirs    | [github.com](./total-dirs)    |
 | 9.  | file-head     | [github.com](./file-head)     |
 | 10. | file-tail     | [github.com](./file-tail)     |
-| X.  | TODO          | [github.com](./TODO)          |
+| 11. | replace       | [github.com](./replace)       |
 | X.  | TODO          | [github.com](./TODO)          |
 | X.  | TODO          | [github.com](./TODO)          |
 | X.  | TODO          | [github.com](./TODO)          |

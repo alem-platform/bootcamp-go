@@ -9,7 +9,7 @@ $ bash total-dirs.sh
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 find . -type d | wc -l

@@ -25,7 +25,7 @@ Example:
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 head -n 10 access.log

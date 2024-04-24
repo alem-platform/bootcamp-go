@@ -25,7 +25,7 @@ Example:
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 tail -n 10 $1

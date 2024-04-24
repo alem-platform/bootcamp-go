@@ -8,7 +8,7 @@ Create a script `find_force.sh`, which finds a file with a filename `force`.
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 find . -type f -name "*force*"

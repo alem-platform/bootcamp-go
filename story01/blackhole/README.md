@@ -13,7 +13,7 @@ Create the following directories and file:
 
 ---
 
-## Solutions
+## Solution
 
 ```sh
 mkdir -p code/application/presentation/session/transport/network/data_link/physical
