@@ -2,7 +2,7 @@
 
 ## Task
 
-| Avaiable                      |
+| Available                     |
 | ----------------------------- |
 | `github.com/alem-platform/ap` |
 
