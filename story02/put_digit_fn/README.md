@@ -1,5 +1,9 @@
 # put_digit_fn
 
+---
+
+## Solution
+
 ```go
 package main
 

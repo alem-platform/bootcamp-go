@@ -1,5 +1,13 @@
 # print_digits
 
+| Avaiable                      |
+| ----------------------------- |
+| `github.com/alem-platform/ap` |
+
+---
+
+## Solution
+
 ```go
 package main
 

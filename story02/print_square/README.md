@@ -7,6 +7,10 @@ go run main.go | cat -e
 0 0 0$
 ```
 
+---
+
+## Solution
+
 ```go
 package main
 

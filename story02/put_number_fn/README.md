@@ -1,5 +1,9 @@
 # put_number_fn
 
+---
+
+## Solution
+
 ```go
 package main
 
