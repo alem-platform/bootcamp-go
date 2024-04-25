@@ -1,5 +1,20 @@
 # print_alphabet
 
+## Task
+
+| Avaiable                      |
+| ----------------------------- |
+| `github.com/alem-platform/ap` |
+
+Write a program that prints an alphabet followed by a newline.
+
+The output should be as following:
+
+```sh
+go run main.go | cat -e
+abcdefghijklmnopqrstuvwxyz$
+```
+
 ---
 
 ## Solution

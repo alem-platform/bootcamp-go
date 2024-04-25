@@ -1,5 +1,15 @@
 # print_clock
 
+## Task
+
+| Avaiable                      |
+| ----------------------------- |
+| `github.com/alem-platform/ap` |
+
+Write a program that prints all clock hour and minute pairs followed by a newline.
+
+The output should be as following:
+
 ```sh
 go run main.go | cat -e
 00:00$

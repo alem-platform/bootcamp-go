@@ -1,10 +1,31 @@
 # print_square
 
-```sh
-go run main.go | cat -e
-0 0 0$
-0 0 0$
-0 0 0$
+## Task
+
+| Avaiable                      |
+| ----------------------------- |
+| `github.com/alem-platform/ap` |
+
+Write a function `PrintSquare` that draws a square with a given width.
+
+Function definition:
+
+```go
+func PrintSquare(w int) {
+
+}
+```
+
+Example:
+
+```go
+func main() {
+    PrintSquare(3)
+    // Output:
+	// 0 0 0
+	// 0 0 0
+	// 0 0 0
+}
 ```
 
 ---
