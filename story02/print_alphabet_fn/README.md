@@ -37,8 +37,8 @@ import "github.com/alem-platform/ap"
 
 func PrintAlphabetLn() {
     for r := 'a'; r <= 'z'; r = r + 1 {
-        ap.PutByte(r)
+        ap.PutRune(r)
     }
-    ap.PutByte('\n')
+    ap.PutRune('\n')
 }
 ```

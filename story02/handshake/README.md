@@ -25,13 +25,13 @@ package main
 import "github.com/alem-platform/ap"
 
 func main() {
-    ap.PutByte('H')
-    ap.PutByte('e')
-    ap.PutByte('l')
-    ap.PutByte('l')
-    ap.PutByte('o')
-    ap.PutByte('!')
-    ap.PutByte('\n')
+    ap.PutRune('H')
+    ap.PutRune('e')
+    ap.PutRune('l')
+    ap.PutRune('l')
+    ap.PutRune('o')
+    ap.PutRune('!')
+    ap.PutRune('\n')
     // Output: Hello!
 }
 ```

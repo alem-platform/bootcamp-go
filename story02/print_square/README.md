@@ -40,12 +40,12 @@ import "github.com/alem-platform/ap"
 func PrintSquare(w int) {
 	for i := 0; i < w; i++ {
 		for j := 0; j < w; j++ {
-			ap.PutByte('0')
+			ap.PutRune('0')
 			if j+1 < w {
-				ap.PutByte(' ')
+				ap.PutRune(' ')
 			}
 		}
-		ap.PutByte('\n')
+		ap.PutRune('\n')
 	}
 }
 ```

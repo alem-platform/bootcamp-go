@@ -40,10 +40,10 @@ func PutNumber(n int) {
         return
     }
 	if n < 0 {
-		ap.PutByte('-')
+		ap.PutRune('-')
 		n *= -1
 	}
 	PutNumber(n / 10)
-	ap.PutByte(byte(n%10) + '0')
+	ap.PutRune(byte(n%10) + '0')
 }
 ```

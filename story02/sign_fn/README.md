@@ -41,11 +41,11 @@ import "github.com/alem-platform/ap"
 
 func Sign(n int) {
     if (n > 0) {
-        ap.PutByte('+')
+        ap.PutRune('+')
     } else if (n < 0) {
-        ap.PutByte('-')
+        ap.PutRune('-')
     } else {
-        ap.PutByte('0')
+        ap.PutRune('0')
     }
 }
 ```

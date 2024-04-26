@@ -39,12 +39,12 @@ import "github.com/alem-platform/ap"
 func PrintRectangle(a, b int) {
 	for i := 0; i < a; i++ {
 		for j := 0; j < b; j++ {
-			ap.PutByte('0')
+			ap.PutRune('0')
 			if j+1 < b {
-				ap.PutByte(' ')
+				ap.PutRune(' ')
 			}
 		}
-		ap.PutByte('\n')
+		ap.PutRune('\n')
 	}
 }
 ```

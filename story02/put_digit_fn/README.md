@@ -40,6 +40,6 @@ func PutDigit(n int) {
 		return
 	}
 
-	ap.PutByte(byte(n) + '0')
+	ap.PutRune(byte(n) + '0')
 }
 ```
