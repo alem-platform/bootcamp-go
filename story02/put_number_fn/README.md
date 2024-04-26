@@ -8,7 +8,7 @@
 
 Write a function `PutNumber` that prints a given number.
 
-Function definition:
+**Function definition:**
 
 ```go
 func PutNumber(n int) {

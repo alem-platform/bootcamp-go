@@ -1,4 +1,3 @@
-ascii to number
 number to ascii
 
 1. stdin

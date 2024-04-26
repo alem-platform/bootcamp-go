@@ -12,7 +12,7 @@ Write a function `Sign` that prints a sign of the number.
 - If the number is negative print `-`.
 - If the number is zero print `0`.
 
-Function definition:
+**Function definition:**
 
 ```go
 func Sign(n int) {

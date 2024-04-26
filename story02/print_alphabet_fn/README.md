@@ -8,7 +8,7 @@
 
 Write a function `PrintAlphabetLn` that prints an alphabet followed by the newline.
 
-Function definition:
+**Function definition:**
 
 ```go
 func PrintAlphabetLn() {

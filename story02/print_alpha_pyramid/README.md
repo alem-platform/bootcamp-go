@@ -19,7 +19,7 @@ V W X Y Z A B
 C D E F G H I J
 ```
 
-Function definition:
+**Function definition:**
 
 ```go
 func PrintAlphaPyramid(n int) {

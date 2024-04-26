@@ -16,7 +16,7 @@ A B
 A
 ```
 
-Function definition:
+**Function definition:**
 
 ```go
 func PrintAlphaTri(n int) {

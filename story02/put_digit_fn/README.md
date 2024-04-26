@@ -8,7 +8,7 @@
 
 Write a function `PutDigit` that prints a given digit. Print only valid digits.
 
-Function definition:
+**Function definition:**
 
 ```go
 func PutDigit(n int) {

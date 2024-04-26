@@ -8,7 +8,7 @@
 
 Write a function `PrintRectangle` that draws a rectangle with given width and height.
 
-Function definition:
+**Function definition:**
 
 ```go
 func PrintRectangle(a, b int) {

@@ -8,7 +8,7 @@
 
 Write a function `PrintSquare` that draws a square with a given width.
 
-Function definition:
+**Function definition:**
 
 ```go
 func PrintSquare(w int) {
