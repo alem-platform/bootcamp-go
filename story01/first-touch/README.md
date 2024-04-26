@@ -8,11 +8,3 @@ Create a file `filename` with the content `content`. The output should be as fol
 $ cat filename
 content
 ```
-
----
-
-### Solution
-
-```sh
-echo "content" > filename
-```

@@ -6,11 +6,3 @@ Help me to write a script `total-dirs.sh` that counts total number of directorie
 $ bash total-dirs.sh
     112
 ```
-
----
-
-### Solution
-
-```sh
-find . -type d | wc -l
-```
