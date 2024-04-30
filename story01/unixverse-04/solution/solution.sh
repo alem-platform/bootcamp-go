@@ -1,0 +1,1 @@
+cut -f 2 -d ',' movies.csv | tr '[a-z]' '[A-Z]'

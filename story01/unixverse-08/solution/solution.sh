@@ -1,0 +1,1 @@
+cat movies.csv | tr ' ' '""' | tr ',' '\t'

@@ -1,0 +1,1 @@
+grep -v "!" poem.txt | wc -l

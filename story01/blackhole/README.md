@@ -13,11 +13,9 @@ Create the following directories and file:
 7. Create directory `physical` inside `data_link` directory
 8. Create file `packet.ext` with content `din grogu` inside `physical` directory
 
----
-
-### Solution
+Example:
 
 ```sh
-mkdir -p code/application/presentation/session/transport/network/data_link/physical
-echo -n "din grogu" > code/application/presentation/session/transport/network/data_link/physical/packet.ext
+$ cat code/application/presentation/session/transport/network/data_link/physical/packet.ext
+din grogu
 ```

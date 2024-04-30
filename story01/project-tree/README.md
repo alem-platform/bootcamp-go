@@ -20,21 +20,10 @@ code
 
 Set the following permissions:
 
-- settings.conf: 
-    - allow `read` and `write` by the `owner`;
-    - not accessible by anyone else.
+- settings.conf:
+  - allow `read` and `write` by the `owner`;
+  - not accessible by anyone else.
 - files in directory `internal`:
-    - allow `read`, `write`, and `execute` by the owner;
-    - group can `read` and `execute`;
-    - others cannot access at all.
-
-### Solution
-
-```
-mkdir test/{internal,config}
-touch test/internal/{app,helpers}{_test,}.go
-touch test/config/settings.conf
-chmod 600 test/config/settings.conf
-chmod 750 test/internal/*
-ln -s ../config/settings.conf test/internal/settings.link
-```
+  - allow `read`, `write`, and `execute` by the owner;
+  - group can `read` and `execute`;
+  - others cannot access at all.

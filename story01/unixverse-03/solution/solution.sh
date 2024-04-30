@@ -1,0 +1,1 @@
+cut -f 2,3,4 -d ',' movies.csv

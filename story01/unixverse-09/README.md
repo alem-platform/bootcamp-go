@@ -1,4 +1,4 @@
-# unixverse-09
+# unixverse-10
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `movies.csv`.
 
 Create a script `solution.sh` that does the following:
 
-- Replaces commas with tabs, remove spaces
+- Prints the names but as a giant string: Forrest Gump Fight Club ...
 
 ### Available commands
 

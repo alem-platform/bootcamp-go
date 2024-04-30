@@ -1,4 +1,4 @@
-# unixverse-04
+# unixverse-05
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `movies.csv`.
 
 Create a script `solution.sh` that does the following:
 
-- Removes the `rank` and `budget` columns
+- Prints only the `name` column uppercased
 
 ### Available commands
 

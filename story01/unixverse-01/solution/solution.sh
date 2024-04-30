@@ -1,0 +1,1 @@
+ paste -d, <( cat movies.csv | cut -f 1,4 -d ',')  <(cat movies.csv | cut -f 3 -d ',') <(cat movies.csv | cut -f 2,5 -d ',')

@@ -10,12 +10,3 @@ Example:
 cat directory_name/filename | wc -l
     0
 ```
-
----
-
-### Solution
-
-```sh
-mkdir directory_name
-echo -n content > directory_name/filename
-```

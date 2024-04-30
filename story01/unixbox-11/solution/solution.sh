@@ -1,0 +1,1 @@
+head -n 8 poem.txt | tail -n 2

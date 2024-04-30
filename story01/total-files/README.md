@@ -6,11 +6,3 @@ Help me to write a script `total-files.sh` that counts total number of files in 
 $ bash total-files.sh
     219
 ```
-
----
-
-### Solution
-
-```sh
-find . -type f | wc -l
-```

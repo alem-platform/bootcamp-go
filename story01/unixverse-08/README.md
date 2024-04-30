@@ -1,4 +1,4 @@
-# unixverse-08
+# unixverse-09
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `movies.csv`.
 
 Create a script `solution.sh` that does the following:
 
-- Shows the best ranked `name`, only `name`, no other columns
+- Replaces commas with tabs, remove spaces
 
 ### Available commands
 

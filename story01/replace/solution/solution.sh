@@ -1,0 +1,1 @@
+cat ./access.log | sed "s/Debian/Ubuntu/g"

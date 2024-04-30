@@ -22,11 +22,3 @@ Example:
 200.6.73.40 - - [13/11/2015:19:33:03 +0000] "GET /api/data HTTP/1.1" 404 324 "-" "Debian APT-HTTP/1.3 (10.12~exp12ubuntu13)"
 80.91.33.133 - - [04/06/2018:01:56:34 +0000] "HEAD /home HTTP/1.1" 404 324 "-" "Debian APT-HTTP/1.3 (9.14~exp12ubuntu13)"
 ```
-
----
-
-### Solution
-
-```sh
-head -n 10 access.log
-```

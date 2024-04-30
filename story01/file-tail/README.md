@@ -22,11 +22,3 @@ Example:
 80.91.33.133 - - [21/07/2019:02:09:47 +0000] "GET /home HTTP/1.1" 304 0 "-" "Debian APT-HTTP/1.3 (9.13~exp12ubuntu16)"
 5.83.131.103 - - [17/03/2015:10:37:07 +0000] "HEAD /api/data HTTP/1.1" 200 490 "-" "Debian APT-HTTP/1.3 (10.13~exp12ubuntu12)"
 ```
-
----
-
-### Solution
-
-```sh
-tail -n 10 $1
-```

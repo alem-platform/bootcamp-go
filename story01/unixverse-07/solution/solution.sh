@@ -1,0 +1,1 @@
+cut -d',' -f2 movies.csv | head -n +2 | tail -n 1

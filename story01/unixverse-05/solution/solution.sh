@@ -1,0 +1,1 @@
+cut -f5 -d',' movies.csv | tail -n +2 | tr -d '$' | paste -sd+ - | bc
