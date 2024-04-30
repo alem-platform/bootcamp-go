@@ -1,1 +1,1 @@
-cat poem.txt | sort | uniq -c | sort -n | head -n 1 | awk '{$1=""; print $0}'
+cat poem.txt | sort | uniq -c | sort -n | head -n 1 | tr -d '[0-9]'

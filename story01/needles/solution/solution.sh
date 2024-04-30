@@ -1,8 +1,1 @@
-#!/usr/bin/env bash
-
-for file in ./directory1/*; do
-    if [[ "$file" != *.ext1 ]]; then
-        rm "$file"
-        echo "Deleted: $file"
-    fi
-done
+find ./directory1 -type f ! -name "*.ext1" -exec rm {} \;

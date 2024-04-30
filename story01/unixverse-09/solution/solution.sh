@@ -1,1 +1,0 @@
-paste -sd' ' <(cut -f2 -d',' movies.csv | tail -n +2)
