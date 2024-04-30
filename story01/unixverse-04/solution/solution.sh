@@ -1,1 +1,1 @@
-cut -f 2 -d ',' movies.csv | tr '[a-z]' '[A-Z]'
+cut -f5 -d',' movies.csv | tail -n +2 | tr -d '$' | paste -sd+ - | bc

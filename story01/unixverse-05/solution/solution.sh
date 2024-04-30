@@ -1,1 +1,1 @@
-cut -f5 -d',' movies.csv | tail -n +2 | tr -d '$' | paste -sd+ - | bc
+grep ',2016,' movies.csv | cut -d',' -f5 | tr -d '$' | paste -sd+ - | bc

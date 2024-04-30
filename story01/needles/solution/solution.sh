@@ -1,1 +1,2 @@
-find ./directory1 -type f ! -name "*.ext1" -exec rm {} \;
+shopt -s extglob
+rm ./directory1/!(*.ext1)

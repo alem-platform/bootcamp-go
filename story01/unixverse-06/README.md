@@ -1,4 +1,4 @@
-# unixverse-07
+# unixverse-08
 
 ### Task
 
@@ -6,7 +6,7 @@ You need to work with a file named `movies.csv`.
 
 Create a script `solution.sh` that does the following:
 
-- Sums the budget of movies from 2016
+- Shows the best ranked `name`, only `name`, no other columns
 
 ### Available commands
 
