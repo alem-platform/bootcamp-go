@@ -17,7 +17,7 @@ g h i
 **Function definition:**
 
 ```go
-func SliceMatrix2dPrint(matrix [][]rune)  {
+func SliceMatrix2dPrint(matrix [][]rune) {
 
 }
 ```

@@ -7,7 +7,7 @@ Write a function `SliceMatrix2dRotate` that rotates a 2D matrix of runes clockwi
 **Function definition:**
 
 ```go
-func SliceMatrix2dRotate(matrix [][]rune, turns int)  {
+func SliceMatrix2dRotate(matrix [][]rune, turns int) {
 
 }
 ```

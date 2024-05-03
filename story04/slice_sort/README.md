@@ -7,7 +7,7 @@ Write a function `SliceSort` that sorts array elements in ascending order.
 **Function definition:**
 
 ```go
-func SliceSort(arr []int)  {
+func SliceSort(arr []int) {
 
 }
 ```
