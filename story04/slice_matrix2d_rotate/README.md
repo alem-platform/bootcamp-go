@@ -1,13 +1,13 @@
-# runes_matrix2d_rotate
+# slice_matrix2d_rotate
 
 ## Task Description
 
-Write a function `RunesMatrix2dRotate` ... .
+Write a function `SliceMatrix2dRotate` ... .
 
 **Function definition:**
 
 ```go
-func RunesMatrix2dRotate(matrix [][]rune, turns int)  {
+func SliceMatrix2dRotate(matrix [][]rune, turns int)  {
 
 }
 ```
@@ -22,23 +22,23 @@ func main() {
     { 'g', 'h', 'i' },
   }
 
-  RunesMatrix2dPrint(matrix)
+  SliceMatrix2dPrint(matrix)
   // Output:
   // a b c
   // d e f
   // g h i
 
-  RunesMatrix2dRotate(matrix, 1)
+  SliceMatrix2dRotate(matrix, 1)
 
-  RunesMatrix2dPrint(matrix)
+  SliceMatrix2dPrint(matrix)
   // Output:
   // g d a
   // h e b
   // i f c
 
-  RunesMatrix2dRotate(matrix, -2)
+  SliceMatrix2dRotate(matrix, -2)
 
-  RunesMatrix2dPrint(matrix)
+  SliceMatrix2dPrint(matrix)
   // Output:
   // c f i
   // b e h
