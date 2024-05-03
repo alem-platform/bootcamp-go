@@ -21,7 +21,7 @@
 | 15. | slice_insert          | [github.com](./slice_insert)          | алгоритм вставки между элементами в массиве, указатели              |
 | 16. | slice_delete          | [github.com](./slice_delete)          | алгоритм удаления, указатели                                        |
 | 17. | slice_batch           | [github.com](./slice_batch)           | алгоритмы, срезы в срезах                                           |
-| 18. | slice_matrix2d_print  | [github.com](./slice_matrix2d_print)  | двумерный срез                                                      |
-| 19. | slice_matrix2d_rotate | [github.com](./slice_matrix2d_rotate) | двумерный срез, алгоритмы                                           |
-| 20. | slice_sort            | [github.com](./slice_sort)            | алгоритм сортировки, срезы                                          |
-| 21. | slice_union           | [github.com](./slice_union)           | алгоритмы, срезы                                                    |
+| 18. | slice_sort            | [github.com](./slice_sort)            | алгоритм сортировки, срезы                                          |
+| 19. | slice_union           | [github.com](./slice_union)           | алгоритмы, срезы                                                    |
+| 20. | slice_matrix2d_print  | [github.com](./slice_matrix2d_print)  | двумерный срез                                                      |
+| 21. | slice_matrix2d_rotate | [github.com](./slice_matrix2d_rotate) | двумерный срез, алгоритмы                                           |
