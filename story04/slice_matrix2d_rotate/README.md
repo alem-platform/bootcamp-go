@@ -2,7 +2,7 @@
 
 ## Task Description
 
-Write a function `SliceMatrix2dRotate` ... .
+Write a function `SliceMatrix2dRotate` that rotates a 2D matrix of runes clockwise or counterclockwise based on the given number of turns.
 
 **Function definition:**
 
