@@ -23,9 +23,9 @@
 | 17. | count_substr | [github.com](./count_substr) |
 | 18. | rot_13       | [github.com](./rot_13)       |
 | 19. | rot_n        | [github.com](./rot_n)        |
-| 21. | itoa         | [github.com](./itoa)         |
-| 22. | atoi         | [github.com](./atoi)         |
-| 23. | text_stats   | [github.com](./text_stats)   |
+| 20. | itoa         | [github.com](./itoa)         |
+| 21. | atoi         | [github.com](./atoi)         |
+| 22. | text_stats   | [github.com](./text_stats)   |
 
 > not included
 
