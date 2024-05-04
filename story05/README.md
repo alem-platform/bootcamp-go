@@ -31,6 +31,7 @@
 
 - is_upper
 - is_lower
+- rotate_consonants
 - get_nbr_base
 - get_atoi_base
 - roman_numbers
