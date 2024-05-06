@@ -1,4 +1,4 @@
-# magic_growth_2
+# magic_growth_n
 
 Write a function that returns all possible combinations of `n` different digits in ascending order.
 
@@ -33,7 +33,7 @@ $
 **Function definition:**
 
 ```go
-func MagicGrowth2(n int) []string {
+func MagicGrowthN(n int) []string {
 
 }
 ```
