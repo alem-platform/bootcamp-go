@@ -17,7 +17,7 @@ func SliceGetClone(src []int) []int {
 ```go
 func main() {
     var arr = make([]int, 10)
-    for i, v := []int{10, 20, 13, 5, 12, 31} {
+    for i, v := range []int{10, 20, 13, 5, 12, 31} {
         arr[i] = v
     }
 

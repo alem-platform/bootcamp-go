@@ -7,7 +7,7 @@ Write a function `ArraySetOne` that takes 3 arguments and sets a value `val` at 
 **Function definition:**
 
 ```go
-func ArraySetOne(arr [20]int, idx int, val int) bool {
+func ArraySetOne(arr *[20]int, idx int, val int) bool {
 
 }
 ```
@@ -17,7 +17,7 @@ func ArraySetOne(arr [20]int, idx int, val int) bool {
 ```go
 func main() {
     arr := [20]int{1, 2, 3}
-    ok := ArraySetOne(arr, 1, 5)
+    ok := ArraySetOne(&arr, 1, 5)
 
     fmt.Println("ok:", ok)   // ok: true
     fmt.Println("arr:", arr) // arr: [1, 5, 3, ...]

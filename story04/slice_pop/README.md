@@ -2,12 +2,12 @@
 
 ## Task Description
 
-Write a function named SlicePop that removes and returns the last element from a slice of integers. If the function returns element of slice it also must return `true`. Otherwise if the slice is empty, it should return `0` and `false`.
+Write a function named `SlicePop` that removes and returns the last element from a slice of integers. If the function returns element of slice it also must return `true`. Otherwise if the slice is empty, it should return `0` and `false`.
 
 **Function definition:**
 
 ```go
-func SlidePop(arr *[]int) (int, bool) {
+func SlicePop(arr *[]int) (int, bool) {
 
 }
 ```
@@ -21,7 +21,7 @@ func main() {
     var size = len(arr)
 
     for i := 0; i < size; i++ {
-      value, deleted := SlidePop(&arr)
+      value, deleted := SlicePop(&arr)
       fmt.Println(value, deleted)
     }
     // Output:
@@ -29,7 +29,7 @@ func main() {
     // 10 true
     // 20 true
 
-    value, deleted := SlidePop(&arr)
+    value, deleted := SlicePop(&arr)
     fmt.Println(value, deleted) // 0 false
 }
 ```
