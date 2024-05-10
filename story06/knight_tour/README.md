@@ -12,8 +12,8 @@ Write a function `KnightTour` that takes board size and returns the all solution
 
 ```go
 func main() {
-  solutions := KnightTour(5)
-  PrintMatrix(solutions[0])
+  solutions5 := KnightTour(5)
+  PrintMatrix(solutions5[0])
   // Output:
   // 1   14  9   20  3
   // 24  19  2   15  10
@@ -23,13 +23,19 @@ func main() {
 
   fmt.Println()
 
-  PrintMatrix(solutions[1])
+  PrintMatrix(solutions5[1])
   // Output:
   // 1   14  9   20  3
   // 24  19  2   15  10
   // 13  8   23  4   21
   // 18  25  6   11  16
   // 7   12  17  22  5
+
+  solutions2 := KnightTour(2)
+  fmt.Println("KnightTour(2):", len(solutions2)) // KnightTour(2): 0
+
+  solutions1 := KnightTour(1)
+  fmt.Println("KnightTour(1):", len(solutions1)) // KnightTour(1): 1
 }
 ```
 
