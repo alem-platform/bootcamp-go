@@ -4,11 +4,11 @@
 
 | №   | Название     | Ссылка                       |
 | --- | ------------ | ---------------------------- |
-| 1.  | last_rune    | [github.com](./last_rune)    |
-| 2.  | nth_rune     | [github.com](./nth_rune)     |
-| 3.  | count_runes  | [github.com](./count_runes)  |
-| 4.  | is_alpha     | [github.com](./is_alpha)     |
-| 5.  | is_numeric   | [github.com](./is_numeric)   |
+| 1.  | is_alpha     | [github.com](./is_alpha)     |
+| 2.  | is_numeric   | [github.com](./is_numeric)   |
+| 3.  | last_rune    | [github.com](./last_rune)    |
+| 4.  | nth_rune     | [github.com](./nth_rune)     |
+| 5.  | count_runes  | [github.com](./count_runes)  |
 | 6.  | digits_only  | [github.com](./digits_only)  |
 | 7.  | to_upper     | [github.com](./to_upper)     |
 | 8.  | to_lower     | [github.com](./to_lower)     |
