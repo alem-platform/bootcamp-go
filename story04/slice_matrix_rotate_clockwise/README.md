@@ -2,7 +2,9 @@
 
 ## Task Description
 
-Write a function `SliceMatrixRotateClockwise` that rotates a 2D matrix of runes clockwise.
+Write a function `SliceMatrixRotateClockwise` that rotates an `n`x`n` matrix of runes clockwise.
+
+- The function should only operate if the matrix is square, meaning the `width` and `height` must be equal.
 
 **Function definition:**
 

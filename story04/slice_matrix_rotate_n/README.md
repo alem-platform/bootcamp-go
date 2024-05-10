@@ -2,7 +2,9 @@
 
 ## Task Description
 
-Write a function `SliceMatrixRotateN` that rotates a 2D matrix of runes clockwise or counterclockwise based on the given number of turns.
+Write a function `SliceMatrixRotateN` that rotates an `n`x`n` matrix of runes either clockwise or counterclockwise based on the given number of turns.
+
+- The function should only operate if the matrix is square, meaning the `width` and `height` must be equal.
 
 **Function definition:**
 
