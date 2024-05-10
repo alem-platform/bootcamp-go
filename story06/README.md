@@ -17,9 +17,9 @@
 | 11. | magic_growth_n      | [github.com](./magic_growth_n)      |
 | 12. | uniq_comb_2         | [github.com](./uniq_comb_2)         |
 | 13. | uniq_comb_n         | [github.com](./uniq_comb_n)         |
-| 14. | brute_force_hash    | [github.com](./brute_force_hash)    |
 | 15. | island_remove       | [github.com](./island_remove)       |
 | 16. | island_cost         | [github.com](./island_cost)         |
+| 14. | brute_force_hash    | [github.com](./brute_force_hash)    |
 | 17. | brackets            | [github.com](./brackets)            |
 | 18. | repeat_echo         | [github.com](./repeat_echo)         |
 | 19. | knight_tour         | [github.com](./knight_tour)         |
