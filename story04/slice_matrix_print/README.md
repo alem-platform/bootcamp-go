@@ -1,4 +1,4 @@
-# slice_matrix2d_print
+# slice_matrix_print
 
 ## Task Description
 
@@ -6,7 +6,7 @@
 | ----------------------------- |
 | `github.com/alem-platform/ap` |
 
-Write a function `SliceMatrix2dPrint` that take a 2D matrix of runes (`matrix [][]rune`) and draws it with following rules. Each row of the matrix should be printed on a separate line, and the elements within each row should be separated by a space.
+Write a function `SliceMatrixPrint` that take a 2D matrix of runes (`matrix [][]rune`) and draws it with following rules. Each row of the matrix should be printed on a separate line, and the elements within each row should be separated by a space.
 
 ```
 a b c
@@ -17,7 +17,7 @@ g h i
 **Function definition:**
 
 ```go
-func SliceMatrix2dPrint(matrix [][]rune) {
+func SliceMatrixPrint(matrix [][]rune) {
 
 }
 ```
@@ -31,7 +31,7 @@ func main() {
     { 'd', 'e', 'f' },
     { 'g', 'h', 'i' },
   }
-  SliceMatrix2dPrint(matrix)
+  SliceMatrixPrint(matrix)
   // Output:
   // a b c
   // d e f
