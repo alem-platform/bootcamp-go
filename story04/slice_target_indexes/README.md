@@ -29,7 +29,7 @@ func SliceTargetIndexes(arr []int, target int) []int {
     result := []int{}
     for i, v := range arr {
         if (v == target) {
-        	  result = append(result, i)
+            result = append(result, i)
         }
     }
     return result
