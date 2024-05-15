@@ -19,7 +19,7 @@ Write a program that takes text from the user and outputs statistics about the t
   > Ignore letter `y`, count it as consonant.
 - Consonants - count of all consonants.
 - Spaces - count of all space characters.
-- Special Characters - count of all non-alphabet, non-space characters.
+- Special Characters - count of all non-alphabet, non-digit, non-space characters.
 
 **Example program output:**
 
