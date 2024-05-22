@@ -1,17 +1,20 @@
 # second-touch
 
+### Dialog (LOR)
+Good. Continue like this, I will explain it later.
+
 ### Task
 
-Create a file `filename` with the content `content` and permissions:
+Create a file `BNS` with the content `biomass` and permissions:
 - Allow read and write to the owner
-- Allow write and execute to the user group
-- Allow write to others
+- Allow writing and executing to the user group
+- Allow writing to others
 
 ---
 
 ### Solution
 
 ```sh
-echo "content" > filename
+echo "biomass" > BNS
 chmod 632 filename
 ```
