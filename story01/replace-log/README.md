@@ -1,8 +1,8 @@
-# replace
+# replace-log
 
 ### Task
 
-Write a script `replace.sh` that outputs file `access.log` with replaced occurences of `Debian` to `Ubuntu`.
+Write a script `replace-log.sh` that outputs file `access.log` with replaced occurences of `Debian` to `Ubuntu`.
 
 Example:
 
