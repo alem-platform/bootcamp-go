@@ -1,0 +1,37 @@
+Press any key to start...
+
+[User presses a key]
+
+press any key to start
+
+Hello, [username].
+It seems you’ve discovered my old server.
+
+My name is Amir Bolatov. If you’re reading this, 
+I am likely long gone, and this is just my gatekeeping script.
+
+I need your help.
+This server holds priceless information, safeguarded at great cost.
+We fought valiantly, but ultimately, we failed.
+Now, it’s up to you to restore the old server disk and deliver it to my team.
+Will you help me?
+
+y/N
+
+That's what I was hoping for.
+But first, I must ensure you are the right person.
+I will initiate your trial and then determine 
+if you are good enough to join our team.
+Are you committed to doing your best over the next four weeks?
+
+y/N
+
+[If a student says no, we won’t let them proceed and will ask again
+    
+    In this case, I can't let you proceed.
+    Please reconsider. Return when you are fully committed.
+    Now, are you ready?
+    y/N]
+
+Good. We must hurry; there's no time to waste.
+
