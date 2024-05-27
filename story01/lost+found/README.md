@@ -1,5 +1,8 @@
 # lost+found
 
+### Dialog (LOR)
+I see that you are curious. Curiosity is good. I was once curious too, wanting to understand how everything works and to change the world for the better. I still do. But I still doubt whether I chose the right path and the correct formula.
+
 ### Task
 
 Create a script `find_force.sh`, which finds a file with a filename `force`.
