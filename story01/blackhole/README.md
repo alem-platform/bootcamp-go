@@ -4,20 +4,20 @@
 
 Create the following directories and file:
 
-1. Create directory `application` inside `code` directory
-2. Create directory `presentation` inside `application` directory
-3. Create directory `session` inside `presentation` directory
+1. Create directory `foundation` inside `bns_formula` directory
+2. Create directory `integration` inside `foundation` directory
+3. Create directory `session` inside `integration` directory
 4. Create directory `transport` inside `session` directory
-5. Create directory `network` inside `transport` directory
-6. Create directory `data_link` inside `network` directory
-7. Create directory `physical` inside `data_link` directory
-8. Create file `packet.ext` with content `din grogu` inside `physical` directory
+5. Create directory `stabilizer` inside `transport` directory
+6. Create directory `data_conduit` inside `stabilizer` directory
+7. Create directory `ground-layer` inside `data_conduit` directory
+8. Create file `EnergyPacket.ext` with content `volatility-stabilizers` inside `ground-layer` directory
 
 ---
 
 ### Solution
 
 ```sh
-mkdir -p code/application/presentation/session/transport/network/data_link/physical
-echo -n "din grogu" > code/application/presentation/session/transport/network/data_link/physical/packet.ext
+mkdir -p bns_formula/foundation/integration/session/transport/stabilizer/data_conduit/ground-layer
+echo -n "volatility-stabilizers" > bns_formula/foundation/integration/session/transport/stabilizer/data_conduit/ground-layer/energypacket.ext
 ```
