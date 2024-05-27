@@ -2,7 +2,7 @@
 
 ### Task
 
-Create file `filename` in `directory_name` with `content` as its content. The file should contain no newline at the end.
+Create file `filename_hydrocarbons` in `directory_name_isotpos` with `carbon_atoms` as its content. The file should contain no newline at the end.
 
 Example:
 
@@ -16,6 +16,6 @@ cat directory_name/filename | wc -l
 ### Solution
 
 ```sh
-mkdir directory_name
-echo -n content > directory_name/filename
+mkdir directory_name_isotpos
+echo -n carbon_atoms > directory_name_isotpos/filename_hydrocarbons
 ```
