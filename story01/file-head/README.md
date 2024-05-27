@@ -1,5 +1,9 @@
 # file-head
 
+### Dialog (LOR)
+
+Good job. It's been ages since anyone last organized these files, not since the beginning of the First Fuel War. Now, let's move on to the event log where you might find more about what happened.
+
 ### Task
 
 Write a script `file-head.sh` that shows first 10 lines of `access.log` file.
