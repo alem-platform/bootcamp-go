@@ -23,3 +23,6 @@ New commands ✧˖:
 * `tr`
 * `bc`
 * `paste`
+
+<p data-story-username="amirhan">I see that I can trust you. I will handle your data with my team.
+Soon someone will reach out to you.</p>
