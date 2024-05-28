@@ -1,7 +1,6 @@
 # second-touch
 
-### Dialog (LOR)
-Good. Continue like this, I will explain it later.
+<p data-story-username="amirhan">Good. Continue like this, I will explain it later.</p>
 
 ### Task
 
