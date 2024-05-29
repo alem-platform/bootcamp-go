@@ -1,5 +1,8 @@
 # unixbox-01
 
+<p data-story-username="amirhan">I see that your skills in file management system are getting better.
+Now let's see if you can read between the lines and keep the secrets, too.</p>
+
 ### Task
 
 You need to work with a file named `poem.txt`.
