@@ -12,7 +12,7 @@
 | 8.  | total-dirs    | [github.com](./total-dirs)    |
 | 9.  | file-head     | [github.com](./file-head)     |
 | 10. | file-tail     | [github.com](./file-tail)     |
-| 11. | replace       | [github.com](./replace)       |
+| 11. | replace-log   | [github.com](./replace-log)   |
 | 12. | restore-files | [github.com](./restore-files) |
 | 13. | needles       | [github.com](./needles)       |
 | 14. | unixbox-01    | [github.com](./unixbox-01)    |
