@@ -2,12 +2,12 @@
 
 ### Task
 
-1. Create and clone Repository
+#### 1. Create and clone Repository
 
 Create repository from [bootcamp-go](https://platform.alem.school/git/root/bootcamp-go):
-- Click on "Use this template": ![git-01](git-01.png)
-- Enter `bootcamp-go` into "Repository name" field: ![git-02](git-02.png)
-- Copy URL of the repository: ![git-03](git-03.png)
+- Click on "Use this template": ![git-01](https://github.com/alem-platform/bootcamp-go/blob/master/story01/git/git-01.png?raw=true)
+- Enter `bootcamp-go` into "Repository name" field: ![git-02](https://github.com/alem-platform/bootcamp-go/blob/master/story01/git/git-02.png?raw=true)
+- Copy URL of the repository: ![git-03](https://github.com/alem-platform/bootcamp-go/blob/master/story01/git/git-03.png?raw=true)
 
 Now you are ready to clone your repository. You have to replace `amirhan` with your login:
 ```sh
@@ -37,7 +37,7 @@ git clone git@git.platform.alem.school:amirhan/bootcamp-go.git
 > Your SSH is ready!✧˖
 
 
-2. First commit
+#### 2. First commit
 
 Go to your cloned repo:
 ```sh
@@ -55,7 +55,7 @@ cat user.txt
 username: amirhan
 ```
 
-3. Git Push
+#### 3. Git Push
 
 Now you have to send your newly created file to the repository. After you have done it, you can click on "Submit" button.
 
