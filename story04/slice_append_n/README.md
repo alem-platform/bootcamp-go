@@ -20,19 +20,3 @@ func main() {
     fmt.Println(SliceAppendN(10)) // [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 }
 ```
-
-**Solution:**
-
-```go
-func SliceAppendN(n int) []int {
-    if (n < 0) {
-        return nil
-    }
-
-    var result []int
-    for i := 0; i < n; i++ {
-        result = append(result, i)
-    }
-    return result
-}
-```

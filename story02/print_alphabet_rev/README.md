@@ -14,20 +14,3 @@ The output should be as following:
 go run main.go | cat -e
 zyxwvutsrqponmlkjihgfedcba$
 ```
-
----
-
-## Solution
-
-```go
-package main
-
-import "github.com/alem-platform/ap"
-
-func main() {
-    for r := 'z'; r >= 'a'; r = r - 1 {
-        ap.PutRune(r)
-    }
-    ap.PutRune('\n')
-}
-```

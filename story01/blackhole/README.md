@@ -12,12 +12,3 @@ Create the following directories and file:
 6. Create directory `data_conduit` inside `stabilizer` directory
 7. Create directory `ground-layer` inside `data_conduit` directory
 8. Create file `EnergyPacket.ext` with content `volatility-stabilizers` inside `ground-layer` directory
-
----
-
-### Solution
-
-```sh
-mkdir -p bns_formula/foundation/integration/session/transport/stabilizer/data_conduit/ground-layer
-echo -n "volatility-stabilizers" > bns_formula/foundation/integration/session/transport/stabilizer/data_conduit/ground-layer/energypacket.ext
-```

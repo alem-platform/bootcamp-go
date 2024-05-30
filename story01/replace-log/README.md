@@ -23,10 +23,3 @@ Example:
 80.91.33.133 - - [04/06/2018:01:56:34 +0000] "HEAD /home HTTP/1.1" 404 324 "-" "Ubuntu APT-HTTP/1.3 (9.14~exp12ubuntu13)"
 ```
 
----
-
-### Solution
-
-```sh
-cat ./access.log | sed "s/Debian/Ubuntu/g"
-```

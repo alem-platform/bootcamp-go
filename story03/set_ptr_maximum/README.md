@@ -17,36 +17,3 @@ func SetPtrMaximum(n **int) {
 
 }
 ```
-
----
-
-## Solution
-
-```go
-func SetPtrMaximum(n **int) {
-    if n != nil {
-		tmp := 2147483647
-		*n = &tmp
-	}
-}
-```
-
-```go
-package main
-
-import "fmt"
-
-func SetPtrMaximum(n **int) {
-	if n != nil {
-		tmp := 2147483647
-		*n = &tmp
-	}
-}
-
-func main() {
-	var a *int // nil
-
-	SetPtrMaximum(&a)
-	fmt.Println(*a)
-}
-```

@@ -25,21 +25,3 @@ func main() {
 	// 3
 }
 ```
-
----
-
-## Solution
-
-```go
-package main
-
-import "github.com/alem-platform/ap"
-
-func PutDigit(n int) {
-	if n > 10 || n < 0 {
-		return
-	}
-
-	ap.PutRune(byte(n) + '0')
-}
-```

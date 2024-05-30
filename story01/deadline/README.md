@@ -10,12 +10,3 @@ Example:
 cat directory_name/filename | wc -l
     0
 ```
-
----
-
-### Solution
-
-```sh
-mkdir isotpos
-echo -n carbon_atoms > isotpos/hydrocarbons
-```

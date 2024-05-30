@@ -14,20 +14,3 @@ The output should be as following:
 go run main.go | cat -e
 0123456789$
 ```
-
----
-
-## Solution
-
-```go
-package main
-
-import "github.com/alem-platform/ap"
-
-func main() {
-    for r := '0'; r <= '9'; r = r + 1 {
-        ap.PutRune(r)
-    }
-    ap.PutRune('\n')
-}
-```

@@ -32,15 +32,3 @@ func main() {
     // x: 2 y: 1
 }
 ```
-
----
-
-## Solution
-
-```go
-func Swap(a, b *int) {
-    if a != nil && b != nil {
-        *a, *b = *b, *a
-    }
-}
-```

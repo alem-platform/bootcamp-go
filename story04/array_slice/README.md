@@ -22,14 +22,3 @@ func main() {
     fmt.Println(ArraySlice(arr, 5, 1)) // [] false
 }
 ```
-
-**Solution:**
-
-```go
-func ArraySlice(arr [20]int, low int, high int) ([]int, bool) {
-	if (low > high || low < 0 || high < 0) {
-		return nil, false
-	}
-	return arr[low:high], true
-}
-```

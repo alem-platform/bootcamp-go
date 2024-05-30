@@ -7,10 +7,3 @@ $ bash total-files.sh
     219
 ```
 
----
-
-### Solution
-
-```sh
-find . -type f | wc -l
-```
