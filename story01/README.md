@@ -33,7 +33,6 @@
 <!-- | 23. | unixbox-10    | [github.com](./unixbox-10)    | -->
 <!-- | 24. | unixverse-09  | [github.com](./unixverse-09)  | -->
 <!-- | 25. | unixbox-13    | [github.com](./unixbox-13)    | -->
-<!-- | 27. | unixverse-02  | [github.com](./unixverse-02)  | -->
 <!-- | 29. | unixverse-04  | [github.com](./unixverse-04)  | -->
 <!-- | 31. | unixverse-06  | [github.com](./unixverse-06)  | -->
 <!-- | 33. | unixverse-08  | [github.com](./unixverse-08)  | -->

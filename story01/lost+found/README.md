@@ -4,6 +4,6 @@
 
 ### Task
 
-Create a script `find_force.sh`, which finds a file with a filename `force`.
+Create a script `find_force.sh`, which prints full path to a file with a filename `force` in `lost+found` directory.
 
 > Use `find` command.

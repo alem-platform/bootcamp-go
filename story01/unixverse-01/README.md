@@ -1,14 +1,12 @@
 # unixverse-01
 
-<p data-story-username="amirhan">Sometimes it felt like we were living in some kind of sci-fi movie. I always wondered, though, which one: "Fallout" or "Chain Reaction"? Which one is your favorite sci-fi movie, anyway?</p> 
-
 ### Task
 
-You need to work with a file named `movies.csv`.
+You need to work with a file named `unixverse/movies.csv`.
 
-Create a script `solution.sh` that does the following:
+Create a script `unixverse/01.sh` that does the following:
 
-- XXX
+- Swaps the `rating` and `name` column
 
 ### Available commands
 

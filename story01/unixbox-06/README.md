@@ -2,9 +2,9 @@
 
 ### Task
 
-You need to work with a file named `poem.txt`.
+You need to work with a file named `unixbox/poem.txt`.
 
-Create a script `solution.sh` that does the following:
+Create a script `unixbox/06.sh` that does the following:
 
 - Counts how many lines have `code`
 

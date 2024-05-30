@@ -5,9 +5,9 @@ Now let's see if you can read between the lines and keep the secrets, too.</p>
 
 ### Task
 
-You need to work with a file named `poem.txt`.
+You need to work with a file named `unixbox/poem.txt`.
 
-Create a script `solution.sh` that does the following:
+Create a script `unixbox/01.sh` that does the following:
 
 - Prints the second line
 

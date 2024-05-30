@@ -2,9 +2,9 @@
 
 ### Task
 
-You need to work with a file named `movies.csv`.
+You need to work with a file named `unixverse/movies.csv`.
 
-Create a script `solution.sh` that does the following:
+Create a script `unixverse/08.sh` that does the following:
 
 - Shows the best ranked `name`, only `name`, no other columns
 
