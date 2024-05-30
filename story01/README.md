@@ -2,6 +2,7 @@
 
 | №   | Название      | Ссылка                        |
 | --- | ------------- | ----------------------------- |
+| 00. | git           | [github.com](./git)           |
 | 01. | first-touch   | [github.com](./first-touch)   |
 | 02. | second-touch  | [github.com](./second-touch)  |
 | 03. | project-tree  | [github.com](./project-tree)  |
