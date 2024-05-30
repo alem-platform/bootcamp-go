@@ -1,21 +1,29 @@
 # intro 00
 
-<p data-story-username="amirhan"> Salem, [username]! </p>
-<p data-story-username="amirhan">It seems you’ve discovered my old server.</p>
+<p data-story-username="aberonshin"> Salem, [username]! </p>
+<p data-story-username="aberonshin">It seems you’ve discovered my old server.</p>
 
-<p data-story-username="amirhan">My name is Amir Han. If you’re reading this, 
+<p data-story-username="aberonshin">My name is Amir Han. If you’re reading this, 
 I am likely long gone, and this is just my gatekeeping script.</p>
 
-<p data-story-username="amirhan">I need your help.
+<p data-story-username="aberonshin">I need your help.
 This server holds priceless information, safeguarded at great cost.
 We fought valiantly, but ultimately, we failed.
 Now, it’s up to you to restore the old server disk and deliver it to my team.
 Will you help me?</p>
 
-<p data-story-username="amirhan">That's what I was hoping for.
+y/N
+for NO:
+<p data-story-username="aberonshin">In this case, I can't let you proceed.
+    Please reconsider. Return when you are fully committed.
+    Now, are you ready?</p>
+
+<p data-story-username="aberonshin">That's what I was hoping for.
 But first, I must ensure you are the right person.
 I will initiate your trial and then determine 
 if you are good enough to join our team.
 Are you committed to doing your best over the next four weeks?</p>
 
-<p data-story-username="amirhan"> Good. We must hurry; there's no time to waste. </p>
+y/N
+
+<p data-story-username="aberonshin"> Good. We must hurry; there's no time to waste. </p>
