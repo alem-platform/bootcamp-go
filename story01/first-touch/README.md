@@ -1,12 +1,12 @@
 # first-touch
 
-<p data-story-username="amirhan">You stand where many have failed. Your first task is to organize the chaos of these old file systems.</p>
+<p data-story-username="aberonshin">You stand where many have failed. Your first task is to organize the chaos of these old file systems.</p>
 
 ### Task
 
-Create a file `filename` with the content `content`. The output should be as following:
+Create a file `BNS` with the content `fuelformula`. The output should be as follows:
 
 ```sh
-$ cat filename
-content
+$ cat BNS
+fuelformula
 ```
