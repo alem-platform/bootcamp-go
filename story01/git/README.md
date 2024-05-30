@@ -1,8 +1,11 @@
 # git
 
+<p data-story-username="aberonshin">Greetings, new recruit.
+I can't describe how excited I am that you decided to join our team. Yet, you must pass the trial first. It's more than just a test of your technical skills; it’s a journey through history. You will learn about the BNS, our trials, our hopes, and the sacrifices we made.</p>
+
 ### Task
 
-#### 1. Create and clone Repository
+#### 1. Create and clone the Repository
 
 Create repository from [bootcamp-go](https://platform.alem.school/git/root/bootcamp-go):
 - Click on "Use this template": ![git-01](https://github.com/alem-platform/bootcamp-go/blob/master/story01/git/git-01.png?raw=true)
@@ -24,7 +27,7 @@ git clone git@git.platform.alem.school:amirhan/bootcamp-go.git
 >
 > **Setup SSH key**
 >
-> Enter the following command into terminal:
+> Enter the following command into the terminal:
 > ```sh
 > ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -q -P ""
 > ```
