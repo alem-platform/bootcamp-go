@@ -1,28 +1,28 @@
 # story01
 
-| №   | Название      | Уровень | Ссылка                        |
-| --- | ------------- | ------- | ----------------------------- |
-| 00. | git           | 1       | [github.com](./git)           |
-| 01. | first-touch   | 1       | [github.com](./first-touch)   |
-| 02. | second-touch  | 1       | [github.com](./second-touch)  |
-| 03. | project-tree  | 1       | [github.com](./project-tree)  |
-| 04. | deadline      | 1       | [github.com](./deadline)      |
-| 05. | blackhole     | 1       | [github.com](./blackhole)     |
-| 06. | lost+found    | 1       | [github.com](./lost+found)    |
-| 07. | total-files   | 1       | [github.com](./total-files)   |
-| 08. | total-dirs    | 1       | [github.com](./total-dirs)    |
-| 09. | file-head     | 1       | [github.com](./file-head)     |
-| 10. | file-tail     | 1       | [github.com](./file-tail)     |
-| 11. | restore-files | 1       | [github.com](./restore-files) |
-| 12. | unixbox-01    | 1       | [github.com](./unixbox-01)    |
-| 13. | unixbox-03    | 1       | [github.com](./unixbox-03)    |
-| 14. | unixbox-05    | 1       | [github.com](./unixbox-05)    |
-| 15. | unixbox-07    | 1       | [github.com](./unixbox-07)    |
-| 16. | unixbox-09    | 1       | [github.com](./unixbox-09)    |
-| 17. | unixbox-12    | 1       | [github.com](./unixbox-12)    |
-| 18. | unixverse-01  | 1       | [github.com](./unixverse-01)  |
-| 19. | unixverse-03  | 1       | [github.com](./unixverse-03)  |
-| 20. | unixverse-05  | 1       | [github.com](./unixverse-05)  |
+| №   | Название      | Уровень |XP | Ссылка                        |
+| --- | ------------- | ------- |-- | ----------------------------- |
+| 00. | git           | 1       |50 | [github.com](./git)           |
+| 01. | first-touch   | 1       |50 | [github.com](./first-touch)   |
+| 02. | second-touch  | 1       |50 | [github.com](./second-touch)  |
+| 03. | project-tree  | 1       |50 | [github.com](./project-tree)  |
+| 04. | deadline      | 1       |50 | [github.com](./deadline)      |
+| 05. | blackhole     | 1       |50 | [github.com](./blackhole)     |
+| 06. | lost+found    | 1       |50 | [github.com](./lost+found)    |
+| 07. | total-files   | 1       |50 | [github.com](./total-files)   |
+| 08. | total-dirs    | 1       |50 | [github.com](./total-dirs)    |
+| 09. | file-head     | 1       |50 | [github.com](./file-head)     |
+| 10. | file-tail     | 1       |50 | [github.com](./file-tail)     |
+| 11. | restore-files | 1       |50 | [github.com](./restore-files) |
+| 12. | unixbox-01    | 1       |50 | [github.com](./unixbox-01)    |
+| 13. | unixbox-03    | 1       |50 | [github.com](./unixbox-03)    |
+| 14. | unixbox-05    | 1       |50 | [github.com](./unixbox-05)    |
+| 15. | unixbox-07    | 1       |50 | [github.com](./unixbox-07)    |
+| 16. | unixbox-09    | 1       |50 | [github.com](./unixbox-09)    |
+| 17. | unixbox-12    | 1       |50 | [github.com](./unixbox-12)    |
+| 18. | unixverse-01  | 1       |50 | [github.com](./unixverse-01)  |
+| 19. | unixverse-03  | 1       |50 | [github.com](./unixverse-03)  |
+| 20. | unixverse-05  | 1       |50 | [github.com](./unixverse-05)  |
 
 <!-- | 11. | replace-log   | [github.com](./replace-log)   | -->
 <!-- | 13. | needles       | [github.com](./needles)       | -->
