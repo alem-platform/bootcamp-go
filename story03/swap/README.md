@@ -1,7 +1,5 @@
 ## swap
 
-## swap
-
 ## Task
 
 | Available                     |
