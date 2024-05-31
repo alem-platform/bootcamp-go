@@ -1,5 +1,5 @@
 {
-  "dialog": [
+  "dialogue": [
     {
       "id": "0",
       "type": "system_message_wait_keydown",
