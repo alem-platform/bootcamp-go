@@ -1,12 +1,12 @@
 {
   "dialogue": [
     {
-      "id": "0",
+      "index": 0,
       "type": "system_message_wait_keydown",
       "text": "Press any key to start..."
     },
     {
-      "id": "1",
+      "index": 1,
       "type": "hero_message",
       "username": "aberonshin",
       "text": "Salem, {{username}}.\nIt seems you’ve discovered my old server.",
@@ -18,13 +18,13 @@
       ]
     },
     {
-      "id": "2",
+      "index": 2,
       "type": "hero_message",
       "username": "aberonshin",
       "text":"My name is Aberon Shin. If you’re reading this,\nI am likely long gone, and this is just my gatekeeping script."
     },
     {
-      "id": "3",
+      "index": 3,
       "type": "hero_message_waiting_option",
       "username": "aberonshin",
       "text": "I need your help.\nThis server holds priceless information, safeguarded at great cost.\nWe fought valiantly, but ultimately, we failed.\nNow, it’s up to you to restore the old server disk and deliver it to my team.\nWill you help me?",
@@ -32,17 +32,17 @@
         {
           "label": "y",
           "keys":["y", "Y"],
-          "next_message_id": "5"
+          "next_message_index": 5
         },
         {
           "label": "n",
           "keys":["n", "N"],
-          "next_message_id": "4"
+          "next_message_index": 4
         }
       ]
     },
     {
-      "id": "4",
+      "index": 4,
       "type": "hero_message_waiting_option",
       "username": "aberonshin",
       "text": "In this case, I can't let you proceed.\nPlease reconsider. Return when you are fully committed.\nNow, are you ready?",
@@ -50,17 +50,17 @@
         {
           "label": "y",
           "keys":["y", "Y"],
-          "next_message_id": "5"
+          "next_message_index": 5
         },
         {
           "label": "n",
           "keys":["n", "N"],
-          "next_message_id": "4"
+          "next_message_index": 4
         }
       ]
     },
     {
-      "id": "5",
+      "index": 5,
       "type": "hero_message_waiting_option",
       "username": "aberonshin",
       "text": "That's what I was hoping for.\nBut first, I must ensure you are the right person.\nI will initiate your trial and then determine\nif you are good enough to join our team.\nAre you committed to doing your best over the next four weeks?",
@@ -68,17 +68,17 @@
         {
           "label": "y",
           "keys":["y", "Y"],
-          "next_message_id": "7"
+          "next_message_index": 7
         },
         {
           "label": "n",
           "keys":["n", "N"],
-          "next_message_id": "6"
+          "next_message_index": 6
         }
       ]
     },
     {
-      "id": "6",
+      "index": 6,
       "type": "hero_message_waiting_option",
       "username": "aberonshin",
       "text": "In this case, I can't let you proceed.\nPlease reconsider. Return when you are fully committed.\nNow, are you ready?",
@@ -86,17 +86,17 @@
         {
           "label": "y",
           "keys":["y", "Y"],
-          "next_message_id": "7"
+          "next_message_index": 7
         },
         {
           "label": "n",
           "keys":["n", "N"],
-          "next_message_id": "6"
+          "next_message_index": 6
         }
       ]
     },
     {
-      "id": "7",
+      "index": 7,
       "type": "hero_message",
       "username":"aberonshin",
       "text": "Good. We must hurry; there's no time to waste."
