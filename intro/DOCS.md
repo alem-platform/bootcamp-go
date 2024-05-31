@@ -12,7 +12,7 @@ type TDialogMessage =
  * just system message which waiting any user keyboard action
  */
 type TSystemMessageWaitingKeydown = {
-  id: "id";
+  index: number;
   type: "system_message_wait_keydown";
   text: "here is text";
 };
@@ -23,7 +23,7 @@ type TSystemMessageWaitingKeydown = {
  * just hero message
  */
 type THeroMessage = {
-  id: "id";
+  index: number;
   type: "hero_message";
   username: "aberonshin";
   text: "Salem, {{username}}!";
@@ -46,7 +46,7 @@ type THeroMessage = {
  * hero message which waiting user selection
  */
 type THeroMessageWaitingOption = {
-  id: "id";
+  index: number;
   type: "hero_message_wait_option";
   username: "aberonshin";
   text: "Text";
@@ -57,12 +57,12 @@ type THeroMessageWaitingOption = {
     {
       label: "y";
       keys: ["y", "Y"];
-      next_message_id: "id";
+      next_message_index: number;
     },
     {
       label: "n";
       keys: ["n", "N"];
-      next_message_id: "id";
+      next_message_index: number;
     }
   ];
 };
