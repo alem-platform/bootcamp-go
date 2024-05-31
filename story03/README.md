@@ -1,16 +1,20 @@
 # story03
 
-| №   | Название    | Ссылка                      |
-| --- | ----------- | --------------------------- |
-| 1.  | scan_nums   | [github.com](./scan_nums)   |
-| 2.  | double_it   | [github.com](./double_it)   |
-| 3.  | swap        | [github.com](./swap)        |
-| 4.  | array_print | [github.com](./array_print) |
-| 5.  | array_sum   | [github.com](./array_sum)   |
-| 6.  | runes_len   | [github.com](./runes_len)   |
-| 7.  | aton        | [github.com](./aton)        |
-| 8.  | max_min     | [github.com](./max_min)     |
-| 9.  | rating_asc  | [github.com](./rating_asc)  |
+| №   | Название     | Ссылка                       |
+| --- | ------------ | ---------------------------- |
+| 1.  | is_nil       | [github.com](./is_nil)       |
+| 2.  | increment_it | [github.com](./increment_it) |
+| 3.  | compare_them | [github.com](./compare_them) |
+| 4.  | swap         | [github.com](./swap)         |
+| 5.  | unpack_it    | [github.com](./unpack_it)    |
+| 6.  | scan_nums    | [github.com](./scan_nums)    |
+| 7.  | double_it    | [github.com](./double_it)    |
+| 8.  | array_print  | [github.com](./array_print)  |
+| 9.  | array_sum    | [github.com](./array_sum)    |
+| 10. | runes_len    | [github.com](./runes_len)    |
+| 11. | aton         | [github.com](./aton)         |
+| 12. | max_min      | [github.com](./max_min)      |
+| 13. | rating_asc   | [github.com](./rating_asc)   |
 
 <!-- | 3.  | scan            | [github.com](./scan)            | -->
 <!-- | 4.  | set_maximum     | [github.com](./set_maximum)     | -->
