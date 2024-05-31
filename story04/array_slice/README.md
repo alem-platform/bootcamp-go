@@ -2,12 +2,12 @@
 
 ## Task Description
 
-Write a function `ArraySlice` that takes an array of integers and returns a slice of the given array from index `low` to index `high`. If `ArraySlice` succeeds, it should return an array containing the sliced elements with `true`, otherwise, it should return an empty array with the value `false`.
+Write a function `ArraySlice` that takes an array of integers and returns a slice of the given array from index `low` to index `high`. If `ArraySlice` succeeds, it should return an slice containing the sliced elements, otherwise, it should return an empty slice.
 
 **Function definition:**
 
 ```go
-func ArraySlice(arr [20]int, low int, high int) ([]int, bool) {
+func ArraySlice(arr [20]int, low int, high int) []int {
 
 }
 ```
@@ -17,8 +17,8 @@ func ArraySlice(arr [20]int, low int, high int) ([]int, bool) {
 ```go
 func main() {
     arr := [20]int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
-    fmt.Println(ArraySlice(arr, 3, 5)) // [3, 4] true
-    fmt.Println(ArraySlice(arr, 5, 5)) // [] true
-    fmt.Println(ArraySlice(arr, 5, 1)) // [] false
+    fmt.Println(ArraySlice(arr, 3, 5)) // [3, 4]
+    fmt.Println(ArraySlice(arr, 5, 5)) // []
+    fmt.Println(ArraySlice(arr, 5, 1)) // []
 }
 ```
