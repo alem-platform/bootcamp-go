@@ -8,9 +8,9 @@ first, it would be great if you can say hi</p>
 
 ## Task
 
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
+| Expected file       | Available packages            |
+| ------------------- | ----------------------------- |
+| `handshake/main.go` | `github.com/alem-platform/ap` |
 
 Write a program that prints `Salem!`.
 
