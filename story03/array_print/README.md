@@ -1,10 +1,10 @@
+| Expected file   | Available packages            |
+| --------------- | ----------------------------- |
+| `arrayprint.go` | `github.com/alem-platform/ap` |
+
 ## array_print
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a function `ArrayPrint` that takes an array of integers and prints all the elements in a single line, separated by spaces.
 

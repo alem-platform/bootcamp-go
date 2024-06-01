@@ -1,11 +1,10 @@
+| Expected file        | Available packages            |
+| -------------------- | ----------------------------- |
+| `rating_asc/main.go` | `github.com/alem-platform/ap` |
+
 ## rating_asc
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
-
 
 **Input Format:**
 

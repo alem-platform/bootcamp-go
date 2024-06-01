@@ -1,3 +1,7 @@
+| Expected file |
+| ------------- |
+| `isnill.go`   |
+
 # is_nil
 
 ## Task

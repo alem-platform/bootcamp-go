@@ -1,10 +1,11 @@
+| Expected file       | Available packages            |
+| ------------------- | ----------------------------- |
+| `unpack_it/main.go` | `github.com/alem-platform/ap` |
+
+
 ## scan_nums
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a program that scans two integers and prints 4 integers in a row:
 - sum of numbers

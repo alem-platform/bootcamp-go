@@ -1,13 +1,13 @@
+| Expected file    | Available packages            |
+| ---------------- | ----------------------------- |
+| `putnumberfn.go` | `github.com/alem-platform/ap` |
+
 # put_number_fn
 
 <p data-story-username="a-J-nx">well! i guess i was underestimating you. and you are doing quite well.
 but you don't have to brag about it, ok?</p>
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a function `PutNumber` that prints a given number.
 

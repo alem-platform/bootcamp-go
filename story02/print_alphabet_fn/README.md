@@ -1,10 +1,10 @@
+| Expected file        | Available packages            |
+| -------------------- | ----------------------------- |
+| `printalphabetln.go` | `github.com/alem-platform/ap` |
+
 # print_alphabet_fn
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a function `PrintAlphabetLn` that prints an alphabet followed by the newline.
 
