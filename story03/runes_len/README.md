@@ -1,10 +1,10 @@
+| Expected file | Available packages            |
+| ------------- | ----------------------------- |
+| `runeslen.go` | `github.com/alem-platform/ap` |
+
 ## runes_len
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a function `RunesLen` that takes an array of 20 runes and returns the length of an array.
 

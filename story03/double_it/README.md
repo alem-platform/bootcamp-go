@@ -1,10 +1,10 @@
+| Expected file       | Available packages            |
+| ------------------- | ----------------------------- |
+| `double_it/main.go` | `github.com/alem-platform/ap` |
+
 ## double_it
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a program that scans integer `L` and then `L` numbers in a row.
 

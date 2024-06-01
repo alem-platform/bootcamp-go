@@ -1,10 +1,10 @@
+| Expected file     | Available packages            |
+| ----------------- | ----------------------------- |
+| `max_min/main.go` | `github.com/alem-platform/ap` |
+
 ## max_min
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Find maximum and minimum in an array.
 

@@ -1,3 +1,7 @@
+| Expected file    |
+| ---------------- |
+| `comparethem.go` |
+
 # compare_them
 
 ## Task

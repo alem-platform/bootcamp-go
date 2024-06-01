@@ -1,10 +1,10 @@
+| Expected file | Available packages            |
+| ------------- | ----------------------------- |
+| `arraysum.go` | `github.com/alem-platform/ap` |
+
 ## array_sum
 
 ## Task Description
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a function `ArraySum` that takes an array of integers and returns the sum of all the elements.
 
