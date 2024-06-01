@@ -20,15 +20,7 @@ project-tree
 2 directories, 6 files
 ```
 
-Set the following permissions:
-
-- settings.conf: 
-    - allow `read` and `write` by the `owner`;
-    - not accessible by anyone else.
-- files in directory `internal`:
-    - allow `read`, `write`, and `execute` by the owner;
-    - group can `read` and `execute`;
-    - others cannot access at all.
+> File permissions are ignored.
 
 **Example**
 
