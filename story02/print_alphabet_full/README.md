@@ -1,10 +1,10 @@
+| Expected file                 | Available packages            |
+| ----------------------------- | ----------------------------- |
+| `print_alphabet_full/main.go` | `github.com/alem-platform/ap` |
+
 # print_alphabet_full
 
 ## Task
-
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
 
 Write a program that prints the full alphabet followed by a newline.
 
