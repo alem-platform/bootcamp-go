@@ -1,3 +1,7 @@
+| Expected file       | Available packages            |
+| ------------------- | ----------------------------- |
+| `handshake/main.go` | `github.com/alem-platform/ap` |
+
 # handshake
 
 <p data-story-username="a-J-nx">hi, it's Aj
@@ -7,10 +11,6 @@ so, what if you stick around a bit longer and show us your best?
 first, it would be great if you can say hi</p>
 
 ## Task
-
-| Expected file       | Available packages            |
-| ------------------- | ----------------------------- |
-| `handshake/main.go` | `github.com/alem-platform/ap` |
 
 Write a program that prints `Salem!`.
 
