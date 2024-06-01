@@ -4,9 +4,9 @@
 
 ### Task
 
-Create a file `BNS` with the content `fuelformula`. The output should be as follows:
+Create a file `BNS1` with the content `fuelformula`. The output should be as follows:
 
 ```sh
-$ cat BNS
+$ cat BNS1
 fuelformula
 ```
