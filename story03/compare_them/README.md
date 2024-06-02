@@ -4,6 +4,8 @@
 
 # compare_them
 
+<p data-story-username="a-J-nx">our robot's got a bit of a quirky syntax, but don’t let that fool you. ALM34, why don’t you give our trainee a rundown on what you do around here?</p>
+
 ## Task
 
 Write a function `CompareThem` that takes two pointers to integers and compares the values they point to. The function should return `true` if the values are equal and `false` otherwise. If both values ​​are empty, return `true`.
