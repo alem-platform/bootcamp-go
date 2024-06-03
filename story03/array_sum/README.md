@@ -4,6 +4,8 @@
 
 ## array_sum
 
+<p data-story-username="alm34">Precision in communication optimizes data retrieval efficiency.</p>
+
 ## Task Description
 
 Write a function `ArraySum` that takes an array of integers and returns the sum of all the elements.
