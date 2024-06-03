@@ -4,6 +4,9 @@
 
 ## array_print
 
+<p data-story-username="alm34">|\|ever tru$t a comput3r you can’t thr0w ou7 a win9ow.</p>
+<p data-story-username="a-J-nx"> that's my favorite. he quotes famous coders, haven't you noticed?</p>
+
 ## Task
 
 Write a function `ArrayPrint` that takes an array of integers and prints all the elements in a single line, separated by spaces.
