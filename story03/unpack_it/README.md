@@ -5,6 +5,8 @@
 
 # unpack_it
 
+<p data-story-username="a-J-nx"> yep, ALM34’s memory is a goldmine. Many people actually thought he was storing the formula, so his processor has been hacked many times, and he could be glitching sometimes.</p>
+
 ## Task
 
 Write a function `UnpackIt` that takes a `p` and returns the integer value. If any of the pointers is `nil`, the function should return `0`.
