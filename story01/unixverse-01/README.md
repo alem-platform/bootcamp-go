@@ -25,3 +25,4 @@ New commands ✧˖:
 * `tr`
 * `bc`
 * `paste`
+* `awk`
