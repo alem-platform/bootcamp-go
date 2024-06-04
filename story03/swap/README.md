@@ -4,6 +4,8 @@
 
 ## swap
 
+<p data-story-username="alm34">I assist with data processing, system diagnostics, and archival retrieval. My memory banks collect historical data from my creator, Aberon Shin. I remember it all. All of it.</p>
+
 ## Task
 
 Create a function `Swap` that takes two pointers to integers, `a` and `b`, and swaps their values.
