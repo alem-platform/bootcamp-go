@@ -15,7 +15,7 @@
 | 9   | [map_clone](./map_clone)                             |
 | 10  | [map_equal](./map_equal)                             |
 | 11  | [map_merge](./map_merge)                             |
-| 12  | [count_words_fn](./count_words_fn)                   |
+| 12  | [count_words](./count_words)                         |
 | 13  | [text_to_morse](./text_to_morse)                     |
 | 14  | [morse_to_text](./morse_to_text)                     |
 | 15  | [roman_to_int](./roman_to_int)                       |

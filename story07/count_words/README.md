@@ -1,13 +1,13 @@
-# count_words_fn
+# count_words
 
 ## Task
 
-Write a function `CountWordsFn` that takes a string and returns a map where the keys are lowercase words from the string and the values are the counts of how many times each word appears. Words are separated by spaces.
+Write a function `CountWords` that takes a string and returns a map where the keys are lowercase words from the string and the values are the counts of how many times each word appears. Words are separated by spaces.
 
 **Function definition:**
 
 ```go
-func CountWordsFn(s string) map[string]int {
+func CountWords(s string) map[string]int {
 
 }
 ```
@@ -17,7 +17,7 @@ func CountWordsFn(s string) map[string]int {
 ```go
 func main() {
     s := "The soup was stirred and stirred until thickened."
-    wordCounts := CountWordsFn(s)
+    wordCounts := CountWords(s)
     fmt.Println(wordCounts) // map[the:1 soup:1 was:1 and:1 stirred:2 until:1 thickened:1]
 }
 ```
