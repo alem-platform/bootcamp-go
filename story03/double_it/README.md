@@ -1,6 +1,6 @@
 | Expected file       | Available packages            |
 | ------------------- | ----------------------------- |
-| `double_it/main.go` | `github.com/alem-platform/ap` |
+| `double_it/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
 
 ## double_it
 
