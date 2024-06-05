@@ -2,7 +2,7 @@
 
 > Work with `map`/`dictionary`
 
-| №   | задача                                               |
+| №   | Task name with link                                  |
 | --- | ---------------------------------------------------- |
 | 1   | [map_init_roman_numerals](./map_init_roman_numerals) |
 | 2   | [map_len](./map_len)                                 |
