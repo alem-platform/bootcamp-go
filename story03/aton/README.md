@@ -1,6 +1,6 @@
 | Expected file  | Available packages            |
 | -------------- | ----------------------------- |
-| `aton/main.go` | `github.com/alem-platform/ap` |
+| `aton/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
 
 ## aton
 
