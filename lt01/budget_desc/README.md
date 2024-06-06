@@ -15,6 +15,10 @@ Print budgets sorted from highest to lowest, separated by a space.
 
 **Example:**
 
+```sh
+go run main.go
+```
+
 **Input:**
 ```
 20
@@ -38,4 +42,9 @@ Print budgets sorted from highest to lowest, separated by a space.
 4 3000000
 9 33000000
 9 125000000
+```
+
+**Output:**
+```
+350000 1200000 3000000 6000000 8000000 13000000 18000000 22000000 25000000 25000000 33000000 55000000 63000000 63000000 93000000 94000000 94000000 94000000 125000000 160000000 185000000
 ```

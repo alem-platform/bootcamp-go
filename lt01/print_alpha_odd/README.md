@@ -2,7 +2,7 @@
 | ----------------------------- |
 | `github.com/alem-platform/ap` |
 
-# print_digits
+# print_alpha_odd
 
 Write a program that prints alphabet, where every odd character is uppercase.
 

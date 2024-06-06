@@ -1,6 +1,6 @@
-| Expected file    | Available packages            |
-| ---------------- | ----------------------------- |
-| `putnumberfn.go` | `github.com/alem-platform/ap` |
+| Available packages            |
+| ----------------------------- |
+| `github.com/alem-platform/ap` |
 
 # put_number_fn
 

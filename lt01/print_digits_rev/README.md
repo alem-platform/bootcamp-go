@@ -2,7 +2,7 @@
 | ----------------------------- |
 | `github.com/alem-platform/ap` |
 
-# print_digits
+# print_digits_rev
 
 Write a program that prints digits in reverse order followed by a newline.
 

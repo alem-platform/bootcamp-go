@@ -2,7 +2,7 @@
 | ----------------------------- |
 | `github.com/alem-platform/ap` |
 
-# print_digits
+# print_alpha_odd_rev
 
 ## Task
 
