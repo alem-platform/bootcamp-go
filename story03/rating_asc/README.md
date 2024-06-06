@@ -19,6 +19,9 @@ Each of the next `N` lines contains a movie's rating (a float) and its budget (a
 Print ratings sorted from lowest to highest, separated by a space.
 
 **Example:**
+```sh
+go run main.go
+```
 
 **Input:**
 ```
