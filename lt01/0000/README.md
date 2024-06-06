@@ -1,6 +1,6 @@
-| Expected file       | Available packages            |
-| ------------------- | ----------------------------- |
-| `handshake/main.go` | `github.com/alem-platform/ap` |
+| Available packages            |
+| ----------------------------- |
+| `github.com/alem-platform/ap` |
 
 # 0000
 
