@@ -29,5 +29,5 @@ go run main.go | cat -e
 ```sh
 go run main.go | cat -e
 5 0
-13 -3 40 F$
+5 5 0 F$
 ```
