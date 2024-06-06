@@ -4,8 +4,6 @@
 
 # hello
 
-## Task
-
 Write a program that displays `Salem, Alem!`.
 
 Example:

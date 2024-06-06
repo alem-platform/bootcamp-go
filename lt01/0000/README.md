@@ -4,8 +4,6 @@
 
 # 0000
 
-## Task
-
 Write a program that prints `0` symbol to the stdout.
 
 Example:

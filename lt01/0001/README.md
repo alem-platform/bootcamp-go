@@ -4,8 +4,6 @@
 
 # 0001
 
-## Task
-
 Write a program that prints `1` symbol to the stdout.
 
 Example:
