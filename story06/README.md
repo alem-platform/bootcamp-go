@@ -4,6 +4,7 @@
 
 | №   | Название            | Ссылка                              |
 | --- | ------------------- | ----------------------------------- |
+| 0.  | lesson06            | [lesson06](./lesson06)              |
 | 1.  | pow_iterative       | [github.com](./pow_iterative)       |
 | 2.  | pow_recursion       | [github.com](./pow_recursion)       |
 | 3.  | fibonacci_iterative | [github.com](./fibonacci_iterative) |

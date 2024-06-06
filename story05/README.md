@@ -4,6 +4,7 @@
 
 | №   | Название     | Ссылка                       |
 | --- | ------------ | ---------------------------- |
+| 0.  | lesson05     | [lesson05](./lesson05)       |
 | 1.  | is_alpha     | [github.com](./is_alpha)     |
 | 2.  | is_numeric   | [github.com](./is_numeric)   |
 | 3.  | last_rune    | [github.com](./last_rune)    |

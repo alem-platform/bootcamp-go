@@ -4,6 +4,7 @@
 
 | №   | Task name with link                                  |
 | --- | ---------------------------------------------------- |
+| 0   | [lesson07](./lesson07)                               |
 | 1   | [map_init_roman_numerals](./map_init_roman_numerals) |
 | 2   | [map_len](./map_len)                                 |
 | 3   | [map_get](./map_get)                                 |
