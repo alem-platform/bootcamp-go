@@ -1,6 +1,6 @@
 | Expected file        | Available packages            |
 | -------------------- | ----------------------------- |
-| `printalphabetln.go` | `github.com/alem-platform/ap` |
+| `printalphabetfn.go` | `github.com/alem-platform/ap` |
 
 # print_alphabet_fn
 
