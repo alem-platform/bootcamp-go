@@ -1,5 +1,5 @@
-| Expected file     | Available packages            |
-| ----------------- | ----------------------------- |
+| Expected file     | Available packages                        |
+| ----------------- | ----------------------------------------- |
 | `max_min/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
 
 ## max_min

@@ -1,6 +1,6 @@
-| Expected file       | Available packages            |
-| ------------------- | ----------------------------- |
-| `unpack_it/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
+| Expected file       | Available packages                        |
+| ------------------- | ----------------------------------------- |
+| `scan_nums/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
 
 
 ## scan_nums
