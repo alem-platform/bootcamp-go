@@ -22,7 +22,7 @@ Good luck, recruit. This project is a step towards a greater future. Embrace it,
 
 | Available                     |
 | ----------------------------- |
-| `github.com/alem-platform/ap` |
+| `github.com/alem-platform/ap` `fmt.Scanf` |
 
 Write a program that prints a map from a given input. Only ASCII characters are allowed to use.
 
