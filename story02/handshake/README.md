@@ -17,6 +17,7 @@ Write a program that prints `Salem!`.
 The output should be as follows:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 Salem!$
+student:$
 ```

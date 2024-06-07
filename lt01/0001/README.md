@@ -9,6 +9,7 @@ Write a program that prints `1` symbol to the stdout.
 Example:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 1$
+student:$
 ```

@@ -1,5 +1,5 @@
-| Expected file       | Available packages            |
-| ------------------- | ----------------------------- |
+| Expected file       | Available packages                        |
+| ------------------- | ----------------------------------------- |
 | `double_it/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
 
 ## double_it
@@ -15,15 +15,17 @@ Your program should output each number multiplied by two.
 Examples:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 3
 1 2 3
 2 4 6$
+student:$
 ```
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 1
 5
 10$
+student:$
 ```

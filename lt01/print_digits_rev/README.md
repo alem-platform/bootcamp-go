@@ -9,6 +9,7 @@ Write a program that prints digits in reverse order followed by a newline.
 Example:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 9876543210$
+student:$
 ```

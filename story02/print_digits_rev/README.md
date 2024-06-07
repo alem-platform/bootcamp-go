@@ -14,6 +14,7 @@ Write a program that prints reversed digits followed by a newline.
 The output should be as follows:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 9876543210$
+student:$
 ```

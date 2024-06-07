@@ -9,6 +9,7 @@ Write a program that displays `Salem, Alem!`.
 Example:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 Salem, Alem!$
+student:$
 ```

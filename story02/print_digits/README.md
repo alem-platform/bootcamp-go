@@ -13,6 +13,7 @@ Write a program that prints digits followed by a newline.
 The output should be as following:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 0123456789$
+student:$
 ```

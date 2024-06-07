@@ -11,6 +11,7 @@ Write a program that prints alphabet in reverse, where every odd character is up
 Example:
 
 ```sh
-go run main.go | cat -e
+student:$ go run main.go | cat -e
 ZyXwVuTsRqPoNmLkJiHgFeDcBa$
+student:$
 ```
