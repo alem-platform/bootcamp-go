@@ -2,7 +2,21 @@
 
 ## Guidelines
 
-TODO: This chapter should contain guidelines on how to work in a team.
+<p data-story-username="aberonshin"> Hello, recruit. Let’s talk about your first group project. This is a game-changer for you. Unlike individual tasks, this project reflects the real-world scenario where you’ll be working as part of a team. It’s crucial to understand that the group process is inherently different from working alone.
+
+In a team, you need to share responsibilities and distribute the workload effectively. Clear communication is key. Naturally, conflicts will arise, but don’t view them as someone's faults. Instead, see them as opportunities to grow and strengthen your relationships. Conflict can be a tool to accelerate your teamwork skills.
+
+Here’s what I recommend:
+
+First, get to know each other if you haven’t already. Understand each team member’s strengths and preferences. This will help you leverage the shared skill set effectively. If you prefer working alone and aren’t great at communication, it’s okay to say, "Hey, just give me my part of the task, and I’ll get it done on time." If you’re more inclined to take on a leadership role, make that clear and take your so wanted responsibility.
+
+Once you understand your roles and the tasks at hand, make a plan. Set milestones and deadlines. Even though you’re working in a tight timeframe, a well-structured plan will help you stay on track and understand why certain goals aren’t met if issues arise.
+
+Remember, we expect everyone to invest their efforts during this crunch. You’ll be assessing each other’s engagement at the end of this project. Keep that in mind.
+
+Lastly, this isn’t a competition between teams. If you get stuck, seek help from other teams, or resources on the internet. Don’t think that being in a team means you can’t get help from outside.
+
+Good luck, recruit. This project is a step towards a greater future. Embrace it, learn from it, and grow.</p>
 
 ## Project
 
