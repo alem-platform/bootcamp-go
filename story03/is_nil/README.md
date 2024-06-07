@@ -1,6 +1,6 @@
 | Expected file |
 | ------------- |
-| `isnill.go`   |
+| `isnil.go`    |
 
 # is_nil
 
