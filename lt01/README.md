@@ -12,7 +12,7 @@ Page with a bunch of different tasks, needed for backup.
 | print_alpha_odd     | 2     | 150 | [README.md](./print_alpha_odd/README.md)     | + |
 | print_alpha_odd_rev | 2     | 150 | [README.md](./print_alpha_odd_rev/README.md) | + |
 | put_digit_fn        | 2     | 150 | [README.md](./put_digit_fn/README.md)        | + |
-| swap_fn             | 3     | 200 | [README.md](./swap_fn/README.md)             | + |
+| swap                | 3     | 200 | [README.md](./swap_fn/README.md)             | + |
 | swapcase_fn         | 3     | 200 | [README.md](./swapcase_fn/README.md)         | + |
 | set_max_fn          | 3     | 200 | [README.md](./set_max_fn/README.md)          | + |
 | runes_print         | 4     | 250 | [README.md](./runes_print/README.md)         | + |
