@@ -192,7 +192,34 @@ For example:
 - `blue` for player
 - `yellow` for an award.
 
-Whole cell should be colored in one color, not a single character.
+The whole cell should be colored in one color, not a single character.
 
 You are free to choose a color of your will.
+
+## Assessment criteria
+
+Here's what your reviewers will be looking at:
+
+#### Functionality
+- **Correctness:**
+  - The program correctly reads the input height and width.
+  - The program correctly interprets and prints the map based on the given characters.
+  - The output format matches the specified examples, including borders and internal cell structures.
+- **Edge Cases:**
+  - The program handles edge cases such as minimum size maps (1x1), maps with only walls, players, awards, or free cells.
+  - The program correctly handles non-rectangular or improper inputs with appropriate error messages or handling.
+
+#### Code Quality
+- Well-organized and easy-to-follow code.
+- Clear and descriptive comments and naming conventions.
+- Uses efficient algorithms and data structures.
+- Minimizes unnecessary computations and memory usage.
+- Code is modular with distinct functions/methods.
+- Avoids code duplication and promotes reusability.
+
+#### Usability
+- Provides clear instructions for input format.
+- Handles invalid inputs gracefully.
+- Allows for changing symbols as per bonus requirements.
+- Supports map notation and color changes.
 
