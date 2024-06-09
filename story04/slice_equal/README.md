@@ -7,7 +7,7 @@ Write a function `SliceEqual` that should compare the elements of the two arrays
 **Function definition:**
 
 ```go
-func SliceEqual(arr1, arr2 [20]int) int {
+func SliceEqual(arr1, arr2 []int) int {
 
 }
 ```
