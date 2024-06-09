@@ -1,5 +1,7 @@
 # slice_union
 
+<p data-story-username="lascar123">If it was that bad, you may ask, why didn't Aberon stop it?</p>
+
 ## Task Description
 
 Write a function `SliceUnion` that takes multiple slices of integers as input and returns a new slice containing the union of all the input slices with unique values in inserted order.
