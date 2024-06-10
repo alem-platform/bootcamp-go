@@ -23,6 +23,6 @@
 | 16. | slice_batch                   | 2        |100|  [github.com](./slice_batch/README.md)                   | алгоритмы, срезы в срезах                                           |
 | 17. | slice_sort                    | 2        |100|  [github.com](./slice_sort/README.md)                    | алгоритм сортировки, срезы                                          |
 | 18. | slice_union                   | 2        |100|  [github.com](./slice_union/README.md)                   | алгоритмы, срезы                                                    |
-| 19. | slice_matrix_print            | 2        |100|  [github.com](./slice_matrix_print/README.md)            | двумерный срез                                                      |
+| 19. | slice_matrix_print            | 1        |50 |  [github.com](./slice_matrix_print/README.md)            | двумерный срез                                                      |
 | 20. | slice_matrix_rotate_clockwise | 2        |100|  [github.com](./slice_matrix_rotate_clockwise/README.md) | двумерный срез, алгоритмы                                           |
 | 21. | slice_matrix_rotate_n         | 2        |100|  [github.com](./slice_matrix_rotate_n/README.md)         | двумерный срез, алгоритмы                                           |
