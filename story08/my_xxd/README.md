@@ -6,7 +6,7 @@
 
 ## Task
 
-Write a program which does the same thing as the system's `xxd` program, which creates a hex dump of the given file.
+Write a program which does the same thing as the system's `xxd` program, which outputs a hex dump of the given file.
 
 - The program takes a single file name as an argument.
 - The program should handle the following option:
