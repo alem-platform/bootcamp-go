@@ -1,8 +1,8 @@
 # text_stats
 
-| Expected file        | Available                                 |
-| -------------------- | ----------------------------------------- |
-| `text_stats/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` |
+| Expected file        | Available |
+| -------------------- | --------- |
+| `text_stats/main.go` | `*`       |
 
 Write a program that takes text from the user and outputs statistics about the text once. After the user finishes their input, the program should print statistics including:
 
@@ -18,16 +18,6 @@ Write a program that takes text from the user and outputs statistics about the t
 - Consonants - count of all consonants.
 - Spaces - count of all space characters.
 - Special Characters - count of all non-alphabet, non-digit, non-space characters.
-
-> To read text from stdin, use:
-
-```go
-func ScanLine() string {
-  reader := bufio.NewReader(os.Stdin)
-  text, _ := reader.ReadString('\n')
-  return text
-}
-```
 
 **Example program output:**
 
