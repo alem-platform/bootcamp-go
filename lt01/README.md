@@ -2,7 +2,7 @@
 
 Page with a bunch of different tasks, needed for backup.
 
-| Title               | Level | XP  | Link                                         |
+| Title               | Level | XP  | Link                                         |     |
 | ------------------- | ----- | --- | -------------------------------------------- | --- |
 | hello               | 1     | 100 | [README.md](./hello/README.md)               | +   |
 | 0000                | 1     | 100 | [README.md](./0000/README.md)                | +   |
