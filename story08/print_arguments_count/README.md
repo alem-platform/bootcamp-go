@@ -13,7 +13,7 @@ Write a program that prints the number of arguments the program receives.
 ```sh
 student:$ go run . salem student
 2
-student:$ go build .
+student:$ go run .
 0
 student:$ go run . "salem salem" salem
 2
