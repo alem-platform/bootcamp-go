@@ -23,7 +23,7 @@ func main() {
 
     fmt.Println("arr:", arr, len(arr), cap(arr))        // arr: [10, 20, 13, 5, 12, 31] 6 10
 
-    var clone = SliceGetClone(&arr, &clone)
+    var clone = SliceGetClone(&arr)
 
     fmt.Println("arr:", arr, len(arr), cap(arr))        // arr: [10, 20, 13, 5, 12, 31] 6 10
     fmt.Println("clone:", clone, len(clone), cap(arr))  // clone: [10, 20, 13, 5, 12, 31] 6 10

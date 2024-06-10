@@ -21,13 +21,13 @@ func main() {
     var size = len(arr)
 
     for i := 0; i < size; i++ {
-      value, deleted := SlicePop(&arr)
-      fmt.Println(value, deleted)
+      deleted := SlicePop(&arr)
+      fmt.Println(deleted)
     }
     // Output:
-    // 5
-    // 10
     // 20
+    // 10
+    // 5
 
     value, deleted := SlicePop(&arr)
     fmt.Println(value, deleted) // 0
