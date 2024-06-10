@@ -1,6 +1,6 @@
-| Expected file    |
-| ---------------- |
-| `slice_equal.go` |
+| Expected file   |
+| --------------- |
+| `sliceequal.go` |
 
 # slice_equal
 
