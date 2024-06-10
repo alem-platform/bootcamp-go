@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `capitalize.go` |
+
 # capitalize
 
 

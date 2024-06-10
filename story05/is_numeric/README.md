@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `isnumeric.go`  |
+
 # is_numeric
 
 

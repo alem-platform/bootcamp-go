@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `join.go` |
+
 # join
 
 

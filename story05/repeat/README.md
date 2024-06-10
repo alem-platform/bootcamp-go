@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `repeat.go`     |
+
 # repeat
 
 

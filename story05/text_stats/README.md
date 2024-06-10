@@ -1,9 +1,9 @@
 # text_stats
 
 
-| Available                     |
-| ----------------------------- |
-| `github.com/alem-platform/ap` |
+| Expected file        | Available                                |
+| ---------------------| -----------------------------------------|
+| `text_stats/main.go` | `github.com/alem-platform/ap` `fmt.Scanf`|
 
 Write a program that takes text from the user and outputs statistics about the text once. After the user finishes their input, the program should print statistics including:
 
