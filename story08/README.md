@@ -9,6 +9,7 @@
 
 | №   | Task name and link                                   | level |
 | --- | ---------------------------------------------------- | ----- |
+| 0.  | [lesson08](./lesson08)                               | 0     |
 | 1.  | [print_program_name](./print_program_name)           | 1     |
 | 2.  | [print_arguments_count](./print_arguments_count)     | 1     |
 | 3.  | [print_program_arguments](./print_program_arguments) | 1     |
