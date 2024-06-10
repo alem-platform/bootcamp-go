@@ -6,7 +6,6 @@
 
 <p data-story-username="a-J-nx"> let's see how good you gonna be w analysis tools.</p>
 
-## Task
 
 Find maximum and minimum in an array.
 

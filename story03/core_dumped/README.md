@@ -1,6 +1,5 @@
 # core_dumped
 
-## Task
 
 Someone has left the program in `code` directory. The program has been written a long time ago. After a while the code was covered by bugs.
 

@@ -1,6 +1,5 @@
 ## set_ptr_maximum
 
-## Task
 
 | Available                     |
 | ----------------------------- |

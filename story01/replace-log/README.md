@@ -1,6 +1,5 @@
 # replace-log
 
-### Task
 
 Write a script `replace-log.sh` that outputs file `access.log` with replaced occurences of `Debian` to `Ubuntu`.
 

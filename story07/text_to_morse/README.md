@@ -1,6 +1,5 @@
 # text_to_morse
 
-## Task
 
 Write a function `TextToMorse` that takes a string and returns the Morse code equivalent of the string. The function should convert each letter to its corresponding Morse code representation and separate each Morse code letter with a space.
 

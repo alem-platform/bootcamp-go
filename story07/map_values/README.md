@@ -1,6 +1,5 @@
 # map_values
 
-## Task
 
 Write a function `MapValues` that takes a map with string keys and integer values and returns a slice of int containing the values from the map in any order.
 

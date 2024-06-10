@@ -3,7 +3,6 @@
 <p data-story-username="aberonshin">Greetings, new recruit.
 I can't describe how excited I am that you decided to join our team. Yet, you must pass the trial first. It's more than just a test of your technical skills; it’s a journey through history. You will learn about the BNS, our trials, our hopes, and the sacrifices we made.</p>
 
-### Task
 
 #### 1. Create and clone the Repository
 

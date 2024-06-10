@@ -1,6 +1,5 @@
 # map_contains
 
-## Task
 
 Write a function `MapContains` that checks if a given key exists in a map with string keys and integer values. The function should return `true` if the key exists, and `false` otherwise.
 

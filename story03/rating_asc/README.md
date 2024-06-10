@@ -7,7 +7,6 @@
 <p data-story-username="alm34">$impl!city is prerequi5ite for re1iabil!7y.</p>
 <p data-story-username="a-J-nx"> and it seems we can rely on you! great job! i c u tomorrow for the loadtest then</p>
 
-## Task
 
 **Input Format:**
 

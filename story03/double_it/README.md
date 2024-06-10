@@ -4,7 +4,6 @@
 
 ## double_it
 
-## Task
 
 Write a program that scans integer `L` and then `L` numbers in a row.
 

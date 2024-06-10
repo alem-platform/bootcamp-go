@@ -9,7 +9,6 @@ let's continue your training</p>
 
 <p data-story-username="a-J-nx">to be honest, we really need a solid buddy on the team and quickly so this might be the last one before we make a decision</p>
 
-## Task
 
 Write a function `IsNil` that checks if a pointer to an integer is `nil`. The function should return `true` if the pointer is `nil` and `false` otherwise.
 

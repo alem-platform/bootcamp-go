@@ -1,6 +1,5 @@
 # map_equal
 
-## Task
 
 Write a function `MapEqual` that takes two maps with string keys and integer values and returns `true` if both maps are equal, and `false` otherwise. Two maps are considered equal if they have the same keys and corresponding values.
 

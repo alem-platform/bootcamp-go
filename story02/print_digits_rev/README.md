@@ -7,7 +7,6 @@
 <p data-story-username="a-J-nx">wanna know something?
 there is a rumor saying you can write down the BNS formula with only signs</p>
 
-## Task
 
 Write a program that prints reversed digits followed by a newline.
 

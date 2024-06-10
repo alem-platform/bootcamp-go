@@ -1,6 +1,5 @@
 # print_alpha_tri
 
-## Task
 
 | Available                     |
 | ----------------------------- |

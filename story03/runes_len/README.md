@@ -6,7 +6,6 @@
 
 <p data-story-username="alm34">the null rune signifies the end. accurate counting is essential.</p>
 
-## Task
 
 Write a function `RunesLen` that takes an array of 20 runes and returns the length of an array.
 

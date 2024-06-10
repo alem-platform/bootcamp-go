@@ -1,6 +1,5 @@
 # text_stats
 
-## Task
 
 | Available                     |
 | ----------------------------- |

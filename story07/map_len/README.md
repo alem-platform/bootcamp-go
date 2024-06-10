@@ -1,6 +1,5 @@
 # map_len
 
-## Task
 
 Write a function `MapLen` that takes a map with string keys and integer values and returns the number of key-value pairs in the map.
 

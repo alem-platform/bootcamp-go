@@ -1,6 +1,5 @@
 # file-tail
 
-### Task
 
 Write a script `file-tail.sh` that takes filename as an argument and show its 10 last lines.
 

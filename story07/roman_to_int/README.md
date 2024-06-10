@@ -1,6 +1,5 @@
 # roman_to_int
 
-## Task
 
 Write a function `RomanToInt` that takes a string representing a Roman numeral and returns its integer value. The function should correctly interpret the Roman numeral using standard rules. If the roman number is not correct, return empty 0.
 

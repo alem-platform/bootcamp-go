@@ -1,6 +1,5 @@
 # print_alpha_pyramid
 
-## Task
 
 | Available                     |
 | ----------------------------- |

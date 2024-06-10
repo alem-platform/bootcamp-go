@@ -1,6 +1,5 @@
 # map_delete
 
-## Task
 
 Write a function `MapDelete` that removes a key-value pair from a map with string keys and integer values. If the key does not exist in the map, the function should do nothing.
 

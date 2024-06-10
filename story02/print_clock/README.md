@@ -4,7 +4,6 @@
 
 # print_clock
 
-## Task
 
 Write a program that prints all clock hour and minute pairs followed by a newline.
 

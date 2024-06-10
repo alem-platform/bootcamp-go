@@ -1,6 +1,5 @@
 # map_clone
 
-## Task
 
 Write a function `MapClone` that takes a map with string keys and integer values and returns a new map that is a clone of the input map.
 

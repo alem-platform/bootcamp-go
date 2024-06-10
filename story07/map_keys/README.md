@@ -1,6 +1,5 @@
 # map_keys
 
-## Task
 
 Write a function `MapKeys` that takes a map with string keys and integer values and returns a slice of strings containing the keys from the map in any order.
 

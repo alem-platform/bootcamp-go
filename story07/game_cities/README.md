@@ -1,6 +1,5 @@
 # game_cities
 
-## Task
 
 Write a function `GameCities` that takes a list of city names and returns the longest chain of city names where the last letter of each city matches the first letter of the next city. The function should return the longest possible chain as a slice of strings.
 

@@ -1,6 +1,5 @@
 # map_init_roman_numerals
 
-## Task
 
 Write a function `MapInitRomanNumerals` that initializes a map where the keys are Roman numeral strings and the values are their corresponding integer values.
 

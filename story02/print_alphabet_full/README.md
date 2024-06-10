@@ -4,7 +4,6 @@
 
 # print_alphabet_full
 
-## Task
 
 Write a program that prints the full alphabet followed by a newline.
 

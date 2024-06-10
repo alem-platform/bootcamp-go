@@ -1,6 +1,5 @@
 # map_merge
 
-## Task
 
 Write a function `MapMerge` that takes two maps with string keys and integer values and returns a new map that contains all the key-value pairs from both input maps. If a key exists in both maps, the value from the second map should be used.
 

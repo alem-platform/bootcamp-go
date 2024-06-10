@@ -4,7 +4,6 @@
 
 # print_alphabet_fn
 
-## Task
 
 Write a function `PrintAlphabetLn` that prints an alphabet followed by the newline.
 

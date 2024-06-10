@@ -1,6 +1,5 @@
 # unixbox-06
 
-### Task
 
 You need to work with a file named `unixbox/poem.txt`.
 

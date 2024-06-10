@@ -1,6 +1,5 @@
 # print_rectangle
 
-## Task
 
 | Available                     |
 | ----------------------------- |

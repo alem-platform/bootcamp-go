@@ -1,6 +1,5 @@
 ## set_maximum
 
-## Task
 
 | Available                     |
 | ----------------------------- |

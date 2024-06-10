@@ -1,6 +1,5 @@
 # map_set
 
-## Task
 
 Write a function `MapSet` that sets a value in a map with string keys and integer values. If the key already exists in the map, update its value. If the key does not exist, add the key-value pair to the map.
 

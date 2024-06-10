@@ -6,7 +6,6 @@
 
 <p data-story-username="a-J-nx"> amazing progress! i am almost ready to give you access to my least favorite virtual machine.</p>
 
-## Task
 
 Convert a string into a sequence of ASCII values of its characters.
 

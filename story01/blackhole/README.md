@@ -1,6 +1,5 @@
 # blackhole
 
-### Task
 
 Create the following directories and file:
 

@@ -1,6 +1,5 @@
 # count_words
 
-## Task
 
 Write a function `CountWords` that takes a string and returns a map where the keys are lowercase words from the string and the values are the counts of how many times each word appears. Words are separated by spaces.
 

@@ -1,6 +1,5 @@
 # unixverse-04
 
-### Task
 
 You need to work with a file named `unixverse/movies.csv`.
 
