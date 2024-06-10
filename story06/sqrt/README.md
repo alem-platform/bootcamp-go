@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `sqrt.go`            |
+
 # sqrt
 
 

@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `lastrune.go`   |
+
 # last_rune
 
 

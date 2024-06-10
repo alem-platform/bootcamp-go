@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `concat.go`     |
+
 # concat
 
 

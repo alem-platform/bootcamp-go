@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `trim.go`            |
+
 # trim
 
 

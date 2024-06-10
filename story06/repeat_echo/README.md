@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `repeatecho.go`      |
+
 # repeat_echo
 
 

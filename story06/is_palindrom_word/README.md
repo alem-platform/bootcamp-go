@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `brackets.go`        |
+
 # is_palindrom_word
 
 
