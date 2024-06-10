@@ -1,5 +1,7 @@
 # slice_insert
 
+<p data-story-username="lascar123">It turned out BNS was not only a fuel formula. It was basically cancer in a test tube. Unstoppable in a good way. Unstoppable in a bad way. Changing everything it touched forever.</p>
+
 ## Task Description
 
 Write a function named `SliceInsert` that inserts one or more integer values into a slice of integers. It should insert the provided values into the slice at the specified index (`idx`), shifting existing elements to accommodate the new values. Funciton returns `true` if values inserted successfully, otherwise `false`.
