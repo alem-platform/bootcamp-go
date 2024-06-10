@@ -6,7 +6,6 @@
 
 <p data-story-username="lascar123">Of course he didn't. It doesn't look good on his portfolio. He completely turned a blind eye to the results of the experiment and called it an accident.</p>
 
-
 Write a function `SliceCopy` that copy elements from `src` slice to `dst` slice.
 
 **Function definition:**
