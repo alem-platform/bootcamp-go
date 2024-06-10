@@ -1,6 +1,5 @@
 # fibonacci_recursion
 
-## Task Description
 
 Write a function `FibonacciRecursion` that calculates the Fibonacci number at a specific position using a recursive approach. If a negative position is provided, the function should return `0`.
 

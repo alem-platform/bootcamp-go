@@ -1,6 +1,5 @@
 # slice_sort
 
-## Task Description
 
 Write a function `SliceSort` that sorts array elements in ascending order.
 

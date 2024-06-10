@@ -1,6 +1,5 @@
 # slice_push_front
 
-## Task Description
 
 Write a function `SlicePushFront` that appends one or more integer `values` to the start of (`arr`) a slice of integers.
 

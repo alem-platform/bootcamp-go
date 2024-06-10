@@ -1,6 +1,5 @@
 # nth_rune
 
-## Task Description
 
 Write function `NthRune` that takes a `s` (`string`) and `n` (`int`) as input and returns the `n`-th rune (character) in the string. If the input string is empty, return `0`-th element from ascii.
 

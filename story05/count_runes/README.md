@@ -1,6 +1,5 @@
 # count_runes
 
-## Task Description
 
 Write a function `CountRunes` that takes a string `s` as input and returns the total number of runes in the string.
 

@@ -1,6 +1,5 @@
 # pow_iterative
 
-## Task Description
 
 Write a function `PowIterative` that calculates the `power` of a `x` number using [iterative](https://en.wikipedia.org/wiki/Iteration) methods. Negative powers should return `0`. Overflows do not need to be treated.
 

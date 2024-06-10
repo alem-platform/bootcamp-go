@@ -1,6 +1,5 @@
 # round_brackets
 
-## Task Description
 
 Write a function `RoundBrackets` that evaluates the validity of the order of round brackets '(' and ')' in a given string. The function should ignore all other characters in the string and check if every opening bracket '(' has a corresponding and correctly ordered closing bracket ')'.
 

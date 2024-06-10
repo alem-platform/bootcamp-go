@@ -1,6 +1,5 @@
 # slice_target_indexes
 
-## Task Description
 
 Write a function `SliceTargetIndexes` that returns array of `target` indexes from `arr` slice.
 

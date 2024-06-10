@@ -1,6 +1,5 @@
 # capitalize
 
-## Task Description
 
 Write a function `Capitalize` that modifies a given string such that only the first character of the word is in `uppercase` and all other characters in the word are in lowercase. This function is often used to prepare strings for display where standard `capitalization` rules are required.
 

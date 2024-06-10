@@ -2,7 +2,6 @@
 
 <p data-story-username="lascar123">But I am no fool. My people checked the numbers. Then we conducted our own experiment and checked the numbers again. It was not good. Far from it. It was catastrophic.</p>
 
-## Task Description
 
 Write a function `SliceConcat` that concatenates multiple slices of integers into a single slice and returns it.
 

@@ -2,7 +2,6 @@
 
 <p data-story-username="lascar123">You’ve likely heard my name spoken with disdain by those who seek to undermine the truth. But today, I’m here to set the record straight.</p>
 
-## Task Description
 
 Write a function `ArraySlice` that takes an array of integers and returns a slice of the given array from index `low` to index `high`. If `ArraySlice` succeeds, it should return a slice containing the sliced elements, otherwise, it should return an empty slice.
 

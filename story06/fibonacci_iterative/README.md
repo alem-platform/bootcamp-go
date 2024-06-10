@@ -1,6 +1,5 @@
 # fibonacci_iterative
 
-## Task Description
 
 Write a function `FibonacciIterative` that calculates the Fibonacci number at a specific position using an iterative approach. If a negative position is provided, the function should return `0`.
 

@@ -1,6 +1,5 @@
 # repeat_echo
 
-## Task Description
 
 Write a function `RepeatEcho` that processes a string containing encoded patterns and expands these patterns accordingly. The encoded pattern follows a format where a number immediately precedes a group enclosed in parentheses, indicating how many times the group should be repeated. The function should handle nested patterns as well.
 

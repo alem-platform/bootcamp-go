@@ -1,6 +1,5 @@
 # is_palindrom_word
 
-## Task Description
 
 Write a function `IsPalindromeWord` that checks if a given string is a palindrome (reads the same forward and backward, ignoring case). The funciton should return false if `s` contains non-alphabetic (latin) characters.
 

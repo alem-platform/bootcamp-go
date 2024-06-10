@@ -1,6 +1,5 @@
 # slice_matrix_rotate_clockwise
 
-## Task Description
 
 Write a function `SliceMatrixRotateClockwise` that rotates an `n`x`n` matrix of runes clockwise.
 

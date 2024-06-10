@@ -2,7 +2,6 @@
 
 <p data-story-username="lascar123">Sometimes when you've worked on something so hard, you share your soul with it. It becomes your child. Some cannot admit their child is no good.</p>
 
-## Task Description
 
 | Available                     |
 | ----------------------------- |

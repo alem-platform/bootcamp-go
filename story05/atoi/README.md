@@ -1,6 +1,5 @@
 # atoi
 
-## Task Description
 
 Write a function `Atoi` that converts a string representation of an integer into its numeric (`int`) form. The function should handle both positive and negative numbers, and it should return `0` if the string does not represent a valid integer.
 

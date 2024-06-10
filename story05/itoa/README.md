@@ -1,6 +1,5 @@
 # itoa
 
-## Task Description
 
 Write a function `Itoa` that converts an integer into its string representation.
 

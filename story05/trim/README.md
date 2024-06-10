@@ -1,6 +1,5 @@
 # trim
 
-## Task Description
 
 Write a function `Trim` that removes all leading and trailing white spaces from a given string.
 

@@ -1,6 +1,5 @@
 # is_numeric
 
-## Task Description
 
 Write a function `IsNumeric` that takes a string `s` as input and returns a `boolean` indicating whether the string represents a numeric (0-9) value.
 

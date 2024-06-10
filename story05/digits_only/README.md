@@ -1,6 +1,5 @@
 # digits_only
 
-## Task Description
 
 Write a function `DigitsOnly` that extracts and returns all digit characters from a given string. It scans through the string, identifies characters that are numeric (0-9), and constructs a new string composed solely of these numeric characters.
 

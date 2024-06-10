@@ -1,6 +1,5 @@
 # is_alpha
 
-## Task Description
 
 Write a function `IsAlpha` that checks if a string consists only of alphabetic characters. It returns `true` if the string contains only letters from the alphabet (either uppercase or lowercase), and `false` otherwise.
 

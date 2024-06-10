@@ -1,6 +1,5 @@
 # last_rune
 
-## Task Description
 
 Write function `LastRune` that takes a `string` as input and returns the last rune (character) in the string. If the input string is empty, return `0`-th element from ascii.
 

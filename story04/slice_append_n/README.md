@@ -1,6 +1,5 @@
 ## slice_append_n
 
-## Task Description
 
 Write a function `SliceAppendN` that creates a slice using the `append` function with a size `n`. In the created slice, each element's value must be equal to its own index.
 

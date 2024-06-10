@@ -1,6 +1,5 @@
 # concat
 
-## Task Description
 
 Write a function `Concat` that concatenates multiple strings into a single string. It takes an arbitrary number of string arguments and returns the concatenated result.
 

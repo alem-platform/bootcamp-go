@@ -1,6 +1,5 @@
 # contains
 
-## Task Description
 
 Write a function `Contains` that takes two strings, `str` and `substr`, and returns a boolean indicating whether `substr` is a substring of `str`.
 

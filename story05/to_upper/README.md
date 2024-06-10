@@ -1,6 +1,5 @@
 # to_upper
 
-## Task Description
 
 Write a function `ToUpper` that converts all latin characters in a given string to uppercase.
 

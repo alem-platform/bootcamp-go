@@ -1,6 +1,5 @@
 # repeat
 
-## Task Description
 
 Write a function `Repeat` that takes a string `s` and an integer `count`, and returns a new string where `s` is repeated count times.
 

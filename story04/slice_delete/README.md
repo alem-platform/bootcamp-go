@@ -1,6 +1,5 @@
 # slice_delete
 
-## Task Description
 
 Write a function `SliceDelete` that takes a pointer to a slice of integers, and two integers `low` and `high`. This function should remove elements from the slice between indices `low` inclusive and `high` exclusive. If the deletion is successful, the function should return `true` otherwise, it should return `false`.
 

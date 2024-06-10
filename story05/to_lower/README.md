@@ -1,6 +1,5 @@
 # to_lower
 
-## Task Description
 
 Write a funciton `ToLower` that converts all latin characters in a given string to lowercase.
 

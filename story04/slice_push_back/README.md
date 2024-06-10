@@ -1,6 +1,5 @@
 # slice_push_back
 
-## Task Description
 
 Write a function `SlicePushBack` that appends one or more integer `values` to the end of (`arr`) a slice of integers.
 

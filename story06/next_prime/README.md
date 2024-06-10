@@ -1,6 +1,5 @@
 # next_prime
 
-## Task Description
 
 Write a function `NextPrime` that finds the smallest prime number greater than a given integer. If the input number is negative or zero, the function should start checking from the first prime number, which is 2.
 

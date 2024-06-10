@@ -1,6 +1,5 @@
 # slice_pop
 
-## Task Description
 
 Write a function named `SlicePop` that removes and returns the last element from a slice of integers. if the slice is empty, it should return `0`.
 

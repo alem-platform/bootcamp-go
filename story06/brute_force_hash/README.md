@@ -1,6 +1,5 @@
 # brute_force_hash
 
-## Task Description
 
 Write a function `BruteForceHash` that takes `hash` and returns the string from which the hash was generated.
 

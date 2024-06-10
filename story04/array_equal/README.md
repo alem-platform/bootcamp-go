@@ -2,7 +2,6 @@
 
 <p data-story-username="lascar123">Even more: what if I told you that it was me who funded the first research of Aberon Shin?</p>
 
-## Task Description
 
 Write a function `ArrayEqual` that takes two arrays and checks their equality. `ArrayEqual` should return `true` if the arrays are equal, and `false` otherwise.
 

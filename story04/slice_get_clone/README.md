@@ -1,6 +1,5 @@
 ## slice_get_clone
 
-## Task Description
 
 Write a function `SliceGetClone` that returns copy of given slice with identical `elements`, `length` and `capacity`.
 

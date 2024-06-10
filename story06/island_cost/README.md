@@ -1,6 +1,5 @@
 # island_cost
 
-## Task Description
 
 Write a function `IslandCost` that calculates the cost of island to which the coordinates belong. The function should take a `matrix` and a pair of coordinates (`x`, `y`). It will then calculate sum of numbers in island and return it.
 

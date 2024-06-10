@@ -1,6 +1,5 @@
 # is_upper
 
-## Task Description
 
 Write a function `IsUpper` that checks if all the characters in a given string are uppercase letters. It returns true if all characters in the string are uppercase, and false otherwise. The function does not consider numbers, symbols, or whitespace as uppercase characters.
 

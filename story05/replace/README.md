@@ -1,6 +1,5 @@
 # replace
 
-## Task Description
 
 Write a function `Replace` that takes three strings: `s`, `old`, and `new`. The function returns a new string where all occurrences of the substring `old` in `s` are replaced with `new`.
 

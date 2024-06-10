@@ -1,6 +1,5 @@
 # knight_tour
 
-## Task Description
 
 Write a function `KnightTour` that takes board size and returns the all solutions to the [knight tour problem](https://en.wikipedia.org/wiki/Knight%27s_tour).
 

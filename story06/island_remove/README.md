@@ -1,6 +1,5 @@
 # island_remove
 
-## Task Description
 
 Write a function `RemoveIsland` that it empties the island to which the coordinates belong. The function should take a `matrix` and a pair of coordinates (`x`, `y`). It will then set all elements of the island containing the cell at the given coordinates to zero.
 

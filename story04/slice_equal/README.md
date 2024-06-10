@@ -2,7 +2,6 @@
 
 <p data-story-username="lascar123">Just think about it: who has ever wanted endless energy more than the military?</p>
 
-## Task Description
 
 Write a function `SliceEqual` that should compare the elements of the two arrays. If the arrays are equal (i.e., all corresponding elements are equal), the function should return `true` otherwise, it should return `false`.
 

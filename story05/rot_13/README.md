@@ -1,6 +1,5 @@
 # rot13
 
-## Task Description
 
 Write a function `Rot13` that takes a string `s` and returns a new string where each letter has been shifted by 13 positions in the alphabet.
 

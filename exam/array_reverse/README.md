@@ -1,6 +1,5 @@
 # array_reverse
 
-## Task Description
 
 Write a function `ArrayReverse` that takes an array of 20 integers and rearranges them in reverse order.
 

@@ -1,6 +1,5 @@
 # join
 
-## Task Description
 
 Write a function `Join` that takes a slice of strings `elements` and a string `sep` as a separator, and returns a single string that is the concatenation of each element in `elements` separated by `sep`.
 

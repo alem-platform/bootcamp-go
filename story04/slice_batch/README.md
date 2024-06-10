@@ -2,7 +2,6 @@
 
 <p data-story-username="lascar123">And it happened during the experiment at this very base you are in, in the mountains. They tested the formula. It worked. But it also poisoned something in the air. Then the water changed. Then the fish. Everything became sick. We could not understand what it was. I used all my power to prevent the news and panic from spreading.</p>
 
-## Task Description
 
 Write a function named `SliceBatch` that takes two parameters: slice, which is a slice of integers, and size, which represents the batch size. This function should partition the input slice into batches of the same size or less than. Each batch should be represented as a separate slice, and the function should return a slice of slices.
 
