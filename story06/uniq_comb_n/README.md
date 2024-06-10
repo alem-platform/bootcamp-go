@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `uniqcombn.go`       |
+
 # uniq_comb_n
 
 Write a function `UniqCombN` that takes a string of unique characters and returns all unique `n`-character combinations that can be formed using the characters of the string. Each combination should consist of `n` distinct characters, and combinations should be returned as a list of strings.

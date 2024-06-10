@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `magicgrowth2.go`    |
+
 # magic_growth_2
 
 Write a function that returns all possible combinations of 2 different digits in ascending order.

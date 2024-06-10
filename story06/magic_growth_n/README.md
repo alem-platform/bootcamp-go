@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `magicgrowthn.go`    |
+
 # magic_growth_n
 
 Write a function that returns all possible combinations of `n` different digits in ascending order.

@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `brackets.go`        |
+
 # brackets
 
 

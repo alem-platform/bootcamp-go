@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `bruteforcehash.go`  |
+
 # brute_force_hash
 
 

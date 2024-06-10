@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `powiterative.go`    |
+
 # pow_iterative
 
 

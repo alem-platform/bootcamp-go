@@ -1,3 +1,7 @@
+| Expected file        |
+| ---------------------|
+| `islandremove.go`    |
+
 # island_remove
 
 
