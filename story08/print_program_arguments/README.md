@@ -14,7 +14,6 @@ Write a program that prints every argument received by the program on its own li
 student:$ go run . salem student
 salem
 student
-student:$ go build .
 student:$ go run . "salem salem" salem
 salem salem
 salem
