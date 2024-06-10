@@ -1,5 +1,7 @@
 # text_stats
 
+<p data-story-username="di0n">Let's stay in touch. I’ll keep you updated on my findings as well. This might be the breakthrough we both need.</p>
+
 | Expected file        | Available |
 | -------------------- | --------- |
 | `text_stats/main.go` | `*`       |
