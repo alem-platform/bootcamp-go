@@ -2,8 +2,9 @@
 | ---------------------|
 | `toupper.go`         |
 
-# to_upper
+<p data-story-username="di0n">But here's the thing—there's no solid evidence of his death. No body, no official reports that hold up to scrutiny. He just... disappeared. Makes you wonder, doesn’t it? What could have happened to him, and why is his disappearance shrouded in so much mystery?</p>
 
+# to_upper
 
 Write a function `ToUpper` that converts all latin characters in a given string to uppercase.
 
