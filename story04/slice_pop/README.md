@@ -32,7 +32,7 @@ func main() {
     // 10
     // 5
 
-    value, deleted := SlicePop(&arr)
+    deleted := SlicePop(&arr)
     fmt.Println(value, deleted) // 0
 }
 ```
