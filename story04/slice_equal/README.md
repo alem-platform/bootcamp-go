@@ -1,3 +1,7 @@
+| Expected file    |
+| ---------------- |
+| `slice_equal.go` |
+
 # slice_equal
 
 <p data-story-username="lascar123">Just think about it: who has ever wanted endless energy more than the military?</p>

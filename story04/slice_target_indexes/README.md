@@ -1,3 +1,7 @@
+| Expected file           |
+| ----------------------- |
+| `slicetargetindexes.go` |
+
 # slice_target_indexes
 
 

@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `arrayequal.go` |
+
 # array_equal
 
 <p data-story-username="lascar123">Even more: what if I told you that it was me who funded the first research of Aberon Shin?</p>

@@ -1,3 +1,7 @@
+| Expected file                   |
+| ------------------------------- |
+| `slicematrixrotateclockwise.go` |
+
 # slice_matrix_rotate_clockwise
 
 

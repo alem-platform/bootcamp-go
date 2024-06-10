@@ -1,3 +1,7 @@
+| Expected file      |
+| ------------------ |
+| `slicegetclone.go` |
+
 ## slice_get_clone
 
 

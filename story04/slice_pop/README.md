@@ -1,3 +1,7 @@
+| Expected file |
+| ------------- |
+| `slicepop.go` |
+
 # slice_pop
 
 

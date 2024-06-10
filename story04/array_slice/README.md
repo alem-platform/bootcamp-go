@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `arrayslice.go` |
+
 ## array_slice
 
 <p data-story-username="lascar123">You’ve likely heard my name spoken with disdain by those who seek to undermine the truth. But today, I’m here to set the record straight.</p>

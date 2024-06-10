@@ -1,3 +1,7 @@
+| Expected file    |
+| ---------------- |
+| `arraysetone.go` |
+
 ## array_set_one
 
 <p data-story-username="lascar123">Greetings, recruit. Colonel Laskar Jang here. I’ve been informed that you’ve arrived at the abandoned mountain base. I’m reaching out to warn you and appeal to your sensibility.</p>

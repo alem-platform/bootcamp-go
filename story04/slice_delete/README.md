@@ -1,3 +1,7 @@
+| Expected file    |
+| ---------------- |
+| `slicedelete.go` |
+
 # slice_delete
 
 

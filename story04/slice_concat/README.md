@@ -1,3 +1,7 @@
+| Expected file    |
+| ---------------- |
+| `sliceconcat.go` |
+
 # slice_concat
 
 <p data-story-username="lascar123">But I am no fool. My people checked the numbers. Then we conducted our own experiment and checked the numbers again. It was not good. Far from it. It was catastrophic.</p>

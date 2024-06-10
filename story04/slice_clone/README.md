@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `sliceclone.go` |
+
 # slice_clone
 
 <p data-story-username="lascar123">Then the question is, why did I stop the research on my own order and turn against those who performed it? Has Aberon mentioned anything about it? Or maybe about the Pik accident?</p>

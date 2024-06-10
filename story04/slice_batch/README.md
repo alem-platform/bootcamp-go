@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `slicebatch.go` |
+
 # slice_batch
 
 <p data-story-username="lascar123">And it happened during the experiment at this very base you are in, in the mountains. They tested the formula. It worked. But it also poisoned something in the air. Then the water changed. Then the fish. Everything became sick. We could not understand what it was. I used all my power to prevent the news and panic from spreading.</p>

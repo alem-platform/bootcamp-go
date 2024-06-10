@@ -1,3 +1,7 @@
+| Expected file           |
+| ----------------------- |
+| `slicematrixrotaten.go` |
+
 # slice_matrix_rotate_n
 
 <p data-story-username="lascar123">Soon you will see it yourself. Dismissed.</p>
