@@ -4,8 +4,6 @@
 
 # dogsay
 
-## Task
-
 Write a program that prints a message as if it were spoken by a dog in a speech bubble.
 
 - The program takes two arguments.

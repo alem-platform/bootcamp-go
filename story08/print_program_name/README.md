@@ -4,8 +4,6 @@
 
 # print_program_name
 
-## Task
-
 Write a program that prints the name of the currently running program.
 
 **Example:**

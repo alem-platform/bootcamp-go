@@ -4,8 +4,6 @@
 
 # my_cat
 
-## Task
-
 Write a program which does the same thing as the system's `cat` program.
 
 - The program can take multiple file names

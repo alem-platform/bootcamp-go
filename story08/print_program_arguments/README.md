@@ -4,8 +4,6 @@
 
 # print_program_arguments
 
-## Task
-
 Write a program that prints every argument received by the program on its own line.
 
 **Example:**

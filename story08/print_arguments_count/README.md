@@ -4,8 +4,6 @@
 
 # print_arguments_count
 
-## Task
-
 Write a program that prints the number of arguments the program receives.
 
 **Example:**

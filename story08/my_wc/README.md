@@ -4,8 +4,6 @@
 
 # my_wc
 
-## Task
-
 Write a program which does the same thing as the system's `wc` program, which counts the number of lines, words, and bytes in the given file.
 
 - The program takes a single file name as an argument.
