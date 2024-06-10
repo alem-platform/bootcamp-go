@@ -1,3 +1,7 @@
+| Expected file |
+| ------------- |
+| `mapclone.go` |
+
 # map_clone
 
 

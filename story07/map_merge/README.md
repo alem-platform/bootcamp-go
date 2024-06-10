@@ -1,3 +1,7 @@
+| Expected file |
+| ------------- |
+| `mapmerge.go` |
+
 # map_merge
 
 

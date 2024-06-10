@@ -1,3 +1,7 @@
+| Expected file             |
+| ------------------------- |
+| `mapinitromannumerals.go` |
+
 # map_init_roman_numerals
 
 

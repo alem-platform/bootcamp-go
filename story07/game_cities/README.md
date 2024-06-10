@@ -1,3 +1,7 @@
+| Expected file   |
+| --------------- |
+| `gamecities.go` |
+
 # game_cities
 
 
@@ -30,7 +34,7 @@ func main() {
       "Ulaanbaatar"
     }
     chain := GameCities(cities)
-    fmt.Println(chain) // [Astana Accra Amman Nassau Ulaanbaatar Rabat Tokyo Oslo Ottawa]
+    fmt.Println(chain) // [Monaco Oslo Ottawa Astana Accra Amman Nassau Ulaanbaatar Rabat Tokyo]
 }
 ```
 
@@ -38,6 +42,6 @@ func main() {
 
 ```sh
 $ go run main.go
-[Astana Accra Amman Nassau Ulaanbaatar Rabat Tokyo Oslo Ottawa]
+[Monaco Oslo Ottawa Astana Accra Amman Nassau Ulaanbaatar Rabat Tokyo]
 $
 ```

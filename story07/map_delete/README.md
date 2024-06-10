@@ -1,3 +1,7 @@
+| Expected file  |
+| -------------- |
+| `mapdelete.go` |
+
 # map_delete
 
 

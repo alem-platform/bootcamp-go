@@ -1,3 +1,7 @@
+| Expected file |
+| ------------- |
+| `mapequal.go` |
+
 # map_equal
 
 
