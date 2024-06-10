@@ -1,5 +1,7 @@
 ## array_set_one
 
+<p data-story-username="lascar123">Greetings, recruit. Colonel Laskar Jang here. I’ve been informed that you’ve arrived at the abandoned mountain base. I’m reaching out to warn you and appeal to your sensibility.</p>
+
 ## Task Description
 
 Write a function `ArraySetOne` that takes 3 arguments and sets a value `val` at a given index of an array. The function should return `true` if the value is successfully set to the array, otherwise `false`.
