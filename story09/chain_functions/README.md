@@ -1,15 +1,15 @@
 | Expected file        |
 | -------------------- |
-| `unite_functions.go` |
+| `chain_functions.go` |
 
-# unite_functions
+# chain_functions
 
-Write a function `UniteFunctions` that takes a slice of functions, each operating on a pointer to a string, and returns a new function that, when called, applies all the given functions in sequence to the input string.
+Write a function `ChainFunctions` that takes a slice of functions, each operating on a pointer to a string, and returns a new function that, when called, applies all the given functions in sequence to the input string.
 
 **Function definition:**
 
 ```go
-func UniteFunctions(funcs []func(*string)) func(*string) {
+func ChainFunctions(funcs []func(*string)) func(*string) {
 
 }
 ```
@@ -34,7 +34,7 @@ func main() {
       *str = string(runes)
   }
 
-  unitedFunc := UniteFunctions([]func(*string){
+  unitedFunc := ChainFunctions([]func(*string){
     toUpper,
     addExclamation,
     reverseStr
