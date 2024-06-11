@@ -9,10 +9,10 @@ Write a program that prints the name of the currently running program.
 **Example:**
 
 ```sh
-student:$ go build . -o salem
+student:$ go build -o salem
 student:$ ./salem
 salem
-student:$ go build . -o my_program
+student:$ go build -o my_program
 student:$ ./my_program
 my_program
 student:$
