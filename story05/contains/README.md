@@ -2,8 +2,9 @@
 | --------------- |
 | `contains.go`   |
 
-# contains
+<p data-story-username="di0n">The reason I’m reaching out to you now is because you seem to have the skills and knowledge that could really make a difference. Your ability to navigate through complex data and uncover hidden truths is exactly what we need. Plus, I think we can learn a lot from each other. </p>
 
+# contains
 
 Write a function `Contains` that takes two strings, `str` and `substr`, and returns a boolean indicating whether `substr` is a substring of `str`.
 
