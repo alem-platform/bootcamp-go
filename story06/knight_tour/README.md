@@ -2,8 +2,9 @@
 | ---------------------|
 | `knighttour.go`      |
 
-# knight_tour
+<p data-story-username="lascar123">And then I met you. I thought you could lead me to the formula. And maybe, to Dr. Aberon himself.</p>
 
+# knight_tour
 
 Write a function `KnightTour` that takes board size and returns the all solutions to the [knight tour problem](https://en.wikipedia.org/wiki/Knight%27s_tour).
 
