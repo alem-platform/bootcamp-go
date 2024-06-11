@@ -1,11 +1,11 @@
-| Expected file        |
-| ---------------------|
-| `powrecursion.go`    |
+| Expected file     |
+| ----------------- |
+| `powrecursion.go` |
 
 # pow_recursion
 
 
-Write a function `PowRecursion` that calculates the power of a number using recursive methods. Negative powers should return `0`. Overflows do not need to be treated.
+Write a function `PowRecursion` that calculates the power of a number using recursive methods. Negative powers should return `-1`. Overflows do not need to be treated.
 
 **Function definition:**
 

@@ -1,6 +1,6 @@
-| Expected file        |
-| ---------------------|
-| `uniqcomb2.go`       |
+| Expected file  |
+| -------------- |
+| `uniqcomb2.go` |
 
 # uniq_comb_2
 

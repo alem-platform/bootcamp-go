@@ -4,7 +4,7 @@
 
 | №   | Task name with link                              | lvl |
 | --- | ------------------------------------------------ | --- |
-| 0.  | [lesson05](./lesson05)                           | 0    |
+| 0.  | [lesson05](./lesson05)                           | 0   |
 | 1.  | [is_alpha](./is_alpha/README.md)                 | 1   |
 | 2.  | [is_numeric](./is_numeric/README.md)             | 1   |
 | 3.  | [last_rune](./last_rune/README.md)               | 1   |

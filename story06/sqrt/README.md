@@ -1,11 +1,11 @@
-| Expected file        |
-| ---------------------|
-| `sqrt.go`            |
+| Expected file |
+| ------------- |
+| `sqrt.go`     |
 
 # sqrt
 
 
-Write a function `Sqrt` that calculates the square root of a given number. if that square root is a whole number it returns int value, otherwise `0`.
+Write a function `Sqrt` that calculates the square root of a given number. if that square root is a whole number it returns int value, otherwise `-1`.
 
 **Function definition:**
 

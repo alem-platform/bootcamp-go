@@ -1,6 +1,6 @@
-| Expected file        |
-| ---------------------|
-| `uniqcombn.go`       |
+| Expected file  |
+| -------------- |
+| `uniqcombn.go` |
 
 # uniq_comb_n
 
@@ -40,7 +40,7 @@ $
 **Function definition:**
 
 ```go
-func UniqComb2(characters string) []string {
+func UniqCombN(characters string, n int) []string {
 
 }
 ```

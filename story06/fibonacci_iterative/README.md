@@ -1,11 +1,11 @@
 | Expected file           |
-| ------------------------|
+| ----------------------- |
 | `fibonacciiterative.go` |
 
 # fibonacci_iterative
 
 
-Write a function `FibonacciIterative` that calculates the Fibonacci number at a specific position using an iterative approach. If a negative position is provided, the function should return `0`.
+Write a function `FibonacciIterative` that calculates the Fibonacci number at a specific position using an iterative approach. If a negative position is provided, the function should return `-1`.
 
 **Function definition:**
 
@@ -19,7 +19,7 @@ func FibonacciIterative(n int) int {
 
 ```go
 func main() {
-    fmt.Println(FibonacciIterative(-1)) // 0
+    fmt.Println(FibonacciIterative(-1)) // -1
     fmt.Println(FibonacciIterative(0))  // 0
     fmt.Println(FibonacciIterative(1))  // 1
     fmt.Println(FibonacciIterative(2))  // 1

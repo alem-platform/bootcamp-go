@@ -1,11 +1,11 @@
-| Expected file        |
-| ---------------------|
-| `powiterative.go`    |
+| Expected file     |
+| ----------------- |
+| `powiterative.go` |
 
 # pow_iterative
 
 
-Write a function `PowIterative` that calculates the `power` of a `x` number using [iterative](https://en.wikipedia.org/wiki/Iteration) methods. Negative powers should return `0`. Overflows do not need to be treated.
+Write a function `PowIterative` that calculates the `power` of a `x` number using [iterative](https://en.wikipedia.org/wiki/Iteration) methods. Negative powers should return `-1`. Overflows do not need to be treated.
 
 **Function definition:**
 

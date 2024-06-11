@@ -1,8 +1,8 @@
-| Expected file        |
-| ---------------------|
-| `brackets.go`        |
+| Expected file         |
+| --------------------- |
+| `ispalindromeword.go` |
 
-# is_palindrom_word
+# is_palindrome_word
 
 
 Write a function `IsPalindromeWord` that checks if a given string is a palindrome (reads the same forward and backward, ignoring case). The funciton should return false if `s` contains non-alphabetic (latin) characters.
