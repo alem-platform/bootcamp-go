@@ -29,12 +29,3 @@ func main() {
     fmt.Println(result) // false
 }
 ```
-
-**Example output:**
-
-```sh
-student:$ go run .
-true
-false
-student:$
-```
