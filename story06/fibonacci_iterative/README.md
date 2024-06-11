@@ -2,8 +2,9 @@
 | ----------------------- |
 | `fibonacciiterative.go` |
 
-# fibonacci_iterative
+<p data-story-username="lascar123">Now, let me tell you something interesting. You might have heard of Fibonacci numbers—a sequence where each number is the sum of the two preceding ones. Nature follows this sequence remarkably closely, from the arrangement of leaves to the pattern of a sunflower’s seeds. It looked like the BNS formula somehow disrupted these natural patterns, causing problems. Anyhow, back to the Steppe...</p>
 
+# fibonacci_iterative
 
 Write a function `FibonacciIterative` that calculates the Fibonacci number at a specific position using an iterative approach. If a negative position is provided, the function should return `-1`.
 
