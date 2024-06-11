@@ -18,9 +18,9 @@
 | 11. | magic_growth_n      | [github.com](./magic_growth_n/README.md)      | 1       | 50  |
 | 12. | uniq_comb_2         | [github.com](./uniq_comb_2/README.md)         | 1       | 50  |
 | 13. | uniq_comb_n         | [github.com](./uniq_comb_n/README.md)         | 2       | 100 |
-| 15. | island_remove       | [github.com](./island_remove/README.md)       | 2       | 100 |
-| 16. | island_cost         | [github.com](./island_cost/README.md)         | 2       | 100 |
-| 14. | brute_force_hash    | [github.com](./brute_force_hash/README.md)    | 2       | 100 |
+| 14. | island_remove       | [github.com](./island_remove/README.md)       | 2       | 100 |
+| 15. | island_cost         | [github.com](./island_cost/README.md)         | 2       | 100 |
+| 16. | brute_force_hash    | [github.com](./brute_force_hash/README.md)    | 2       | 100 |
 | 17. | brackets            | [github.com](./brackets/README.md)            | 3       | 150 |
 | 18. | repeat_echo         | [github.com](./repeat_echo/README.md)         | 3       | 150 |
 | 19. | knight_tour         | [github.com](./knight_tour/README.md)         | 3       | 150 |
