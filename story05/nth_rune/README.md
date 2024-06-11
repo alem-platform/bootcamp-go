@@ -2,6 +2,8 @@
 | --------------- |
 | `nthrune.go`    |
 
+<p data-story-username="di0n">And the truth is, something is up. I don't know all the answers, but I have some pretty good questions. For example, what happened to Aberon Shin? Did he die? They say he did. If so, how?</p>
+
 # nth_rune
 
 
