@@ -28,15 +28,3 @@ func main() {
   fmt.Println(anotherIncrementor()) // 16
 }
 ```
-
-**Example output:**
-
-```sh
-student:$ go run .
-1
-2
-3
-13
-16
-student:$
-```
