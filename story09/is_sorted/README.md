@@ -14,7 +14,7 @@ func IsSorted(arr []int, fn func(int, int) bool) bool {
 }
 ```
 
-Example:
+**Example:**
 
 ```go
 func main() {
@@ -38,15 +38,4 @@ func main() {
     result = IsSorted([]int{1, 3, 2, 4, 5}, ascending)
     fmt.Println(result) // false
 }
-```
-
-**Example output:**
-
-```sh
-student:$ go run .
-true
-false
-true
-false
-student:$
 ```

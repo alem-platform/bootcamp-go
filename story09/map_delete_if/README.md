@@ -33,11 +33,3 @@ func main() {
     fmt.Println(m) // map[a:1 c:3]
 }
 ```
-
-**Example output:**
-
-```sh
-student:$ go run .
-map[a:1 c:3]
-student:$
-```
