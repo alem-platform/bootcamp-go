@@ -2,8 +2,9 @@
 | ------------- |
 | `sqrt.go`     |
 
-# sqrt
+<p data-story-username="lascar123">So, after Dr. Aberon disappeared, I considered that crossing the line. It was a treason of common sense. So naturally, I declared war on him, his team, and his ongoing research, and that's how we formed the Energy Raiders.</p>
 
+# sqrt
 
 Write a function `Sqrt` that calculates the square root of a given number. if that square root is a whole number it returns int value, otherwise `-1`.
 
