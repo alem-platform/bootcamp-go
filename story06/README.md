@@ -10,10 +10,10 @@
 | 3.  | fibonacci_iterative | [github.com](./fibonacci_iterative/README.md) | 1       | 50  |
 | 4.  | fibonacci_recursion | [github.com](./fibonacci_recursion/README.md) | 1       | 50  |
 | 5.  | sqrt                | [github.com](./sqrt/README.md)                | 1       | 50  |
-| 6.  | is_palindrome_word  | [github.com](./is_palindrome_word/README.md)  | 2       | 100 |
+| 6.  | is_palindrome_word  | [github.com](./is_palindrome_word/README.md)  | 1       | 50  |
 | 7.  | is_prime            | [github.com](./is_prime/README.md)            | 1       | 50  |
 | 8.  | next_prime          | [github.com](./next_prime/README.md)          | 1       | 50  |
-| 9.  | round_brackets      | [github.com](./round_brackets/README.md)      | 2       | 100 |
+| 9.  | round_brackets      | [github.com](./round_brackets/README.md)      | 1       | 50  |
 | 10. | magic_growth_2      | [github.com](./magic_growth_2/README.md)      | 1       | 50  |
 | 11. | magic_growth_n      | [github.com](./magic_growth_n/README.md)      | 1       | 50  |
 | 12. | uniq_comb_2         | [github.com](./uniq_comb_2/README.md)         | 1       | 50  |
