@@ -14,4 +14,4 @@
 | 9   | [is_sorted](./is_sorted/README.md)                   | 2   |
 | 10  | [sort](./sort/README.md)                             | 2   |
 | 11  | [chain_functions](./chain_functions/README.md)       | 2   |
-| 12  | [unite_decorators](./unite_decorators/README.md)     | 3   |
+| 12  | [wrap_functions](./wrap_functions/README.md)         | 3   |
