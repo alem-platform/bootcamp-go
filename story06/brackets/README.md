@@ -2,8 +2,9 @@
 | ---------------------|
 | `brackets.go`        |
 
-# brackets
+<p data-story-username="lascar123">And that's when I started this old server hunt—to revise the original formula, not just the sample I had.</p>
 
+# brackets
 
 Write a function `Brackets` that checks the validity of the order of all types of brackets: '(', ')', '[', ']', '{', and '}'. The function should ignore all non-bracket characters in the string and determine if each type of opening bracket is closed by the correct type of closing bracket in the correct order.
 
