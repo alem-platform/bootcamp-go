@@ -33,12 +33,3 @@ func main() {
     fmt.Println(result) // [4 5 6]
 }
 ```
-
-**Example output:**
-
-```sh
-student:$ go run .
-[2 4 6]
-[4 5 6]
-student:$
-```
