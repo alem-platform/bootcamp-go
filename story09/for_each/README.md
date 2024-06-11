@@ -28,11 +28,3 @@ func main() {
     fmt.Println(arr) // [2 3 4 5]
 }
 ```
-
-**Example output:**
-
-```sh
-student:$ go run .
-[2 3 4 5]
-student:$
-```
