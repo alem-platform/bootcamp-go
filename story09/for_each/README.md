@@ -1,6 +1,6 @@
 | Expected file |
 | ------------- |
-| `for_each.go` |
+| `foreach.go`  |
 
 # for_each
 

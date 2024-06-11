@@ -1,6 +1,6 @@
-| Expected file      |
-| ------------------ |
-| `map_delete_if.go` |
+| Expected file    |
+| ---------------- |
+| `mapdeleteif.go` |
 
 # map_delete_if
 

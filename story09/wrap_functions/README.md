@@ -1,6 +1,6 @@
-| Expected file       | Available                     |
-| ------------------- | ----------------------------- |
-| `wrap_functions.go` | `github.com/alem-platform/ap` |
+| Expected file      | Available                     |
+| ------------------ | ----------------------------- |
+| `wrapfunctions.go` | `github.com/alem-platform/ap` |
 
 # wrap_functions
 

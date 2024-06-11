@@ -1,6 +1,6 @@
-| Expected file        |
-| -------------------- |
-| `get_incrementor.go` |
+| Expected file       |
+| ------------------- |
+| `getincrementor.go` |
 
 # get_incrementor
 

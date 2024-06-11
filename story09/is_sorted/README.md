@@ -1,6 +1,6 @@
-| Expected file  |
-| -------------- |
-| `is_sorted.go` |
+| Expected file |
+| ------------- |
+| `issorted.go` |
 
 # is_sorted
 

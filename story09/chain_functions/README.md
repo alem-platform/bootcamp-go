@@ -1,6 +1,6 @@
-| Expected file        |
-| -------------------- |
-| `chain_functions.go` |
+| Expected file       |
+| ------------------- |
+| `chainfunctions.go` |
 
 # chain_functions
 

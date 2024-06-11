@@ -1,6 +1,6 @@
-| Expected file           |
-| ----------------------- |
-| `get_math_operation.go` |
+| Expected file         |
+| --------------------- |
+| `getmathoperation.go` |
 
 # get_math_operation
 
