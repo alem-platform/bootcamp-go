@@ -183,16 +183,16 @@ Your statistics:
 1  |XXXXXXX|   2   |   *   |   1   |   1   |   1   |XXXXXXX|
    |XXXXXXX|_______|_______|_______|_______|_______|XXXXXXX|
    |       |       |       |       |XXXXXXX|       |       |
-2  |   1   |   *   |   3   |   1   |XXXXXXX|   *   |   1   |
+2  |   1   |   *   |   3   |   2   |XXXXXXX|   *   |   1   |
    |_______|_______|_______|_______|XXXXXXX|_______|_______|
    |       |       |       |       |XXXXXXX|       |       |
-3  |   1   |   2   |   *   |   1   |XXXXXXX|   2   |   1   |
+3  |   1   |   2   |   *   |   1   |XXXXXXX|   2   |   2   |
    |_______|_______|_______|_______|XXXXXXX|_______|_______|
    |XXXXXXX|       |XXXXXXX|XXXXXXX|       |       |       |
 4  |XXXXXXX|   1   |XXXXXXX|XXXXXXX|   1   |   *   |   1   |
    |XXXXXXX|_______|XXXXXXX|XXXXXXX|_______|_______|_______|
    |       |       |       |       |       |       |XXXXXXX|
-5  |   1   |   1   |   1   |       |   1   |   1   |XXXXXXX|
+5  |   1   |   1   |   1   |       |   2   |   2   |XXXXXXX|
    |_______|_______|_______|_______|_______|_______|XXXXXXX|
    |       |       |       |       |XXXXXXX|       |       |
 6  |   1   |   *   |   2   |   1   |XXXXXXX|   *   |   1   |
