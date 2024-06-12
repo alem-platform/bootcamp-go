@@ -2,8 +2,9 @@
 | ------------- |
 | `maplen.go`   |
 
-# map_len
+<p data-story-username="lascar123">So, apparently, there seems to be a hidden lab somewhere in the Steppe. The exact location is still unclear, but I believe we will uncover it by the end of this journey. And you are going to help me!</p>
 
+# map_len
 
 Write a function `MapLen` that takes a map with string keys and integer values and returns the number of key-value pairs in the map.
 
