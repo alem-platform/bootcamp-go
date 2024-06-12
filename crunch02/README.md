@@ -38,17 +38,16 @@ go run main.go
 
 1. **Minimum Bomb and Grid Requirements:**
    - The grid must contain at least two bombs.
-   - The grid must have a minimum size of 5x5.
+   - The grid must have a minimum size of 3x3.
    - If there are no bombs or the grid size is too small, display an error message and terminate the program.
 
 **Example:**
 
 **Input:**
 ```bash
-3 3
-. . .
-. . .
-. . .
+2 3
+. .
+. .
 ```
 
 **Output:**
