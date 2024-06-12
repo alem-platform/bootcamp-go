@@ -77,7 +77,7 @@ For each valid input, reveal cells according to Minesweeper rules:
 - If a cell is not a bomb, display the count of adjacent bombs.
 - If a revealed cell has no adjacent bombs, the cell should be displayed as empty. Furthermore, reveal all contiguous empty cells and their adjacent numbered cells, following the standard Minesweeper cascade reveal rule.
 - On the initial move, if the user selects a cell that contains a bomb, disregard the bomb in that cell, relocate it to a randomly chosen empty cell, and process the initially selected cell as if it were a non-bomb cell.
-- If a bomb is revealed, end the game with a "Game Over" message and statistics information.
+- If a bomb is revealed, reveal all cells with bomb, end the game with a "Game Over" message and show statistics information.
 - If all non-bomb cells are revealed, end the game with a "You Win" message and statistics information.
 
 **Example:**
