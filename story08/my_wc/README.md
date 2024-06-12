@@ -31,13 +31,13 @@ student:$ cat -e readme.txt
 Salem student$
 Good luck!$
 student:$ go run . readme.txt
-       2       4      25 readme.txt
+2 4 25 readme.txt
 student:$ go run . -l readme.txt
-       2 readme.txt
+2 readme.txt
 student:$ go run . -w readme.txt
-       4 readme.txt
+4 readme.txt
 student:$ go run . -c readme.txt
-      25 readme.txt
+25 readme.txt
 student:$ go run . nonexisting.txt
 my_wc: nonexisting.txt: No such file or directory
 student:$ go run .
