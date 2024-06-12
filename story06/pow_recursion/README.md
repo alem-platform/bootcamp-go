@@ -2,8 +2,9 @@
 | ----------------- |
 | `powrecursion.go` |
 
-# pow_recursion
+<p data-story-username="lascar123">After the failed experiment, I tried to talk to Aberon. Naturally, I was still his commander since I funded the research. So I tried to reason with him and make him stop the further research, but he got stubborn and resistant. He moved everything from the lab to somewhere in the Steppe to continue the research.</p>
 
+# pow_recursion
 
 Write a function `PowRecursion` that calculates the power of a number using recursive methods. Negative powers should return `-1`. Overflows do not need to be treated.
 
