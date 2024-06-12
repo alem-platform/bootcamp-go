@@ -134,7 +134,7 @@ Enter coordinates:
    _______________________________
   |       |XXXXXXX|XXXXXXX|XXXXXXX|
 1 |   1   |XXXXXXX|XXXXXXX|XXXXXXX|
-  |       |XXXXXXX|XXXXXXX|XXXXXXX|
+  |_______|XXXXXXX|XXXXXXX|XXXXXXX|
   |XXXXXXX|       |XXXXXXX|XXXXXXX|
 2 |XXXXXXX|   *   |XXXXXXX|XXXXXXX|
   |XXXXXXX|_______|XXXXXXX|XXXXXXX|
