@@ -34,7 +34,7 @@ go run main.go
 .....
 ```
 
-### Game Rules
+#### Game Rules
 
 1. **Minimum Bomb and Grid Requirements:**
    - The grid must contain at least two bombs.
@@ -206,11 +206,10 @@ Your statistics:
 - Number of moves: 3
 ```
 
-### Bonus Features
+#### Bonus Features
 
-### 1. Random Map Generation
+#### 1. Random Map Generation
 
-#### Feature Description:
 This feature allows the program to generate a random Minesweeper map based on the user's input for the number of bombs. Users can specify the desired number of bombs, and the program will automatically create a grid of appropriate size, ensuring the bombs are randomly placed. 
 
  **User Prompt for Random Map Generation:**
