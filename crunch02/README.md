@@ -230,7 +230,7 @@ Enter your choice:
 
 **Example:**
 
-1. **User Chooses to Generate Random Map:**
+**User Chooses to Generate Random Map:**
 ```bash
 Choose a mode:
 1. Enter a custom map
@@ -239,7 +239,7 @@ Enter your choice: 2
 Enter the number of bombs: 10
 ```
 
-2. **Random Map Generated and Displayed:**
+**Random Map Generated and Displayed:**
 ```bash
       1       2       3       4       5  
    _______________________________________
