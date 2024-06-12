@@ -75,6 +75,7 @@ Enter your coordinates:
 For each valid input, reveal cells according to Minesweeper rules:
 
 - If a cell is not a bomb, display the count of adjacent bombs.
+- If a revealed cell has no adjacent bombs, the cell should be displayed as empty. Furthermore, reveal all contiguous empty cells and their adjacent numbered cells, following the standard Minesweeper cascade reveal rule. 
 - If a bomb is revealed, end the game with a "Game Over" message and statistics information.
 - If all non-bomb cells are revealed, end the game with a "You Win" message and statistics information.
 
@@ -270,6 +271,6 @@ Enhance the visual representation by coloring numbers indicating adjacent bombs.
 - `2` could be green
 - `3` could be red
   
-You are allowed to choose any color you want.
+You are allowed to choose any color you prefer for each required number.
 
 
