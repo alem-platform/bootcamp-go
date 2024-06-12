@@ -212,7 +212,7 @@ Your statistics:
 
 #### 1. Random Map Generation
 
-This feature allows the program to generate a random Minesweeper map based on the user's input for the number of bombs. Users can specify the size of the grid, and the program will automatically create a grid of appropriate size, ensuring the bombs are randomly placed. 
+This feature allows the program to generate a random Minesweeper map based on the user's input for the grid size. Users can specify the height and width of the grid, and the program will automatically create a grid of appropriate size, ensuring the bombs are randomly placed. 
 
  **User Prompt for Random Map Generation:**
    - At the start of the game, program prompts the user to choose whether they want to enter a custom map or generate a random one.
