@@ -45,7 +45,7 @@ go run main.go
 
 **Input:**
 ```bash
-2 3
+2 2
 . .
 . .
 ```
