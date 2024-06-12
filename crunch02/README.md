@@ -10,14 +10,14 @@ Write a program that makes a simulation of Minesweeper game. Only ASCII characte
 > Read more about [Minesweeper game](https://en.wikipedia.org/wiki/Minesweeper_(video_game))
 
 #### Game Elements
-The game grid consists of the following characters:
+The Minesweeper game grid consists of the following characters:
 - `*` represents a bomb.
-- `.` represents a free cell.
+- `.` represents an empty cell.
 
 #### Input Format
 The input is of the following format:
-- The first number `h` is the height of the map.
-- The second number `w` is the width of the map.
+- The first number `h` is the height of the grid.
+- The second number `w` is the width of the grid.
 - After that, `h` lines follow, each with `w` characters representing the grid.
 
 **Example:**
@@ -34,7 +34,7 @@ go run main.go
 ### Game Rules
 
 1. **Minimum Bomb and Grid Requirements:**
-   - The map must contain at least two bombs.
+   - The grid must contain at least two bombs.
    - The grid must have a minimum size of 5x5.
    - If there are no bombs or the grid size is too small, display an error message and terminate the program.
 
@@ -106,7 +106,7 @@ For each valid input, reveal cells according to Minesweeper rules:
 Enter coordinates: 
 ```
 
-**After valid input: 1 1**
+**Output after valid coordinate input: 1 1**
 ```bash
       1       2       3       4  
    _______________________________
@@ -148,7 +148,7 @@ Your statistics:
 - Number of moves: 2
 ```
 
-**After several valid inputs, if the Player wins:**
+**If the Player wins:**
 ```bash
       1       2       3       4  
    _______________________________
