@@ -34,14 +34,14 @@ func main() {
       *str = string(runes)
   }
 
-  unitedFunc := ChainFunctions([]func(*string){
+  chainedFunc := ChainFunctions([]func(*string){
     toUpper,
     addExclamation,
     reverseStr
   })
 
   str := "salem"
-  unitedFunc(&str)
+  chainedFunc(&str)
   fmt.Println(str) // "!MELAS"
 }
 ```
