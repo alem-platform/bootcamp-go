@@ -240,7 +240,7 @@ Choose a mode:
 1. Enter a custom map
 2. Generate a random map
 Enter your choice: 2
-Enter the size of the grid: 4 4
+Enter the size of the grid: 5 5
 ```
 
 ```bash
