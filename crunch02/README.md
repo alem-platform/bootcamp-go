@@ -75,7 +75,8 @@ Enter your coordinates:
 For each valid input, reveal cells according to Minesweeper rules:
 
 - If a cell is not a bomb, display the count of adjacent bombs.
-- If a revealed cell has no adjacent bombs, the cell should be displayed as empty. Furthermore, reveal all contiguous empty cells and their adjacent numbered cells, following the standard Minesweeper cascade reveal rule. 
+- If a revealed cell has no adjacent bombs, the cell should be displayed as empty. Furthermore, reveal all contiguous empty cells and their adjacent numbered cells, following the standard Minesweeper cascade reveal rule.
+- On the initial move, if the user selects a cell that contains a bomb, disregard the bomb in that cell, relocate it to a randomly chosen empty cell, and process the initially selected cell as if it were a non-bomb cell.
 - If a bomb is revealed, end the game with a "Game Over" message and statistics information.
 - If all non-bomb cells are revealed, end the game with a "You Win" message and statistics information.
 
@@ -211,7 +212,7 @@ Your statistics:
 
 #### 1. Random Map Generation
 
-This feature allows the program to generate a random Minesweeper map based on the user's input for the number of bombs. Users can specify the desired number of bombs, and the program will automatically create a grid of appropriate size, ensuring the bombs are randomly placed. 
+This feature allows the program to generate a random Minesweeper map based on the user's input for the number of bombs. Users can specify the size of the grid, and the program will automatically create a grid of appropriate size, ensuring the bombs are randomly placed. 
 
  **User Prompt for Random Map Generation:**
    - At the start of the game, program prompts the user to choose whether they want to enter a custom map or generate a random one.
@@ -228,7 +229,7 @@ Enter your choice:
 
 **Handling User Choice:**
    - If the user chooses option 1, proceed with the standard map input format.
-   - If the user chooses option 2, prompt for the number of bombs and generate the map.
+   - If the user chooses option 2, prompt for the height `h` and width `w` of the grid.
 
 
 **Example:**
@@ -239,7 +240,7 @@ Choose a mode:
 1. Enter a custom map
 2. Generate a random map
 Enter your choice: 2
-Enter the number of bombs: 10
+Enter the size of the grid: 4 4
 ```
 
 ```bash
@@ -270,6 +271,7 @@ Enhance the visual representation by coloring numbers indicating adjacent bombs.
 - `1` could be blue
 - `2` could be green
 - `3` could be red
+- etc.
   
 You are allowed to choose any color you prefer for each required number.
 
