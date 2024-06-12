@@ -2,8 +2,9 @@
 | ---------------------|
 | `islandcost.go`      |
 
-# island_cost
+<p data-story-username="lascar123">What if the BNS formula is adjusting to the environmental conditions? We are looking for traces that were left in the mountains, at higher altitudes and lower temperatures. Yet, in the Steppe, it could act differently.</p>
 
+# island_cost
 
 Write a function `IslandCost` that calculates the cost of island to which the coordinates belong. The function should take a `matrix` and a pair of coordinates (`x`, `y`). It will then calculate sum of numbers in island and return it.
 
