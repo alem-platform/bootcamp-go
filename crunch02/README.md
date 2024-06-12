@@ -216,6 +216,8 @@ This feature allows the program to generate a random Minesweeper map based on th
    - At the start of the game, program prompts the user to choose whether they want to enter a custom map or generate a random one.
   
 **Example:**
+
+**Output:**
 ```bash
 Choose a mode:
 1. Enter a custom map
@@ -230,7 +232,7 @@ Enter your choice:
 
 **Example:**
 
-**User Chooses to Generate Random Map:**
+**Output:**
 ```bash
 Choose a mode:
 1. Enter a custom map
@@ -239,7 +241,6 @@ Enter your choice: 2
 Enter the number of bombs: 10
 ```
 
-**Random Map Generated and Displayed:**
 ```bash
       1       2       3       4       5  
    _______________________________________
