@@ -125,7 +125,7 @@ Enter coordinates:
 Enter coordinates:
 ```
 
-**If the Player hits a bomb: 2 2**
+**If the Player hits a bomb, inserting input coordinates: 2 2**
 ```bash
       1       2       3       4  
    _______________________________
