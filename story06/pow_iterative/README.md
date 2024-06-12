@@ -2,8 +2,9 @@
 | ----------------- |
 | `powiterative.go` |
 
-# pow_iterative
+<p data-story-username="lascar123">Good day to you, recruit. It's Colonel Laskar Jang again. I think you've had enough time to start questioning things you thought were solid, so I'm reaching out again.</p>
 
+# pow_iterative
 
 Write a function `PowIterative` that calculates the `power` of a `x` number using [iterative](https://en.wikipedia.org/wiki/Iteration) methods. Negative powers should return `-1`. Overflows do not need to be treated.
 
