@@ -260,12 +260,14 @@ Enter the number of bombs: 10
 Enter coordinates: 
 ```
 
+Proceed the game flow as standard game mechanics.
+
 #### 2. Colorful Numbers
 Enhance the visual representation by coloring numbers indicating adjacent bombs.
 - `1` could be blue
 - `2` could be green
 - `3` could be red
   
-You are allowed to choose any color
+You are allowed to choose any color you want.
 
 
