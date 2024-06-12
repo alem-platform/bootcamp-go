@@ -2,8 +2,9 @@
 | --------------- |
 | `gamecities.go` |
 
-# game_cities
+<p data-story-username="di0n">I think I got it! Wow! I can't believe it. Are you ready to go with me? I am dying to know everything about that Steppe lab.</p>
 
+# game_cities
 
 Write a function `GameCities` that takes a list of city names and returns the longest chain of city names where the last letter of each city matches the first letter of the next city. The function should return the longest possible chain as a slice of strings.
 
