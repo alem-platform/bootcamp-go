@@ -1,6 +1,6 @@
-| Expected file   |
-| --------------- |
-| `atoi.go`       |
+| Expected file |
+| ------------- |
+| `itoa.go`     |
 
 # itoa
 
