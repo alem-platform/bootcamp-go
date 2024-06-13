@@ -2,7 +2,7 @@
 | ------------- |
 | `maplen.go`   |
 
-<p data-story-username="lascar123">So, apparently, there seems to be a hidden lab somewhere in the Steppe. The exact location is still unclear, but I believe we will uncover it by the end of this journey. And you are going to help me!</p>
+<p data-story-username="di0n">So, apparently, there seems to be a hidden lab somewhere in the Steppe. The exact location is still unclear, but I believe we will uncover it by the end of this journey. And you are going to help me!</p>
 
 # map_len
 
