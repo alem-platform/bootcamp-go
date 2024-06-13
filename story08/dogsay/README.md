@@ -98,9 +98,9 @@ student:$ ./dogsay "gav gav" | cat -e
 /_/\_____/$
    /\   /\$
   /  \ /  \$
-student:$ ./dogsay "Gav Gav!
+student:$ ./dogsay -b cur "Gav Gav!
 I want to play
-Let's play" -b cur
+Let's play" 
  ________________$
 / Gav Gav!       \$
 | I want to play |$
