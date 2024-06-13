@@ -1,3 +1,5 @@
+# eraser
+
 ```go
 func Eraser(s string) string {
 
