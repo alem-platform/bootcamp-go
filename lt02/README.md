@@ -15,7 +15,7 @@
 | common_elements         | 3     | 200 | [README.md](./common_elements.md)         | -     |
 | capitalize_words        | 3     | 200 | [README.md](./capitalize_words.md)        | -     |
 | factorial_iterative     | 3     | 200 | [README.md](./factorial_iterative.md)     | -     |
-| factorial_recursion     | 4     | 250 | [README.md](./factorial_recursion.md)     | -     |
+| factorial_recursion     | 4     | 250 | [README.md](./factorial_recursion.md)     | -     | Y |
 | count_substring         | 4     | 250 | [README.md](./count_substring.md)         | -     |
 | find_max_matrix_element | 4     | 250 | [README.md](./find_max_matrix_element.md) | -     |
 | find_max_value          | 4     | 250 | [README.md](./find_max_value.md)          | -     |
@@ -25,7 +25,7 @@
 | compress_string         | 5     | 300 | [README.md](./compress_string.md)         | -     |
 | find_longest_word       | 5     | 300 | [README.md](./find_longest_word.md)       | -     |
 | gcd                     | 5     | 300 | [README.md](./gcd.md)                     | -     |
-| lcm                     | 5     | 300 | [README.md](./lcm.md)                     | -     |
+| lcm                     | 5     | 300 | [README.md](./lcm.md)                     | -     | B |
 | rot13                   | 6     | 350 | [README.md](./rot13.md)                   | COPY  |
 | nth_prime               | 6     | 350 | [README.md](./nth_prime.md)               | -     |
 | generate_primes         | 6     | 350 | [README.md](./generate_primes.md)         | -     |
