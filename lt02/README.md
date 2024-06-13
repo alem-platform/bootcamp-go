@@ -27,13 +27,13 @@
 | gcd                     | 5     | 300 | [README.md](./gcd.md)                     | -     |
 | lcm                     | 5     | 300 | [README.md](./lcm.md)                     | -     | B |
 | rot13                   | 6     | 350 | [README.md](./rot13.md)                   | COPY  |
-| nth_prime               | 6     | 350 | [README.md](./nth_prime.md)               | -     |
-| generate_primes         | 6     | 350 | [README.md](./generate_primes.md)         | -     |
-| prime_factors           | 6     | 350 | [README.md](./prime_factors.md)           | -     |
-| magicgrowth3            | 7     | 400 | [README.md](./magicgrowth3.md)            | -     |
+| nth_prime               | 6     | 350 | [README.md](./nth_prime.md)               | +     |
+| generate_primes         | 6     | 350 | [README.md](./generate_primes.md)         | +     |
+| prime_factors           | 6     | 350 | [README.md](./prime_factors.md)           | +     |
+| magicgrowth3            | 7     | 400 | [README.md](./magicgrowth3.md)            | +     |
 | atoi                    | 7     | 400 | [README.md](./atoi.md)                    | COPY  |
 | itoa                    | 7     | 400 | [README.md](./itoa.md)                    | COPY  |
-| uniqcomb3               | 8     | 450 | [README.md](./uniqcomb3.md)               | -     |
+| uniqcomb3               | 8     | 450 | [README.md](./uniqcomb3.md)               | +     |
 | title_case              | 8     | 450 | [README.md](./title_case.md)              | -     |
 | sum_of_digits           | 8     | 450 | [README.md](./sum_of_digits.md)           | -     |
 | brackets                | 9     | 500 | [README.md](./brackets.md)                | COPY  |

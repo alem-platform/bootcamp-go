@@ -1,10 +1,10 @@
 | Expected file  |
 | -------------- |
-| `nth_prime.go` |
+| `nthprime.go` |
 
 # nth_prime
 
-Write a function `NthPrime` that returns the `n`-th prime number.
+Write a function `NthPrime` that returns the `n`-th prime number. Return `-1` if input is invalid.
 
 **Function definition:**
 

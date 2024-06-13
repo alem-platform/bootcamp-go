@@ -1,10 +1,10 @@
 | Expected file      |
 | ------------------ |
-| `prime_factors.go` |
+| `primefactors.go` |
 
 # prime_factors
 
-Write a function `PrimeFactors` that returns a slice of the prime factors of a given integer.
+Write a function `PrimeFactors` that returns a slice of the prime factors of a given integer. Return `nil` if input is invalid.
 
 **Function definition:**
 

@@ -1,6 +1,6 @@
-| Expected file   |
-| --------------- |
-| `title_case.go` |
+| Expected file  |
+| -------------- |
+| `titlecase.go` |
 
 # title_case
 

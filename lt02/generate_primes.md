@@ -1,10 +1,10 @@
-| Expected file        |
-| -------------------- |
-| `generate_primes.go` |
+| Expected file       |
+| ------------------- |
+| `generateprimes.go` |
 
 # generate_primes
 
-Write a function `GeneratePrimes` that generates all prime numbers up to a given integer `n`.
+Write a function `GeneratePrimes` that generates all prime numbers up to a given integer `n`.  Return `nil` if input is invalid.
 
 **Function definition:**
 
