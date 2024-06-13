@@ -2,8 +2,9 @@
 | --------------- |
 | `countwords.go` |
 
-# count_words
+<p data-story-username="di0n">You're amazing! Now keep going, we really need to figure out the location before Colonel Laskar does.</p>
 
+# count_words
 
 Write a function `CountWords` that takes a string and returns a map where the keys are lowercase words from the string and the values are the counts of how many times each word appears. Words are separated by spaces.
 

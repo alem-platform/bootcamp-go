@@ -1,6 +1,6 @@
-| Expected file   |
-| --------------- |
-| `isnumeric.go`  |
+| Expected file  |
+| -------------- |
+| `isnumeric.go` |
 
 <p data-story-username="di0n">By independent, I mean I work for neither Aberon's team nor the Energy Raiders. I works for myself. And for the truth.</p>
 
@@ -12,7 +12,7 @@ Write a function `IsNumeric` that takes a string `s` as input and returns a `boo
 **Function definition:**
 
 ```go
-func IsNumericSimple(s string) bool {
+func IsNumeric(s string) bool {
 
 }
 ```
