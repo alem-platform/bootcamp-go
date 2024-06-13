@@ -1,0 +1,13 @@
+In a quiet suburb, a family was preparing for the weekend. The father, John, was setting up a new home network. He started by configuring the router with the default gateway address: 192.168.1.1. As he accessed the router's admin panel, he noticed the familiar IP address 192.168.1.100 assigned to his son's computer.
+
+"Everything seems to be in order," John thought. He then checked the connection to their ISP and noted their public IP address: 203.0.113.5.
+
+Meanwhile, in the living room, his daughter, Sarah, was setting up a new gaming console. She connected it to the network, and the console was assigned the IP address 192.168.1.101. Sarah was excited to try out the new game servers hosted at 198.51.100.42.
+
+Upstairs, John's wife, Emma, was working from home. Her company had provided a secure VPN connection to access their office network. Emma connected to the VPN using the office's gateway address 172.16.254.1. She also used a public DNS server at 8.8.8.8 to ensure she had a reliable name resolution.
+
+In the afternoon, John decided to test the speed of their internet connection. He used an online tool that connected to various servers, including one at 216.58.214.14. The results were impressive, confirming that their setup was optimized.
+
+As evening approached, John received a security alert from their smart home system, indicating an unfamiliar IP address, 192.168.1.150, trying to access their network. He quickly checked the router's logs and identified the device as an old tablet that had been forgotten in a drawer. After securing the network, John updated the firmware on the router, ensuring they were protected against any vulnerabilities.
+
+Later that night, the family gathered in the living room to watch a movie. The streaming service was accessed via the IP address 157.240.22.35. The movie played without interruption, providing a perfect end to a productive day.
