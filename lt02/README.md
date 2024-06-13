@@ -2,11 +2,13 @@
 
 | Title                   | Level | XP  | Link                                      | Done? |
 | ----------------------- | ----- | --- | ----------------------------------------- | ----- |
-| count_a                 | 1     | 100 | [README.md](./count_a.md)                 | -     |
-| find_first_a            | 1     | 100 | [README.md](./find_first_a.md)            | -     |
-| find_last_a             | 1     | 100 | [README.md](./find_last_a.md)             | -     |
+| 0001                    | 1     | 100 | [README.md](./0001.md)                    | COPY  |
+| 0000                    | 1     | 100 | [README.md](./0000.md)                    | COPY  |
 | is_alpha                | 1     | 100 | [README.md](./is_alpha.md)                | COPY  |
 | is_numeric              | 1     | 100 | [README.md](./is_numeric.md)              | COPY  |
+| count_a                 | 2     | 100 | [README.md](./count_a.md)                 | -     |
+| find_first_a            | 2     | 100 | [README.md](./find_first_a.md)            | -     |
+| find_last_a             | 2     | 100 | [README.md](./find_last_a.md)             | -     |
 | slice_equal             | 2     | 150 | [README.md](./slice_equal.md)             | COPY  |
 | slice_copy              | 2     | 150 | [README.md](./slice_copy.md)              | COPY  |
 | slice_concat            | 2     | 150 | [README.md](./slice_concat.md)            | COPY  |
