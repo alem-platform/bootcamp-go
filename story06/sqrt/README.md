@@ -23,7 +23,7 @@ func main() {
     fmt.Println(Sqrt(16)) // 4
     fmt.Println(Sqrt(1))  // 1
     fmt.Println(Sqrt(3))  // 0
-    fmt.Println(Sqrt(-4)) // 0
+    fmt.Println(Sqrt(-4)) // -1
 }
 ```
 
