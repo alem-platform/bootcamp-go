@@ -1,6 +1,6 @@
-| Expected file      |
-| ------------------ |
-| `sum_of_digits.go` |
+| Expected file    |
+| ---------------- |
+| `sumofdigits.go` |
 
 # sum_of_digits
 

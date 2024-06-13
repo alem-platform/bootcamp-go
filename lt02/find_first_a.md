@@ -1,6 +1,6 @@
-| Expected file     |
-| ----------------- |
-| `find_first_a.go` |
+| Expected file   |
+| --------------- |
+| `findfirsta.go` |
 
 # find_first_a
 

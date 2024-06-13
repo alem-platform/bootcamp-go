@@ -1,6 +1,6 @@
-| Expected file        |
-| -------------------- |
-| `compress_string.go` |
+| Expected file       |
+| ------------------- |
+| `compressstring.go` |
 
 # compress_string
 

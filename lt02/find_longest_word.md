@@ -1,6 +1,6 @@
-| Expected file          |
-| ---------------------- |
-| `find_longest_word.go` |
+| Expected file        |
+| -------------------- |
+| `findlongestword.go` |
 
 # find_longest_word
 

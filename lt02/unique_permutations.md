@@ -1,6 +1,6 @@
-| Expected file            |
-| ------------------------ |
-| `unique_permutations.go` |
+| Expected file           |
+| ----------------------- |
+| `uniquepermutations.go` |
 
 # unique_permutations
 

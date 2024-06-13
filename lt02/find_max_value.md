@@ -1,6 +1,6 @@
-| Expected file       |
-| ------------------- |
-| `find_max_value.go` |
+| Expected file     |
+| ----------------- |
+| `findmaxvalue.go` |
 
 # find_max_value
 

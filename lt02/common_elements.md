@@ -1,6 +1,6 @@
-| Expected file        |
-| -------------------- |
-| `common_elements.go` |
+| Expected file       |
+| ------------------- |
+| `commonelements.go` |
 
 # common_elements
 

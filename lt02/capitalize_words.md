@@ -1,6 +1,6 @@
-| Expected file         |
-| --------------------- |
-| `capitalize_words.go` |
+| Expected file        |
+| -------------------- |
+| `capitalizewords.go` |
 
 # capitalize_words
 

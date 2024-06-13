@@ -1,6 +1,6 @@
-| Expected file                |
-| ---------------------------- |
-| `find_max_matrix_element.go` |
+| Expected file             |
+| ------------------------- |
+| `findmaxmatrixelement.go` |
 
 # find_max_matrix_element
 

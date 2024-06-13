@@ -1,6 +1,6 @@
-| Expected file    |
-| ---------------- |
-| `starts_with.go` |
+| Expected file   |
+| --------------- |
+| `startswith.go` |
 
 # starts_with
 

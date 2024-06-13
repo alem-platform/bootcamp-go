@@ -1,6 +1,6 @@
-| Expected file            |
-| ------------------------ |
-| `factorial_iterative.go` |
+| Expected file           |
+| ----------------------- |
+| `factorialiterative.go` |
 
 # factorial_iterative
 

@@ -1,6 +1,6 @@
 | Expected file |
 | ------------- |
-| `count_a.go`  |
+| `counta.go`   |
 
 # count_a
 

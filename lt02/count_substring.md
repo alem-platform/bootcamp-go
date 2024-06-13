@@ -1,6 +1,6 @@
-| Expected file        |
-| -------------------- |
-| `count_substring.go` |
+| Expected file       |
+| ------------------- |
+| `countsubstring.go` |
 
 # count_substring
 

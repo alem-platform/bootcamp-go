@@ -1,6 +1,6 @@
-| Expected file       |
-| ------------------- |
-| `flatten_matrix.go` |
+| Expected file      |
+| ------------------ |
+| `flattenmatrix.go` |
 
 # flatten_matrix
 

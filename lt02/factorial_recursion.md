@@ -1,6 +1,6 @@
-| Expected file            |
-| ------------------------ |
-| `factorial_recursion.go` |
+| Expected file           |
+| ----------------------- |
+| `factorialrecursion.go` |
 
 # factorial_recursion
 

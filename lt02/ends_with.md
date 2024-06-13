@@ -1,6 +1,6 @@
-| Expected file  |
-| -------------- |
-| `ends_with.go` |
+| Expected file |
+| ------------- |
+| `endswith.go` |
 
 # ends_with
 
