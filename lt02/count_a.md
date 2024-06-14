@@ -30,6 +30,6 @@ Example:
 func main() {
     fmt.Println(CountA([]string{"apple", "banana", "avocado"})) // 6
     fmt.Println(CountA([]string{"xyz", "uvw", "rst"}))          // 0
-    fmt.Println(CountA([]string{"aardvark", "alpaca", "ant"}))  // 6
+    fmt.Println(CountA([]string{"aardvark", "alpaca", "ant"}))  // 7
 }
 ```
