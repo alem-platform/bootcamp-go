@@ -18,7 +18,7 @@ Example:
 
 ```go
 func main() {
-    fmt.Println(FindLongestWord("The quick brown fox jumps over the lazy dog")) // "jumps"
+    fmt.Println(FindLongestWord("The quick brown fox jumps over the lazy dog")) // "quick"
     fmt.Println(FindLongestWord("Alem School of Programming")) // "Programming"
     fmt.Println(FindLongestWord("Go is fun")) // "fun"
 }
