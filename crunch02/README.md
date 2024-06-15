@@ -1,5 +1,18 @@
 # crunch02
 
+<p data-story-username="di0n">Hey! It's Zere Dion again. I'm so excited, to be honest. Aren't you happy we are a team now? I am!
+
+So, I know you've already worked in a team, so here's what we are going to do this time:
+
+First, don't fly solo. If your assigned team falls apart (some no-shows, etc.), be quick to join any other team. You'll be a valuable asset!
+
+Second, use the double diamond algorithm when looking for a solution – Discover → Define → Develop → Deliver. Discuss the details of this implementation with your team.
+
+And last but not least, speak up. Let's commit to everyone sharing ideas at least once during this crunch. Even if you think it's too silly (even if it is, it may help the team find a better solution, you never know). If you are a team leader, make sure you create a safe space for everyone to express their ideas.
+
+That's it! I mean, didn't you learn the rest in your first crunch?
+And hey! Good luck, buddy.</p>
+
 ## Project
 
 | Available                                 |
@@ -274,5 +287,41 @@ Enhance the visual representation by coloring numbers indicating adjacent bombs.
 - etc.
   
 You are allowed to choose any color you prefer for each required number.
+
+## Assessment criteria
+
+Here's what your reviewers will be looking at:
+#### Functionality
+- **Correctness:**
+  - Correctly reads the input height and width.
+  - Correctly interprets and prints the Minesweeper grid based on the characters.
+  - Output matches the specified format with proper borders and cell structures.
+- **Edge Cases:** 
+  - Handles minimum size grids (3x3) and the required number of bombs correctly.
+  - Handles improper inputs with appropriate error messages and handling.
+#### Code Quality
+- **Readability:** 
+  - Well-organized and easy-to-follow code.
+  - Clear and descriptive comments and naming conventions.
+- **Efficiency:** 
+  - Uses efficient algorithms and data structures.
+  - Minimizes unnecessary computations and memory usage.
+- **Modularity:** 
+  - Code is modular with distinct functions/methods.
+  - Avoids code duplication and promotes reusability.
+#### Usability 
+- **User Interaction:** 
+  - Provides clear instructions for input format.
+  - Handles invalid inputs gracefully.
+- **Game Mechanics:** 
+  - Implements Minesweeper rules for revealing cells and handling the first move with a bomb.
+  - Ends the game with appropriate messages for "Game Over" and "You Win," displaying relevant statistics.
+#### Bonus Features 
+- **Random Map Generation:** 
+  - Implements the feature for generating a random Minesweeper map based on user input for grid size.
+  - Ensures the random map meets the minimum bomb and grid size requirements.
+- **Colorful Numbers:** 
+  - Enhances visual representation by coloring numbers indicating adjacent bombs.
+  - Uses appropriate and consistent color coding for different numbers.
 
 
