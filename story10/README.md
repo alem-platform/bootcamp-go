@@ -1,12 +1,14 @@
 # story10
 
+> [!NOTE]
+> Лучше переделать и сделать упор на struct, тип зачем оно и тд. Как задачи будут готовы, будет удален текущая заметка.
+
 | Task             | Link                                      | Level |
 | ---------------- | ----------------------------------------- | ----- |
 | new_stack        | [README.md](./new_stack/README.md)        | 1     |
 | stack_push       | [README.md](./stack_push/README.md)       | 1     |
-| stack_pop        | [README.md](./stack_pop/README.md)        | 1     |
-| stack_print      | [README.md](./stack_print/README.md)      | 1     |
 | stack_peek       | [README.md](./stack_peek/README.md)       | 1     |
+| stack_pop        | [README.md](./stack_pop/README.md)        | 1     |
 | stack_len        | [README.md](./stack_len/README.md)        | 1     |
 | new_set          | [README.md](./new_set/README.md)          | 1     |
 | set_insert       | [README.md](./set_insert/README.md)       | 1     |
