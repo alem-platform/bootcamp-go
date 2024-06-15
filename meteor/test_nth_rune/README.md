@@ -1,11 +1,27 @@
-# test_ntn_rune
+| Expected file    |
+| ---------------- |
+| `testnthrune.go` |
 
-Нужно написать функцию которая тестирует функцию `nth_rune`.
+# test_nth_rune
 
-Функция возвращает true если он проходит все тесткейсы и работает правильно, false в других случаях.
+Write a function `TestNthRune` that tests the function `NthRune`. The function `TestNthRune` should return `true` if `NthRune` passes all test cases and works correctly, and `false` otherwise.
+
+**Function definition:**
 
 ```go
-func test_nth_rune(fn func(s string, n number) rune) bool {
+func TestNthRune(fn func(s string, n int) rune) bool {
 
+}
+```
+
+**Example:**
+
+```go
+func NthRune(s string, n int) rune {
+    // implementation of NthRune
+}
+
+func main() {
+    fmt.Println(TestNthRune(NthRune)) // Output: true or false depending on the correctness of NthRune
 }
 ```

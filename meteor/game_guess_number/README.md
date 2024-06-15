@@ -1,8 +1,10 @@
+| Expected file               | Available packages            |
+| --------------------------- | ----------------------------- |
+| `game_guess_number/main.go` | `github.com/alem-platform/ap` |
+
 # game_guess_number
 
-> Тестить сложно будет
-
-Напишите программу игру в котором нужно угадать загаданную программой цифру. Число может быть от 1 до 100.
+Write a program that plays a guessing game where the user needs to guess a number chosen by the program. The number can be between 1 and 100.
 
 **Example of usage:**
 

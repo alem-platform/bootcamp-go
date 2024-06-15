@@ -1,6 +1,12 @@
+| Expected file                     | Available packages            |
+| --------------------------------- | ----------------------------- |
+| `print_converted_seconds/main.go` | `github.com/alem-platform/ap` |
+
 # print_converted_seconds
 
-Write program that ...
+Write a program that takes a number of seconds as input and prints the equivalent time in days, hours, minutes, and seconds. If the input is invalid, print `NV`.
+
+**Example:**
 
 ```sh
 student:$ go run . 68736583

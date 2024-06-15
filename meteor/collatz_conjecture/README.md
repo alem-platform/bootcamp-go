@@ -1,6 +1,10 @@
+| Expected file                | Available packages            |
+| ---------------------------- | ----------------------------- |
+| `collatz_conjecture/main.go` | `github.com/alem-platform/ap` |
+
 # collatz_conjecture
 
-Write program that takes one argument (number) and prints out a Collatz sequence until the value is 1.
+Write a program that takes one argument (number) and prints out a Collatz sequence until the value is 1.
 
 Consider the following operation on an arbitrary positive integer:
 
@@ -9,7 +13,9 @@ Consider the following operation on an arbitrary positive integer:
 
 Read about [Collatz conjecture here](https://en.wikipedia.org/wiki/Collatz_conjecture)
 
-```
+**Usage example:**
+
+```sh
 student:$ go run . 10
 10
 5

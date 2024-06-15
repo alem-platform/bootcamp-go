@@ -1,17 +1,25 @@
+| Expected file     |
+| ----------------- |
+| `paddingstart.go` |
+
 # padding_start
 
-Функция принимает два аргумента: строку и целое число, представляющее общую длину строки с отступом. Если длина строки меньше указанного числа, добавляются пробелы перед строкой, чтобы ее длина соответствовала заданной. Если длина строки уже больше или равна указанному числу, строка возвращается без изменений.
+Write a function that takes two arguments: a string and an integer representing the total length of the padded string. If the length of the string is less than the specified number, add spaces before the string to make its length equal to the specified number. If the length of the string is already greater than or equal to the specified number, return the string unchanged.
+
+**Function definition:**
 
 ```go
-func PaddingStart() {
+func PaddingStart(s string, totalLength int) string {
 
 }
 ```
 
+**Usage example:**
+
 ```go
 func main() {
-  fmt.Printf("%q\n", PaddingStart("salem", 10))   // "     salem"
-  fmt.Printf("%q\n", PaddingStart("salem ❤️", 10)) // "   salem ❤️"
-  fmt.Printf("%q\n", PaddingStart("salem", 1))    // "salem"
+    fmt.Printf("%q\n", PaddingStart("salem", 10))   // "     salem"
+    fmt.Printf("%q\n", PaddingStart("salem ❤️", 10)) // "   salem ❤️"
+    fmt.Printf("%q\n", PaddingStart("salem", 1))    // "salem"
 }
 ```

@@ -1,3 +1,13 @@
-# find_empty_fiels
+| Expected file         |
+| --------------------- |
+| `find_empty_files.sh` |
 
-Напишите скрипт на Bash под названием `find_empty_fiels.sh`, который принимает путь директории как аргумент и находит только те файлы содержимое которых пустое или же он состоит только из пробелов или пробелов с несколькими линиями.
+# find_empty_files
+
+Write a Bash script named `find_empty_files.sh` that takes a directory path as an argument and finds only those files whose content is either empty or consists only of spaces or spaces with multiple lines.
+
+### Usage:
+
+```sh
+$ ./find_empty_files.sh /path_to_directory
+```
