@@ -6,8 +6,6 @@
 
 Write a function `ReverseBits` that takes a byte `n` and returns the byte with its bits reversed.
 
-If the input is invalid, return `-1`.
-
 **Function definition:**
 
 ```go
