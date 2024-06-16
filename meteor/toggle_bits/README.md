@@ -21,6 +21,6 @@ func main() {
     var b byte = 255
     fmt.Printf("%08b\n", b) // 11111111
     b = ToggleBits(b)
-    PrintBits(b) // 00000000
+    fmt.Printf("%08b\n", b) // 00000000
 }
 ```
