@@ -1,6 +1,6 @@
 | Expected file |
 | ------------- |
-| `listback.go` |
+| `list/back.go` |
 
 # list_back
 
@@ -16,14 +16,14 @@ func (l *List) Back() *ListNode {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    backNode := list.Back()
-    fmt.Println(backNode.Value)
-    // Output:
-    // 30
+	backNode := l.Back()
+	fmt.Println(backNode.Value)
+	// Output:
+	// 30
 }
 ```

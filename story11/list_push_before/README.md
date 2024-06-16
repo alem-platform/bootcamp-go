@@ -1,6 +1,6 @@
-| Expected file       |
-| ------------------- |
-| `listpushbefore.go` |
+| Expected file        |
+| -------------------- |
+| `list/pushbefore.go` |
 
 # list_push_before
 
@@ -16,23 +16,21 @@ func (l *List) PushBefore(n *ListNode, v interface{}) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    node := list.head.next // Node with value 20
-    list.PushBefore(node, 15)
+	node := l.Head.Next // Node with value 20
+	l.PushBefore(node, 15)
 
-    node = list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 10
-    // 15
-    // 20
-    // 30
+	l.ForEach(func(n *list.ListNode) {
+		fmt.Println(n.Value)
+	})
+	// Output:
+	// 10
+	// 15
+	// 20
+	// 30
 }
 ```

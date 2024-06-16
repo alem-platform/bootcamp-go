@@ -1,6 +1,6 @@
 | Expected file |
 | ------------- |
-| `newlist.go`  |
+| `list/new.go` |
 
 # new_list
 
@@ -25,9 +25,14 @@ func NewList() *List {
 **Example:**
 
 ```go
+import (
+	"bootcamp/list"
+	"fmt"
+)
+
 func main() {
-    list := NewList()
-    fmt.Println(list)
-    // Output: &{<nil> <nil> 0}
+	l := list.NewList()
+	fmt.Println(l)
+	// Output: &{<nil> <nil> 0}
 }
 ```

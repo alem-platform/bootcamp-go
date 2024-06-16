@@ -1,6 +1,6 @@
-| Expected file     |
-| ----------------- |
-| `listpushback.go` |
+| Expected file      |
+| ------------------ |
+| `list/pushback.go` |
 
 # list_push_back
 
@@ -16,19 +16,19 @@ func (l *List) PushBack(v interface{}) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    node := list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 10
-    // 20
-    // 30
+	node := l.Head
+	for node != nil {
+		fmt.Println(node.Value)
+		node = node.Next
+	}
+	// Output:
+	// 10
+	// 20
+	// 30
 }
 ```

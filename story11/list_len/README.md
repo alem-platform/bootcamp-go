@@ -1,6 +1,6 @@
 | Expected file |
 | ------------- |
-| `listlen.go`  |
+| `list/len.go` |
 
 # list_len
 
@@ -16,14 +16,14 @@ func (l *List) Len() int {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    length := list.Len()
-    fmt.Println(length)
-    // Output:
-    // 3
+	length := l.Len()
+	fmt.Println(length)
+	// Output:
+	// 3
 }
 ```

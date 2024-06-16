@@ -1,6 +1,6 @@
-| Expected file |
-| ------------- |
-| `listsort.go` |
+| Expected file  |
+| -------------- |
+| `list/sort.go` |
 
 # list_sort
 
@@ -16,23 +16,21 @@ func (l *List) Sort(fn func(a *ListNode, b *ListNode) int) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(30)
-    list.PushBack(10)
-    list.PushBack(20)
+	l := list.NewList()
+	l.PushBack(30)
+	l.PushBack(10)
+	l.PushBack(20)
 
-    list.Sort(func(a *ListNode, b *ListNode) int {
-        return a.Value.(int) - b.Value.(int)
-    })
+	l.Sort(func(a *list.ListNode, b *list.ListNode) int {
+		return a.Value.(int) - b.Value.(int)
+	})
 
-    node := list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 10
-    // 20
-    // 30
+	l.ForEach(func(n *list.ListNode) {
+		fmt.Println(n.Value)
+	})
+	// Output:
+	// 10
+	// 20
+	// 30
 }
 ```

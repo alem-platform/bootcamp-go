@@ -1,6 +1,6 @@
-| Expected file     |
-| ----------------- |
-| `listremoveif.go` |
+| Expected file      |
+| ------------------ |
+| `list/removeif.go` |
 
 # list_remove_if
 
@@ -16,23 +16,21 @@ func (l *List) RemoveIf(fn func(n *ListNode) bool) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
-    list.PushBack(40)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
+	l.PushBack(40)
 
-    list.RemoveIf(func(n *ListNode) bool {
-        return n.Value.(int) > 20
-    })
+	l.RemoveIf(func(n *list.ListNode) bool {
+		return n.Value.(int) > 20
+	})
 
-    node := list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 10
-    // 20
+	l.ForEach(func(n *list.ListNode) {
+		fmt.Println(n.Value)
+	})
+	// Output:
+	// 10
+	// 20
 }
 ```

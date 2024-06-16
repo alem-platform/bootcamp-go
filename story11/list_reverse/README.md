@@ -1,6 +1,6 @@
-| Expected file    |
-| ---------------- |
-| `listreverse.go` |
+| Expected file     |
+| ----------------- |
+| `list/reverse.go` |
 
 # list_reverse
 
@@ -16,21 +16,19 @@ func (l *List) Reverse() {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    list.Reverse()
+	l.Reverse()
 
-    node := list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 30
-    // 20
-    // 10
+	l.ForEach(func(n *list.ListNode) {
+		fmt.Println(n.Value)
+	})
+	// Output:
+	// 30
+	// 20
+	// 10
 }
 ```

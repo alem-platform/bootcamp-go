@@ -1,6 +1,6 @@
-| Expected file      |
-| ------------------ |
-| `listpushfront.go` |
+| Expected file       |
+| ------------------- |
+| `list/pushfront.go` |
 
 # list_push_front
 
@@ -16,19 +16,19 @@ func (l *List) PushFront(v interface{}) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushFront(10)
-    list.PushFront(20)
-    list.PushFront(30)
+	l := list.NewList()
+	l.PushFront(10)
+	l.PushFront(20)
+	l.PushFront(30)
 
-    node := list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 30
-    // 20
-    // 10
+	node := l.Head
+	for node != nil {
+		fmt.Println(node.Value)
+		node = node.Next
+	}
+	// Output:
+	// 30
+	// 20
+	// 10
 }
 ```

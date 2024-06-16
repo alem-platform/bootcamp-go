@@ -1,6 +1,6 @@
 | Expected file  |
 | -------------- |
-| `listfront.go` |
+| `list/front.go` |
 
 # list_front
 
@@ -16,14 +16,14 @@ func (l *List) Front() *ListNode {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushFront(10)
-    list.PushFront(20)
-    list.PushFront(30)
+	l := list.NewList()
+	l.PushFront(10)
+	l.PushFront(20)
+	l.PushFront(30)
 
-    frontNode := list.Front()
-    fmt.Println(frontNode.Value)
-    // Output:
-    // 30
+	frontNode := l.Front()
+	fmt.Println(frontNode.Value)
+	// Output:
+	// 30
 }
 ```

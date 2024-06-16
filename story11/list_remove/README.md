@@ -1,6 +1,6 @@
 | Expected file   |
 | --------------- |
-| `listremove.go` |
+| `list/remove.go` |
 
 # list_remove
 
@@ -16,21 +16,21 @@ func (l *List) Remove(n *ListNode) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    node := list.head.next // Node with value 20
-    list.Remove(node)
+	node := l.Head.Next // Node with value 20
+	l.Remove(node)
 
-    node = list.head
-    for node != nil {
-        fmt.Println(node.Value)
-        node = node.next
-    }
-    // Output:
-    // 10
-    // 30
+	node = l.Head
+	for node != nil {
+		fmt.Println(node.Value)
+		node = node.Next
+	}
+	// Output:
+	// 10
+	// 30
 }
 ```

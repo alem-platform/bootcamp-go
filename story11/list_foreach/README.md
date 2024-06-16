@@ -1,6 +1,6 @@
-| Expected file    |
-| ---------------- |
-| `listforeach.go` |
+| Expected file     |
+| ----------------- |
+| `list/foreach.go` |
 
 # list_foreach
 
@@ -16,17 +16,17 @@ func (l *List) ForEach(fn func(n *ListNode)) {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    list.ForEach(func(n *ListNode) {
-        fmt.Println(n.Value)
-    })
-    // Output:
-    // 10
-    // 20
-    // 30
+	l.ForEach(func(n *list.ListNode) {
+		fmt.Println(n.Value)
+	})
+	// Output:
+	// 10
+	// 20
+	// 30
 }
 ```

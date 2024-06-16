@@ -1,6 +1,6 @@
-| Expected file |
-| ------------- |
-| `listfind.go` |
+| Expected file  |
+| -------------- |
+| `list/find.go` |
 
 # list_find
 
@@ -16,21 +16,21 @@ func (l *List) Find(fn func(v interface{}) bool) *ListNode {
 
 ```go
 func main() {
-    list := NewList()
-    list.PushBack(10)
-    list.PushBack(20)
-    list.PushBack(30)
+	l := list.NewList()
+	l.PushBack(10)
+	l.PushBack(20)
+	l.PushBack(30)
 
-    node := list.Find(func(v interface{}) bool {
-        return v.(int) == 20
-    })
+	node := l.Find(func(v interface{}) bool {
+		return v.(int) == 20
+	})
 
-    if node != nil {
-        fmt.Println(node.Value)
-    } else {
-        fmt.Println("Node not found")
-    }
-    // Output:
-    // 20
+	if node != nil {
+		fmt.Println(node.Value)
+	} else {
+		fmt.Println("Node not found")
+	}
+	// Output:
+	// 20
 }
 ```
