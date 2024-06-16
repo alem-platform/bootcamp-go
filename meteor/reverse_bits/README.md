@@ -18,8 +18,8 @@ func ReverseBits(n byte) byte {
 
 ```go
 func main() {
-    fmt.Printf("%08b\n", ReverseBits(5))   // 10100000
-    fmt.Printf("%08b\n", ReverseBits(255)) // 11111111
-    fmt.Printf("%08b\n", ReverseBits(1))   // 10000000
+    fmt.Printf("%08b %08b\n", 5, ReverseBits(5))     // 00000101 10100000
+    fmt.Printf("%08b %08b\n", 255, ReverseBits(255)) // 11111111
+    fmt.Printf("%08b %08b\n", 1, ReverseBits(1))     // 00000001 10000000
 }
 ```
