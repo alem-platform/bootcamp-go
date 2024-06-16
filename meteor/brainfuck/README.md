@@ -1,10 +1,10 @@
-| Expected file  |
-| -------------- |
-| `brainfuck.go` |
+| Expected file       | Available packages                 |
+| ------------------- | ---------------------------------- |
+| `brainfuck/main.go` | `github.com/alem-platform/ap` `os` |
 
 # brainfuck
 
-Write a program that takes Brainfuck code and executes it.
+Write a program that takes Brainfuck code as an argument and executes it.
 
 ### Brainfuck Commands:
 
@@ -17,20 +17,10 @@ Write a program that takes Brainfuck code and executes it.
 - `[` : jump forward to the command after the corresponding `]` if the byte at the data pointer is zero.
 - `]` : jump back to the command after the corresponding `[` if the byte at the data pointer is nonzero.
 
-**Function definition:**
+### Usage example:
 
-```go
-func Brainfuck(code string) {
-
-}
-```
-
-**Example:**
-
-```go
-func main() {
-    code := "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>."
-    Brainfuck(code)
-    // Output: "Hello World!\n"
-}
+```sh
+student:$ go run main.go "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>."
+Hello World!
+student:$
 ```

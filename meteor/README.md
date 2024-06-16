@@ -22,7 +22,7 @@
 | 14   | convert_base_nbr        | [README.md](./convert_base_nbr/README.md)        | 2     | ➕     |
 | 15   | reverse_bits            | [README.md](./reverse_bits/README.md)            | 1     | ➕     |
 | 16   | print_converted_seconds | [README.md](./print_converted_seconds/README.md) | 2     | ➕     |
-| 17   | test_nth_rune           | [README.md](./test_nth_rune/README.md)           | 3     | ❓     | (сложно будет тесить) |
+| 17   | test_nth_rune           | [README.md](./test_nth_rune/README.md)           | 3     | ➕     |
 | 18   | missing_number          | [README.md](./missing_number/README.md)          | 1     | ➕     |
 | 19   | find_empty_fiels        | [README.md](./find_empty_fiels/REAMDE.md)        | 2     | ➕     |
 | 20   | island_extend           | [README.md](./island_extend/README.md)           | 2     | ➕     |

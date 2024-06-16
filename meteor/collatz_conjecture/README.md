@@ -1,6 +1,6 @@
-| Expected file                | Available packages            |
-| ---------------------------- | ----------------------------- |
-| `collatz_conjecture/main.go` | `github.com/alem-platform/ap` |
+| Expected file                | Available packages                 |
+| ---------------------------- | ---------------------------------- |
+| `collatz_conjecture/main.go` | `github.com/alem-platform/ap` `os` |
 
 # collatz_conjecture
 
