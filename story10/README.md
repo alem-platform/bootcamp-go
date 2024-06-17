@@ -15,7 +15,7 @@
 | print_books         | [README.md](./print_books/README.md)         | 2     |
 | my_map              | [README.md](./my_map/README.md)              | 3     |
 
-Старые задачи, которые не были включены:
+Старые задачи, которые не были включены в текущий story10:
 
 - [README.md](./new_stack/README.md)
 - [README.md](./stack_push/README.md)
@@ -32,36 +32,3 @@
 - [README.md](./set_union/README.md)
 - [README.md](./set_difference/README.md)
 - [README.md](./set_intersection/README.md)
-
----
-
->
-
-- what_any
-- methods
-- store in struct
-- Задача на применение структур
-- (Паттерн builder)
-
-Принтить все публичные поля в структуре
-
-- my_struct - создание своей структуры, с приватным и публичным полем
-- my_struct_method - добавление метода который гетит и сетит значения
-- struct_struct - структура как field для функции
-- struct_bottle - Состояния
-
-- contacts -
-
-Создания типа contact который хранит фио и номер телефона
-Тип структура contacts который будет давать возможность искать по контактам
-
-,
-
----
-
-- Структура
-- Приватные поля
-- Публичные поля
-- Методы
-- Функции принимают структуры
-- Наследование структур
