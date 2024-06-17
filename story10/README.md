@@ -3,17 +3,23 @@
 > [!NOTE]
 > Текущая стори это упор в использовании `struct`, как создавать, зачем они, в каких случаях используются, чем они полезны, какие есть возможности. Как и во всем bootcamp тут мы учим общие вещи в программировании, и не изучаем go specific вещи.
 
-| Task                | Link                                         | Level |
-| ------------------- | -------------------------------------------- | ----- |
-| first_struct        | [README.md](./first_struct/README.md)        | 1     |
-| struct_method       | [README.md](./struct_method/README.md)       | 2     |
-| struct_as_argument  | [README.md](./struct_as_argument/README.md)  | 1     |
-| struct_compare      | [README.md](./struct_compare/README.md)      | 1     |
-| struct_in_struct    | [README.md](./struct_in_struct/README.md)    | 1     |
-| lock_states         | [README.md](./lock_states/README.md)         | 2     |
-| get_books_from_file | [README.md](./get_books_from_file/README.md) | 2     |
-| print_books         | [README.md](./print_books/README.md)         | 2     |
-| my_map              | [README.md](./my_map/README.md)              | 3     |
+**Status:**
+
+- 🧩 - ready to describe
+- ➕ - task description is done
+- ✅ - ready to prod
+
+| Task                | Link                                         | Level | Status |
+| ------------------- | -------------------------------------------- | ----- | ------ |
+| first_struct        | [README.md](./first_struct/README.md)        | 1     | 🧩     |
+| struct_method       | [README.md](./struct_method/README.md)       | 2     | 🧩     |
+| struct_as_argument  | [README.md](./struct_as_argument/README.md)  | 1     | 🧩     |
+| struct_compare      | [README.md](./struct_compare/README.md)      | 1     | 🧩     |
+| struct_in_struct    | [README.md](./struct_in_struct/README.md)    | 1     | 🧩     |
+| lock_states         | [README.md](./lock_states/README.md)         | 2     | 🧩     |
+| get_books_from_file | [README.md](./get_books_from_file/README.md) | 2     | 🧩     |
+| print_books         | [README.md](./print_books/README.md)         | 2     | 🧩     |
+| my_map              | [README.md](./my_map/README.md)              | 3     | 🧩     |
 
 Старые задачи, которые не были включены в текущий story10:
 
