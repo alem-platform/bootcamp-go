@@ -9,7 +9,7 @@ Write a function `MapSet` that sets a value in a map with string keys and intege
 **Function definition:**
 
 ```go
-func MapSet(m map[string]int, key string, value string) {
+func MapSet(m map[string]int, key string, value int) {
 
 }
 ```
