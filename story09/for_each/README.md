@@ -2,6 +2,8 @@
 | ------------- |
 | `foreach.go`  |
 
+<p data-story-username="di0n">None of the above. I work for myself and for the truth. Maybe in this way we are similar, but I doubt that.</p>
+
 # for_each
 
 Write a function `ForEach` that takes an array of integers and a function that operates on a pointer to an integer, and applies the function to each integer in the array.
