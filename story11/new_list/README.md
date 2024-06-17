@@ -4,17 +4,16 @@
 
 # new_list
 
-Implement the function `NewList`. This function should initialize and return a new instance of a doubly linked list. The list should start empty, with both `head` and `tail` pointers set to `nil` and the `length` set to `0`.
+Implement the function `NewList`. This function should initialize and return a new instance of a doubly linked list. The list should start empty, with both `Head` and `Tail` pointers set to `nil`.
 
 ```go
 type ListNode struct {
-  next, prev *ListNode
+  Next *ListNode
   Value interface{}
 }
 
 type List struct {
-  head, tail *ListNode
-  length int
+  Head, Tail *ListNode
 }
 
 func NewList() *List {
@@ -33,6 +32,6 @@ import (
 func main() {
 	l := list.NewList()
 	fmt.Println(l)
-	// Output: &{<nil> <nil> 0}
+	// Output: &{<nil> <nil>}
 }
 ```
