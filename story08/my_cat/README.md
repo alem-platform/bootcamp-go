@@ -2,6 +2,8 @@
 | ---------------- | -------------------------------------------- |
 | `my_cat/main.go` | `github.com/alem-platform/ap`, `os`, `bufio` |
 
+<p data-story-username="di0n">Keep going! I think I got the idea, but let's get to the end of the task to see if I am right.</p>
+
 # my_cat
 
 Write a program which does the same thing as the system's `cat` program.
