@@ -31,10 +31,10 @@
 | 23   | brainfuck               | [README.md](./brainfuck/README.md)               | 3     | ➕     | B                      |
 | 00   | toggle_bits             | [README.md](./toggle_bits/README.md)             | 1     | ➕     | B                      |
 | 1    | game_guess_number       | [README.md](./game_guess_number/README.md)       | 2     | ❓     | S(сложно будет тесить) |
-| 2    | eight_queens            | [README.md](./eight_queens/README.md)            | 3     | ➕     | S                      |
-| 3    | greatest_common_divisor | [README.md](./greatest_common_divisor/README.md) | 1     | ➕     | S                      |
-| 4    | is_valid_sudoku         | [README.md](./is_valid_sudoku/README.md)         | 2     | ➕     | S                      |
-| 5    | rotate_words            | [README.md](./rotate_words/README.md)            | 2     | ➕     | S                      |
+| 2    | eight_queens            | [README.md](./eight_queens/README.md)            | 3     | ✅     | S                      |
+| 3    | greatest_common_divisor | [README.md](./greatest_common_divisor/README.md) | 1     | ✅     | S                      |
+| 4    | is_valid_sudoku         | [README.md](./is_valid_sudoku/README.md)         | 2     | ✅     | S                      |
+| 5    | rotate_words            | [README.md](./rotate_words/README.md)            | 2     | ✅     | S                      |
 | 6    | padding_start           | [README.md](./padding_start/README.md)           | 1     | ➕     | S                      |
 | 7    | collatz_conjecture      | [README.md](./collatz_conjecture/README.md)      | 1     | ➕     | S                      |
 | 8    | count_code_lines        | [README.md](./count_code_lines/REAMDE.md)        | 2     | ➕     | S                      |

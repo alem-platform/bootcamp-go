@@ -18,8 +18,8 @@ func PaddingStart(s string, totalLength int) string {
 
 ```go
 func main() {
-    fmt.Printf("%q\n", PaddingStart("salem", 10))   // "     salem"
-    fmt.Printf("%q\n", PaddingStart("salem ❤️", 10)) // "   salem ❤️"
-    fmt.Printf("%q\n", PaddingStart("salem", 1))    // "salem"
+    fmt.Printf("%q\n", PaddingStart("salem", 10))    // "     salem"
+    fmt.Printf("%q\n", PaddingStart("salem 😀", 10)) // "   salem 😀"
+    fmt.Printf("%q\n", PaddingStart("salem", 1))     // "salem"
 }
 ```
