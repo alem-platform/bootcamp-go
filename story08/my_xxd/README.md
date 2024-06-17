@@ -2,6 +2,8 @@
 | ---------------- | -------------------------------------------- |
 | `my_xxd/main.go` | `github.com/alem-platform/ap`, `os`, `bufio` |
 
+<p data-story-username="di0n">Yeah, I was right. This lab is just a facade. The real lab used to be here but has since moved. And I think they know we are looking for them – I bet you this terminal is neither so old nor so disconnected. But how can we find the real lab now?</p>
+
 # my_xxd
 
 Write a program which does the same thing as the system's `xxd` program, which outputs a hex dump of the given file.
