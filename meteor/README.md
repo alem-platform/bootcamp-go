@@ -15,7 +15,7 @@
 | Time | Title                   | Link                                             | Level | Status | Note |
 | ---- | ----------------------- | ------------------------------------------------ | ----- | ------ | ---- |
 | 9    | merge_sorted_arrays     | [README.md](./merge_sorted_arrays/README.md)     | 1     | ✅     | Y    |
-| 10   | grep_ipv4               | [README.md](./grep_ipv4/README.md)               | 2     | ➕     | Y    |
+| 10   | grep_ipv4               | [README.md](./grep_ipv4/README.md)               | 2     | ✅     | Y    |
 | 11   | print_spiral            | [README.md](./print_spiral/README.md)            | 3     | ✅     | Y    |
 | 12   | print_bits              | [README.md](./print_bits/README.md)              | 1     | ✅     | Y    |
 | 13   | merge_sort              | [README.md](./merge_sort/README.md)              | 2     | ✅     | Y    |
