@@ -2,6 +2,8 @@
 | ------------- |
 | `issorted.go` |
 
+<p data-story-username="miranda_rh">Anyway, let me share a hint with you. Dr. Aberon does like circular compositions and too-easy-to-be-brilliant ideas.</p>
+
 # is_sorted
 
 Write a function `IsSorted` that takes an array of integers and a comparison function. The function should return `true` if the array is sorted according to the comparison function, otherwise `false`.
