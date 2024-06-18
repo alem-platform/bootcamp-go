@@ -2,6 +2,8 @@
 | ------------------ | ----------------------------- |
 | `wrapfunctions.go` | `github.com/alem-platform/ap` |
 
+<p data-story-username="miranda_rh">This and some other details make me think Dr. Aberon is hiding his lab somewhere back in the city. Obviously, it's easier to be lost there than in the Steppe.</p>
+
 # wrap_functions
 
 Write a function `WrapFunctions` that takes a slice of wrapper functions and returns a single function that applies all the specified wrapper funcitons in order to the input string. Additionally, implement the functions listed below:
