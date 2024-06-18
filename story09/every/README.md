@@ -2,6 +2,8 @@
 | ------------- |
 | `every.go`    |
 
+<p data-story-username="miranda_rh">Not sure what to tell. I am a state investigator. I look for Dr. Aberon's team's tracks as well as any Energy Raiders' appearances. Which side do you belong to?</p>
+
 # every
 
 Write a function `Every` that takes an array of integers and a function that tests an integer, and if `fn` returns `true` for every integer it returns `true`, otherwise returns `false`.
