@@ -1,6 +1,6 @@
-| Expected file               | Available packages            |
-| --------------------------- | ----------------------------- |
-| `game_guess_number/main.go` | `github.com/alem-platform/ap` |
+| Expected file               | Available packages                                    |
+| --------------------------- | ----------------------------------------------------- |
+| `game_guess_number/main.go` | `github.com/alem-platform/ap` `fmt.Scanf` `math/rand` |
 
 # game_guess_number
 

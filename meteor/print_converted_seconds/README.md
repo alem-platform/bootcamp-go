@@ -4,7 +4,7 @@
 
 # print_converted_seconds
 
-Write a program that takes a number of seconds as input and prints the equivalent time in days, hours, minutes, and seconds. If the input is invalid, print `NV`.
+Write a program that takes a number of seconds as input and prints the equivalent time in days, hours, minutes, and seconds. The program should handle the arguments that are in range of `int32`, if the input is invalid, print `NV`.
 
 **Example:**
 
