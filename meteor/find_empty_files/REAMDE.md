@@ -9,6 +9,8 @@ Write a Bash script named `find_empty_files.sh` that takes a directory path as a
 ### Usage:
 
 ```sh
+student:$ pwd
+/tmp/sandbox
 student:$ find . -type f
 ./lines.txt
 ./salem.txt
@@ -25,7 +27,7 @@ $
 student:$ cat -e salem.txt
 salem!$
 student:$ cat -e dir/empty.txt
-student:$ ./find_empty_files.sh .
+student:$ ./find_empty_files.sh /tmp/sandbox
 ./lines.txt
 ./dir/empty.txt
 student:$
@@ -34,15 +36,15 @@ student:$
 If no argument is provided:
 
 ```sh
-student:$ ./find_empty_files
-usage: ./find_empty_files dir_path
+student:$ ./find_empty_files.sh
+usage: ./find_empty_files.sh dir_path
 student:$
 ```
 
 If the argument is not a directory:
 
 ```sh
-student:$ ./find_empty_files main.go
+student:$ ./find_empty_files.sh main.go
 error: main.go is not a directory
 student:$
 ```
@@ -50,7 +52,7 @@ student:$
 If the directory is not found:
 
 ```sh
-student:$ ./find_empty_files unknown
+student:$ ./find_empty_files.sh unknown
 error: directory unknown not found
 student:$
 ```

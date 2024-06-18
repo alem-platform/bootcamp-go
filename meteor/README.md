@@ -23,13 +23,13 @@
 | 15   | reverse_bits            | [README.md](./reverse_bits/README.md)            | 1     | ➕     | Y                      |
 | 16   | print_converted_seconds | [README.md](./print_converted_seconds/README.md) | 2     | ➕     | Y                      |
 | 17   | test_nth_rune           | [README.md](./test_nth_rune/README.md)           | 3     | ➕     | B                      |
-| 18   | missing_number          | [README.md](./missing_number/README.md)          | 1     | ➕     | B                      |
-| 19   | find_empty_fiels        | [README.md](./find_empty_files/REAMDE.md)        | 2     | ➕     | B                      |
-| 20   | island_extend           | [README.md](./island_extend/README.md)           | 2     | ➕     | B                      |
-| 21   | glob                    | [README.md](./glob/README.md)                    | 3     | ➕     | B                      |
-| 22   | eraser                  | [README.md](./eraser/README.md)                  | 2     | ➕     | B                      |
+| 18   | missing_number          | [README.md](./missing_number/README.md)          | 1     | ✅     | B                      |
+| 19   | find_empty_files        | [README.md](./find_empty_files/REAMDE.md)        | 2     | ✅     | B                      |
+| 20   | island_extend           | [README.md](./island_extend/README.md)           | 2     | ✅     | B                      |
+| 21   | glob                    | [README.md](./glob/README.md)                    | 3     | ✅     | B                      |
+| 22   | eraser                  | [README.md](./eraser/README.md)                  | 2     | ✅     | B                      |
 | 23   | brainfuck               | [README.md](./brainfuck/README.md)               | 3     | ➕     | B                      |
-| 00   | toggle_bits             | [README.md](./toggle_bits/README.md)             | 1     | ➕     | B                      |
+| 00   | toggle_bits             | [README.md](./toggle_bits/README.md)             | 1     | ✅     | B                      |
 | 1    | game_guess_number       | [README.md](./game_guess_number/README.md)       | 2     | ❓     | S(сложно будет тесить) |
 | 2    | eight_queens            | [README.md](./eight_queens/README.md)            | 3     | ✅     | S                      |
 | 3    | greatest_common_divisor | [README.md](./greatest_common_divisor/README.md) | 1     | ✅     | S                      |
