@@ -12,7 +12,6 @@ Status:
 | print_alpha_rev         | 1     | 100     | [README.md](./print_alpha_rev.md)                    |       |
 | print_a                 | 1     | 100     | [README.md](./print_a.md)                            |       |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
-| map_get                 | 2     | 150     | [README.md](../story07/map_get/README.md)            | COPY  |
 | map_contains            | 2     | 150     | [README.md](../story07/map_contains/README.md.md)    | COPY  |
 | map_set                 | 2     | 150     | [README.md](../story07/map_set/README.md.md)         | COPY  |
 | map_delete              | 2     | 150     | [README.md](../story07/map_delete/README.md.md)      | COPY  |
