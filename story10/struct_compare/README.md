@@ -1,6 +1,6 @@
-| Expected file      |
-| ------------------ |
-| `structcompare.go` |
+| Expected file             |
+| ------------------------- |
+| `first_struct/compare.go` |
 
 # struct_compare
 
@@ -26,7 +26,7 @@ func main() {
         Name:     "Alice",
         password: "password123",
     }
-    fmt.Println("Users are identical:", user1.Compare(user2)) // Output: true
+    fmt.Println("Users are identical:", user1.Compare(user2)) // Users are identical: true
 
     user3 := User{
         Name:     "Bob",
@@ -36,6 +36,6 @@ func main() {
         Name:     "Charlie",
         password: "qwerty789",
     }
-    fmt.Println("Users are identical:", user3.Compare(user4)) // Output: false
+    fmt.Println("Users are identical:", user3.Compare(user4)) // Users are identical: false
 }
 ```

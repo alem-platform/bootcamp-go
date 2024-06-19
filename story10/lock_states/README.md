@@ -41,11 +41,11 @@ func NewLock() Lock {
 ```go
 func main() {
     lock := NewLock()
-    fmt.Println(lock.IsLocked()) // Output: false
-    fmt.Println(lock.Unlock())   // Output: false
-    fmt.Println(lock.Lock())     // Output: true
-    fmt.Println(lock.Lock())     // Output: false
-    fmt.Println(lock.IsLocked()) // Output: true
-    fmt.Println(lock.Unlock())   // Output: true
+    fmt.Println(lock.IsLocked()) // false
+    fmt.Println(lock.Unlock())   // false
+    fmt.Println(lock.Lock())     // true
+    fmt.Println(lock.Lock())     // false
+    fmt.Println(lock.IsLocked()) // true
+    fmt.Println(lock.Unlock())   // true
 }
 ```

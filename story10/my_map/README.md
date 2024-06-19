@@ -1,6 +1,6 @@
 | Expected file | Available packages            |
 | ------------- | ----------------------------- |
-| `my_map.go`   | `github.com/alem-platform/ap` |
+| `mymap.go`    | `github.com/alem-platform/ap` |
 
 # my_map
 
@@ -49,19 +49,18 @@ func main() {
     myMap.Set("key1", 42)
     myMap.Set("key2", "value2")
 
-    fmt.Println(myMap.Get("key1")) // Output: 42
-    fmt.Println(myMap.Get("key2")) // Output: value2
-    fmt.Println(myMap.Has("key1")) // Output: true
-    fmt.Println(myMap.Has("key3")) // Output: false
+    fmt.Println(myMap.Get("key1")) // 42
+    fmt.Println(myMap.Get("key2")) // value2
+    fmt.Println(myMap.Has("key1")) // true
+    fmt.Println(myMap.Has("key3")) // false
 
     myMap.Delete("key2")
-    fmt.Println(myMap.Has("key2")) // Output: false
+    fmt.Println(myMap.Has("key2")) // false
 
     items := myMap.Items()
     for _, item := range items {
-        fmt.Printf("Key: %s, Value: %v\n", item.Key, item.Value)
+        fmt.Printf("Key: %s, Value: %v\n", item.Key, item.Value)  // Key: key1, Value: 42
     }
-    // Output:
-    // Key: key1, Value: 42
+
 }
 ```

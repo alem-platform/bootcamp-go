@@ -1,6 +1,6 @@
-| Expected file     |
-| ----------------- |
-| `structmethod.go` |
+| Expected file            |
+| ------------------------ |
+| `first_struct/method.go` |
 
 # struct_method
 
@@ -32,6 +32,6 @@ func main() {
 
     reliability := user.PasswordReliability()
     fmt.Println("Password reliability:", reliability)
-    // Output: strong
+    // Password reliability: strong
 }
 ```

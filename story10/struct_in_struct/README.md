@@ -31,8 +31,8 @@ func main() {
 
     cart := CreateMyCart(user, items)
     fmt.Println("Cart owner:", cart.Owner.Name)
-    // Output: Alice
+    // Cart owner: Alice
     fmt.Println("Cart items:", cart.Items)
-    // Output: [item1 item2 item3]
+    // Cart items: [item1 item2 item3]
 }
 ```
