@@ -13,6 +13,7 @@ If an invalid input (non-numeric argument) is encountered, the program should re
 
 ```sh
 student:$ go run . 1 2 3 4
+1
 3
 6
 10

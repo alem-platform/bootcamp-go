@@ -19,21 +19,20 @@ Status:
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | map_intersection        | 3     | 200     | [README.md](./map_intersection.md)                   | ✅    |
 | map_difference          | 3     | 200     | [README.md](./map_diff.md)                           | ✅    |
-| map_invert              | 3     | 200     | [README.md](./map_invert.md)                         |       |
+| map_invert              | 3     | 200     | [README.md](./map_invert.md)                         | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | print_arguments_index   | 4     | 250     | [README.md](./print_arguments_index.md)              |       | Y   |
 | count_arguments_vowels  | 4     | 250     | [README.md](./count_arguments_vowels.md)             |       | Y   |
 | uppercase_arguments     | 4     | 250     | [README.md](./uppercase_arguments.md)                |       | Y   |
 | reverse_each_argument   | 4     | 250     | [README.md](./reverse_each_argument.md)              |       | Y   |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
-| sum_numbers             | 5     | 300     | [README.md](./sum_numbers.md)                        |       |
-| product_numbers         | 5     | 300     | [README.md](./product_numbers.md)                    |       |
-| average_numbers         | 5     | 300     | [README.md](./average_numbers.md)                    |       |
-| power_calculation       | 5     | 300     | [README.md](./power_calculation.md)                  |       |
+| sum_numbers             | 5     | 300     | [README.md](./sum_numbers.md)                        | ✅    |
+| product_numbers         | 5     | 300     | [README.md](./product_numbers.md)                    | ✅    |
+| power_calculation       | 5     | 300     | [README.md](./power_calculation.md)                  | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | get_math_operation      | 6     | 350     | [README.md](../story09/get_math_operation/README.md) | COPY  |
 | get_incrementor         | 6     | 350     | [README.md](../story09/get_incrementor/README.md)    | COPY  |
-| map_from_keys           | 6     | 350     | [README.md](./map_from_keys.md)                      |       |
+| map_from_keys           | 6     | 350     | [README.md](./map_from_keys.md)                      | ✅    |
 | map_update              | 6     | 350     | [README.md](./map_update.md)                         |       |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | sort                    | 7     | 450     | [README.md](../story09/sort/README.md)               | COPY  |
