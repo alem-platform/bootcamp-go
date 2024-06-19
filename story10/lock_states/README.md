@@ -1,16 +1,22 @@
+| Expected file   |
+| --------------- |
+| `lockstates.go` |
+
 # lock_states
 
-Создайте фнукцию `NewLock` которая возвращает структуру `Lock` с нижестоящими методами:
+Create a function `NewLock` that returns a `Lock` structure with the following methods:
 
-- `Lock` - Возвращает `true` если блокировака прошла успешно, если замок уже был заблокирован, то возвращает `false`
-- `Unlock` - Возвращает `true` если разблокировака прошла успешно, если замок уже был разблокирован, то возвращает `false`
-- `IsLocked` - Возвращает состояние `Lock`, `true` если заблокирован, и `false` если разблокирован
+- `Lock` - Returns `true` if the lock was successfully acquired. Returns `false` if the lock was already locked.
+- `Unlock` - Returns `true` if the lock was successfully released. Returns `false` if the lock was already unlocked.
+- `IsLocked` - Returns the current state of the lock. Returns `true` if locked, `false` if unlocked.
 
-Примечание, функция `NewLock` по умолчанию возвращает разблокированный замок.
+Note: The `NewLock` function initializes the lock as unlocked by default.
+
+**Function definition:**
 
 ```go
 type Lock struct {
-  // Поля реализуемые студентом, не подсказываем
+    // Define fields here
 }
 
 func (l Lock) Lock() bool {
@@ -30,14 +36,16 @@ func NewLock() Lock {
 }
 ```
 
+**Example:**
+
 ```go
 func main() {
-  lock := NewLock()
-  fmt.Println(lock.IsLocked()) // false
-  fmt.Println(lock.Unlock())   // false
-  fmt.Println(lock.Lock())     // true
-  fmt.Println(lock.Lock())     // false
-  fmt.Println(lock.IsLocked()) // true
-  fmt.Println(lock.Unlock())   // true
+    lock := NewLock()
+    fmt.Println(lock.IsLocked()) // false
+    fmt.Println(lock.Unlock())   // false
+    fmt.Println(lock.Lock())     // true
+    fmt.Println(lock.Lock())     // false
+    fmt.Println(lock.IsLocked()) // true
+    fmt.Println(lock.Unlock())   // true
 }
 ```

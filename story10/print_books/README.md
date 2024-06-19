@@ -1,24 +1,39 @@
+| Expected file   | Available packages            |
+| --------------- | ----------------------------- |
+| `printbooks.go` | `github.com/alem-platform/ap` |
+
 # print_books
 
-Напишите функцию `PrintBooks` которая печатает информацию о книгах в колоннах
+Write a function `PrintBooks` that prints information about books in columns.
+
+**Function definition:**
 
 ```go
-func main() {
-  books := []{
-    &{ Name: "The Kaizen Way", Author: "Robert Maurer", Year: 2009 },
-    &{ Name: "Dialogs", Author: "Plato", Year: -400 },
-    &{ Name: "Unknown", Author: "Unknown", Year: 10 },
-  }
+func PrintBooks(books []*Book) {
 
-  PrintBooks(books)
 }
 ```
 
+**Example:**
+
+```go
+func main() {
+    books := []*Book{
+        {Name: "The Kaizen Way", Author: "Robert Maurer", Year: 2009},
+        {Name: "Dialogs", Author: "Plato", Year: -400},
+        {Name: "Unknown", Author: "Unknown", Year: 10},
+    }
+
+    PrintBooks(books)
+}
+```
+
+**Expected Output:**
+
 ```sh
-student:$ go run . | cat -e
-Name           Author        Year$
-The Kaizen Way Robert Maurer 2009$
-Dialogs        Plato         -400$
-Unknown        Unknown       10$
-student:$
+student:$ go run .
+Name           Author        Year
+The Kaizen Way Robert Maurer 2009
+Dialogs        Plato         -400
+Unknown        Unknown       10
 ```

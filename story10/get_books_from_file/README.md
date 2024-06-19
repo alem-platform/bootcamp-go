@@ -1,18 +1,26 @@
+| Expected file         | Available packages |
+| --------------------- | ------------------ |
+| `getbooksfromfile.go` | `bufio` `os`       |
+
 # get_books_from_file
 
-Напишите функцию `GetBooksFromCsv` который читает файл с информацией о книгах, и возвращает их в виде массива структур типа `Book`.
+Write a function `GetBooksFromCsv` that reads a CSV file containing book information and returns an array of `Book` structs.
+
+**Function definition:**
 
 ```go
 type Book struct {
-  Name: string
-  Author: string
-  Year: int
+    Name   string
+    Author string
+    Year   int
 }
 
-func GetBooksFromCsv(path: string) []*Book {
+func GetBooksFromCsv(path string) []*Book {
 
 }
 ```
+
+**Example:**
 
 ```go
 func main() {

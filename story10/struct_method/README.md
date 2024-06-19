@@ -1,26 +1,37 @@
+| Expected file            |
+| ------------------------ |
+| `first_struct/method.go` |
+
 # struct_method
 
-Дополните структуру `User` методом `PasswordReliability` который возвращает строку по условиям
+Extend the `User` structure with a method `PasswordReliability` that returns a string based on the following complexity criteria:
 
-Условия проверки сложности:
+Password complexity checks:
 
-- Длинна от 8ми символов
-- Имеет минимум одну заглавную латинскую букву
-- Имеет минимум одну латинскую букву в нижнем регистре
-- Имеет минимум одну цифру
-- Имеет имеет минимум один спец символ (все символы что не входят в цифры, в латинские буквы)
+- Length of at least 8 characters
+- At least one uppercase Latin letter
+- At least one lowercase Latin letter
+- At least one digit
+- At least one special character (any character that is not a digit or Latin letter)
 
-Расчет сложности:
+Scoring criteria:
 
-- "strong" - Если все условия соблюдены.
-- "medium" - Соответсвует минимум 3м условиям
-- "easy" - Если соответствует как минимум одному условию
-- "undefined" - в случае если пароль не присвоен (пустой)
+- "strong" - If all criteria are met.
+- "medium" - If at least 3 criteria are met.
+- "easy" - If at least one criterion is met.
+- "undefined" - If the password is not set (empty).
 
-> На тестах проверить на символы рун (тип их длинна 4 байта)
+**Example:**
 
 ```go
-func (u User) PasswordReliability() string {
+func main() {
+    user := User{
+        Name:     "Alice",
+        Password: "StrongPassword123$",
+    }
 
+    reliability := user.PasswordReliability()
+    fmt.Println("Password reliability:", reliability)
+    // Password reliability: strong
 }
 ```
