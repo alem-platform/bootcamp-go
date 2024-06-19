@@ -2,6 +2,7 @@
 
 | Task                 | Link                                          | Level |
 | -------------------- | --------------------------------------------- | ----- |
+| lesson12             | [README.md](./lesson12/README.md)             | 0     |
 | new_btree            | [README.md](./new_btree/README.md)            | 1     |
 | btree_insert         | [README.md](./btree_insert/README.md)         | 2     |
 | count_btree_nodes    | [README.md](./btree_count_nodes/README.md)    | 2     |
