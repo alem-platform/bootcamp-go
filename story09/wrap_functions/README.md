@@ -32,7 +32,7 @@ func WrapperReverseStr(fn func(str *string)) func(str *string) {
 
 }
 
-func WrapFunctions(decs []func(str *string) func(str *string)) func(str *string) {
+func WrapFunctions(decs []func(fn func(str *string)) func(str *string)) func(str *string) {
 
 }
 ```
@@ -41,50 +41,50 @@ func WrapFunctions(decs []func(str *string) func(str *string)) func(str *string)
 
 ```go
 func main() {
-  mockFn := func(str *string) {
-    return
-  }
+	mockFn := func(str *string) {
+		return
+	}
 
-  fnPrint := WrapperPrintStr(mockFn)
+	fnPrint := WrapperPrintStr(mockFn)
 
-  str := "salem?"
-  fnPrint(&str) // salem?
+	str := "salem?"
+	fnPrint(&str) // salem?
 
-  fnRot1 := WrapperRot1(mockFn)
-  fnRot1(&str)
-  fnPrint(&str) // tbmfn?
+	fnRot1 := WrapperRot1(mockFn)
+	fnRot1(&str)
+	fnPrint(&str) // tbmfn?
 
-  fnRot13 := WrapperRot13(mockFn)
-  fnRot13(&str)
-  fnPrint(&str) // gozsa?
+	fnRot13 := WrapperRot13(mockFn)
+	fnRot13(&str)
+	fnPrint(&str) // gozsa?
 
-  fnReverse := WrapperReverseStr(mockFn)
-  fnReverse(&str)
-  fnPrint(&str) // ?aszog
+	fnReverse := WrapperReverseStr(mockFn)
+	fnReverse(&str)
+	fnPrint(&str) // ?aszog
 
-  fmt.Println("United Func Results")
-  wrappedFns := WrapFunctions([]func(str *string) func(str *string){
-    WrapperPrintStr,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperPrintStr,
-    WrapperReverseStr,
-    WrapperPrintStr,
-  })
-  wrappedFns(&str)
-  // ?aszog
-  // gozsa?
-  // salem?
+	fmt.Println("United Func Results")
+	wrappedFns := WrapFunctions([]func(fn func(str *string)) func(str *string){
+		WrapperPrintStr,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperPrintStr,
+		WrapperReverseStr,
+		WrapperPrintStr,
+	})
+	wrappedFns(&str)
+	// ?aszog
+	// gozsa?
+	// salem?
 }
 ```
 

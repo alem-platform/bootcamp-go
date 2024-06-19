@@ -11,7 +11,7 @@
 | 6   | [get_math_operation](./get_math_operation/README.md) | 2   | +      |
 | 7   | [map_delete_if](./map_delete_if/README.md)           | 1   | +      |
 | 8   | [get_incrementor](./get_incrementor/README.md)       | 2   | +      |
-| 9   | [is_sorted](./is_sorted/README.md)                   | 2   |
-| 10  | [sort](./sort/README.md)                             | 2   |
-| 11  | [chain_functions](./chain_functions/README.md)       | 2   |
-| 12  | [wrap_functions](./wrap_functions/README.md)         | 3   |
+| 9   | [is_sorted](./is_sorted/README.md)                   | 2   | +      |
+| 10  | [sort](./sort/README.md)                             | 2   | +      |
+| 11  | [chain_functions](./chain_functions/README.md)       | 2   | +      |
+| 12  | [wrap_functions](./wrap_functions/README.md)         | 3   | +      |
