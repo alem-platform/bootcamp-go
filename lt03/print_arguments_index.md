@@ -10,10 +10,10 @@ Write a program that prints each argument received by the program along with its
 
 ```sh
 student:$ go run . salem student
-0: salem
-1: student
-student:$ go run . "salem salem" salem
-0: salem salem
 1: salem
+2: student
+student:$ go run . "salem salem" salem
+1: salem salem
+2: salem
 student:$
 ```
