@@ -11,6 +11,7 @@
 
 | Task                | Link                                         | Level | Status |
 | ------------------- | -------------------------------------------- | ----- | ------ |
+| lesson10            | [README.md](./lesson10/README.md)            | 0     |        |
 | first_struct        | [README.md](./first_struct/README.md)        | 1     | 🧩     |
 | struct_method       | [README.md](./struct_method/README.md)       | 2     | 🧩     |
 | struct_as_argument  | [README.md](./struct_as_argument/README.md)  | 1     | 🧩     |
