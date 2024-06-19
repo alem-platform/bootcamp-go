@@ -31,6 +31,7 @@ func main() {
 **Expected Output:**
 
 ```sh
+student:$ go run .
 Name           Author        Year
 The Kaizen Way Robert Maurer 2009
 Dialogs        Plato         -400
