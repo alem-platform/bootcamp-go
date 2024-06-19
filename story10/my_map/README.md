@@ -65,7 +65,3 @@ func main() {
     // Key: key1, Value: 42
 }
 ```
-
----
-
-This example demonstrates the usage of the `MyMap` structure with the provided methods (`Set`, `Get`, `Has`, `Delete`, `Items`). It shows how to set key-value pairs, retrieve values, check for key existence, delete keys, and retrieve all items in the map. Let me know if there's anything else you'd like to include or adjust!
