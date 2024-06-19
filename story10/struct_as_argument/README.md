@@ -1,6 +1,12 @@
+| Expected file         |
+| --------------------- |
+| `structasargument.go` |
+
 # struct_as_argument
 
-Напишите функцию `PrintUserInfo` который печатает информацию о `User`.
+Write a function `PrintUserInfo` that prints information about a `User`.
+
+**Function definition:**
 
 ```go
 func PrintUserInfo(u User) {
@@ -8,24 +14,26 @@ func PrintUserInfo(u User) {
 }
 ```
 
+**Example:**
+
 ```go
 func main() {
-  userAlem := User{
-    Name: "Alem",
-    password: "hello.alem",
-  }
+    userAlem := User{
+        Name:     "Alem",
+        password: "hello.alem",
+    }
 
-  PrintUserInfo(userAlem)
-  // Output:
-  // Name: Alem
-  // HasPassword: yes
+    PrintUserInfo(userAlem)
+    // Output:
+    // Name: Alem
+    // HasPassword: yes
 
-  userDias := User{
-    Name: "Dias",
-  }
-  PrintUserInfo(userDias)
-  // Output:
-  // Name: Dias
-  // HasPassword: no
+    userDias := User{
+        Name: "Dias",
+    }
+    PrintUserInfo(userDias)
+    // Output:
+    // Name: Dias
+    // HasPassword: no
 }
 ```

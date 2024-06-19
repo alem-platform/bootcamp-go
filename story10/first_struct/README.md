@@ -1,6 +1,24 @@
+| Expected file    |
+| ---------------- |
+| `firststruct.go` |
+
 # first_struct
 
-Создайте структуру `User` с такими полями как:
+Create a structure `User` with the following fields:
 
-- `Name` с типом `string`
-- `password` с типом `string`
+- `Name` of type `string`
+- `Password` of type `string`
+
+**Example:**
+
+```go
+func main() {
+    // Create a new User struct
+    user := User{
+        Name:     "John Doe",
+        Password: "securePassword123",
+    }
+
+    fmt.Println("User:", user)
+}
+```
