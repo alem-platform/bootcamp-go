@@ -1,6 +1,6 @@
-| Expected file    |
-| ---------------- |
-| `validsudoku.go` |
+| Expected file      |
+| ------------------ |
+| `isvalidsudoku.go` |
 
 # is_valid_sudoku
 
