@@ -1,6 +1,6 @@
-| Expected file                     | Available packages            |
-| --------------------------------- | ----------------------------- |
-| `print_converted_seconds/main.go` | `github.com/alem-platform/ap` |
+| Expected file                     | Available packages                 |
+| --------------------------------- | ---------------------------------- |
+| `print_converted_seconds/main.go` | `github.com/alem-platform/ap` `os` |
 
 # print_converted_seconds
 
