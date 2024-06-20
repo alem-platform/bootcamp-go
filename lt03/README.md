@@ -6,7 +6,7 @@ Status:
     ✅ - ready to prod
 
 | Title                   | Level | XP      | Link                                                 | Done? |
-| ----------------------- | ----- | ------- | ---------------------------------------------------- | ----- | --- |
+| ----------------------- | ----- | ------- | ---------------------------------------------------- | ----- |
 | print_digits_even       | 1     | 100     | [README.md](./print_digits_even.md)                  | ✅    |
 | print_digits_odd        | 1     | 100     | [README.md](./print_digits_odd.md)                   | ✅    |
 | print_alpha_rev         | 1     | 100     | [README.md](./print_alpha_rev.md)                    | ✅    |
@@ -21,10 +21,10 @@ Status:
 | map_difference          | 3     | 200     | [README.md](./map_diff.md)                           | ✅    |
 | map_invert              | 3     | 200     | [README.md](./map_invert.md)                         | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
-| print_arguments_index   | 4     | 250     | [README.md](./print_arguments_index.md)              |       | Y   |
-| count_arguments_vowels  | 4     | 250     | [README.md](./count_arguments_vowels.md)             |       | Y   |
-| uppercase_arguments     | 4     | 250     | [README.md](./uppercase_arguments.md)                |       | Y   |
-| reverse_each_argument   | 4     | 250     | [README.md](./reverse_each_argument.md)              |       | Y   |
+| print_arguments_index   | 4     | 250     | [README.md](./print_arguments_index.md)              | ✅    |
+| count_vowels            | 4     | 250     | [README.md](./count_vowels.md)                       | ✅    |
+| uppercase_arguments     | 4     | 250     | [README.md](./uppercase_arguments.md)                | ✅    |
+| reverse_each_argument   | 4     | 250     | [README.md](./reverse_each_argument.md)              | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | sum_numbers             | 5     | 300     | [README.md](./sum_numbers.md)                        | ✅    |
 | product_numbers         | 5     | 300     | [README.md](./product_numbers.md)                    | ✅    |
