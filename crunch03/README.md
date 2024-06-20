@@ -1,8 +1,8 @@
 # crunch03
 
-| Available                                                     |
-| ------------------------------------------------------------- |
-| `github.com/alem-platform/ap` `fmt.Scanf` `math/rand` `bufio` |
+| Available                                     |
+| --------------------------------------------- |
+| `*` (except packages that implement the game) |
 
 **Task**
 
