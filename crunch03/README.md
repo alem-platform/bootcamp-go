@@ -1,5 +1,9 @@
 # crunch03
 
+| Available                                                     |
+| ------------------------------------------------------------- |
+| `github.com/alem-platform/ap` `fmt.Scanf` `math/rand` `bufio` |
+
 **Task**
 
 Implement the `Game-of-Life` simulation.
@@ -44,32 +48,9 @@ The input consists of a grid of characters representing the initial state of the
      - Tick number.
      - Grid size.
      - Number of live cells.
-     - Current speed.
+     - Delay.
 
 ### Example 1: Basic Input and Evolution
-### Game Rules
-
-1. **Grid Evolution:**
-
-   - Any live cell with fewer than two live neighbors dies (underpopulation).
-   - Any live cell with two or three live neighbors lives on to the next generation.
-   - Any live cell with more than three live neighbors dies (overpopulation).
-   - Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
-   - Overall, the grid evolution shoild satisfy the rules of `Game of Life`.
-
-2. **Edge Cases:**
-
-   - Handle minimum size grids (3x3) and larger grids.
-   - Handle improper inputs with appropriate error messages and handling.
-   - Terminate the program if the input is invalid.
-
-3. **Verbose Mode:**
-   - In verbose mode, display the following information at the top of each tick:
-     - Tick number.
-     - Grid size.
-     - Number of live cells.
-     - Current speed.
-**Input:**
 
 ```sh
 student$: go run main.go
@@ -170,7 +151,7 @@ go run main.go --verbose
 Tick: 1
 Grid Size: 6x6
 Live Cells: 8
-Speed: 2500ms
+Delay: 2500ms
 
 · · · · · ·
 · · × × · ·
@@ -186,7 +167,7 @@ Speed: 2500ms
 Tick: 2
 Grid Size: 6x6
 Live Cells: 9
-Speed: 2500ms
+Delay: 2500ms
 
 · · · · · ·
 · × × × · ·
@@ -202,7 +183,7 @@ Speed: 2500ms
 Tick: 3
 Grid Size: 6x6
 Live Cells: 11
-Speed: 2500ms
+Delay: 2500ms
 
 · × · · · ·
 × · · · × ·
@@ -212,7 +193,7 @@ Speed: 2500ms
 · · · · · ·
 ```
 
-### Example 5: Input with Verbose Mode and Custom Animation Speed
+### Example 5: Input with Verbose Mode and Custom Animation Delay
 
 **Input:**
 
@@ -242,7 +223,7 @@ go run main.go --verbose --delay-ms=1000
 Tick: 1
 Grid Size: 10x10
 Live Cells: 23
-Speed: 1000ms
+Delay: 1000ms
 
 · · · · · · · · · ·
 · · × × × · · · · ·
@@ -262,7 +243,7 @@ Speed: 1000ms
 Tick: 2
 Grid Size: 10x10
 Live Cells: 29
-Speed: 1000ms
+Delay: 1000ms
 
 · · · · · · · · · ·
 · × × · · × · · · ·
@@ -282,7 +263,7 @@ Speed: 1000ms
 Tick: 3
 Grid Size: 10x10
 Live Cells: 29
-Speed: 1000ms
+Delay: 1000ms
 
 · · · · · · · · · ·
 × · · × · × · · · ·
@@ -302,7 +283,7 @@ Speed: 1000ms
 Tick: 4
 Grid Size: 10x10
 Live Cells: 25
-Speed: 1000ms
+Delay: 1000ms
 
 · · · × · · · · · ·
 × · · · × · × · · ·
