@@ -40,25 +40,14 @@ The input consists of a grid of characters representing the initial state of the
 2. **Edge Cases:**
 
    - Handle minimum size grids (3x3) and larger grids.
-   - Handle improper inputs with appropriate error messages and handling.
+   - Handle improper inputs with error message `Error: invalid input.`.
    - Terminate the program if the input is invalid.
-
-3. **Verbose Mode:**
-   - In verbose mode, display the following information at the top of each tick:
-     - Tick number.
-     - Grid size.
-     - Number of live cells.
-     - Delay.
+   - If options conflict, then accept only the first option.
 
 ### Example 1: Basic Input and Evolution
 
 ```sh
 student$: go run main.go
-```
-
-**Grid Input:**
-
-```sh
 4 4
 ....
 .##.
@@ -89,12 +78,7 @@ student$: go run main.go
 **Input:**
 
 ```sh
-go run main.go
-```
-
-**Grid Input:**
-
-```
+student$ go run main.go
 2 2
 ..
 ..
@@ -111,12 +95,7 @@ Error: invalid input.
 **Input:**
 
 ```sh
-go run main.go --help
-```
-
-**Output:**
-
-```sh
+student$: go run main.go --help
 Usage: go run main.go [options]
 
 Options:
@@ -125,17 +104,21 @@ Options:
   --delay-ms=<n>: Set the animation speed in milliseconds. Default is 2500 milliseconds
 ```
 
+The output may vary, but it should meet the requirements of `help` flag.
+
 ### Example 4: Input with Verbose Mode
+
+In verbose mode, display the following information at the top of each tick. The output may vary, but it should meet the requirements of `verbose` flag. Example:
+
+- Tick number.
+- Grid size.
+- Number of live cells.
+- DelayMs.
 
 **Input:**
 
 ```sh
-go run main.go --verbose
-```
-
-**Grid Input:**
-
-```
+student$: go run main.go --verbose
 6 6
 ......
 ..##..
@@ -151,7 +134,7 @@ go run main.go --verbose
 Tick: 1
 Grid Size: 6x6
 Live Cells: 8
-Delay: 2500ms
+DelayMs: 2500ms
 
 · · · · · ·
 · · × × · ·
@@ -167,7 +150,7 @@ Delay: 2500ms
 Tick: 2
 Grid Size: 6x6
 Live Cells: 9
-Delay: 2500ms
+DelayMs: 2500ms
 
 · · · · · ·
 · × × × · ·
@@ -183,7 +166,7 @@ Delay: 2500ms
 Tick: 3
 Grid Size: 6x6
 Live Cells: 11
-Delay: 2500ms
+DelayMs: 2500ms
 
 · × · · · ·
 × · · · × ·
@@ -193,17 +176,12 @@ Delay: 2500ms
 · · · · · ·
 ```
 
-### Example 5: Input with Verbose Mode and Custom Animation Delay
+### Example 5: Input with Verbose Mode and Custom Animation DelayMs
 
 **Input:**
 
 ```sh
-go run main.go --verbose --delay-ms=1000
-```
-
-**Grid Input:**
-
-```
+student$: go run main.go --verbose --delayMs-ms=1000
 10 10
 ..........
 ..###.....
@@ -223,7 +201,7 @@ go run main.go --verbose --delay-ms=1000
 Tick: 1
 Grid Size: 10x10
 Live Cells: 23
-Delay: 1000ms
+DelayMs: 1000ms
 
 · · · · · · · · · ·
 · · × × × · · · · ·
@@ -243,7 +221,7 @@ Delay: 1000ms
 Tick: 2
 Grid Size: 10x10
 Live Cells: 29
-Delay: 1000ms
+DelayMs: 1000ms
 
 · · · · · · · · · ·
 · × × · · × · · · ·
@@ -263,7 +241,7 @@ Delay: 1000ms
 Tick: 3
 Grid Size: 10x10
 Live Cells: 29
-Delay: 1000ms
+DelayMs: 1000ms
 
 · · · · · · · · · ·
 × · · × · × · · · ·
@@ -283,7 +261,7 @@ Delay: 1000ms
 Tick: 4
 Grid Size: 10x10
 Live Cells: 25
-Delay: 1000ms
+DelayMs: 1000ms
 
 · · · × · · · · · ·
 × · · · × · × · · ·
@@ -303,24 +281,21 @@ Delay: 1000ms
 
   - **Example Usage:**
     ```sh
-    go run main.go --file=path/to/grid.txt
+    student$: go run main.go --file=path/to/grid.txt
     ```
 
 - **Flag `--edges-portal`**: Enables portal edges where cells that exit the grid appear on the opposite side.
 
   - **Example Usage:**
     ```sh
-    go run main.go --edges-portal
+    student$: go run main.go --edges-portal
     ```
 
 - **Flag `--random=WxH`**: Generates a random grid of the specified width (W) and height (H).
 
   - **Example Usage:**
     ```sh
-    go run main.go --random=5x5
-    ```
-  - **Initial Output:**
-    ```
+    student$: go run main.go --random=5x5
     · · × · ·
     × · × · ·
     · × × · ·
@@ -328,25 +303,25 @@ Delay: 1000ms
     · · · × ×
     ```
 
-- **Flag `--fullscreen`**: Adjusts the grid to fit the terminal size with empty cells.
+- **Flag `--fullscreen`**: Adjusts the grid to fit the terminal size with empty cells. Ff the terminal size is smaller, it may cut off the entered card. The program should take into account the size of the terminal only at the time of launch.
 
   - **Example Usage:**
     ```sh
-    go run main.go --fullscreen
+    student$: go run main.go --fullscreen
     ```
 
 - **Flag `--footprints`**: Adds traces of visited cells. Use `∘` to display visited cells.
 
   - **Example Usage:**
     ```sh
-    go run main.go --footprints
+    student$: go run main.go --footprints
     ```
 
 - **Flag `--colored`**: Adds color to live cells and traces if footprints are implemented.
 
   - **Example Usage:**
     ```sh
-    go run main.go --colored
+    student$: go run main.go --colored
     ```
 
 - **Flag with custom feature**: Add a new feature that introduces a new rule or visualization to the game.
