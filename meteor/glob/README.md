@@ -16,7 +16,7 @@ More about [glob here](https://man7.org/linux/man-pages/man7/glob.7.html)
 **Function definition:**
 
 ```go
-func glob(s string, pattern string) bool {
+func Glob(s string, pattern string) bool {
 
 }
 ```
@@ -43,7 +43,7 @@ func main() {
   for _, pattern := range patterns {
     fmt.Printf("pattern: %q\n",  pattern)
     for _, path := range paths {
-      if !glob(path, pattern) {
+      if !Glob(path, pattern) {
         continue
       }
 
