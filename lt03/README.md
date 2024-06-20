@@ -33,14 +33,14 @@ Status:
 | get_math_operation      | 6     | 350     | [README.md](../story09/get_math_operation/README.md) | COPY  |
 | get_incrementor         | 6     | 350     | [README.md](../story09/get_incrementor/README.md)    | COPY  |
 | map_from_keys           | 6     | 350     | [README.md](./map_from_keys.md)                      | ✅    |
-| map_update              | 6     | 350     | [README.md](./map_update.md)                         |       |
+| map_update              | 6     | 350     | [README.md](./map_update.md)                         | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | sort                    | 7     | 450     | [README.md](../story09/sort/README.md)               | COPY  |
 | my_cat                  | 7     | 450     | [README.md](../story08/my_cat/README.md)             | COPY  |
-| print_hex               | 7     | 450     | [README.md](./print_hex.md)                          | COPY  |
+| print_hex               | 7     | 450     | [README.md](./print_hex.md)                          | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
-| prime_sum               | 8     | 450     | [README.md](./prime_sum.md)                          |       |
-| rotate_matrix_180       | 8     | 450     | [README.md](./rotate_matrix_180.md)                  |       |
+| prime_sum               | 8     | 450     | [README.md](./prime_sum.md)                          | ✅    |
+| rotate_matrix_180       | 8     | 450     | [README.md](./rotate_matrix_180.md)                  | ✅    |
 | my_wc                   | 8     | 450     | [README.md](../story08/my_wc/README.md)              | COPY  |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | brackets                | 9     | 500     | [README.md](../story06/brackets/README.md)           | COPY  |
@@ -48,9 +48,9 @@ Status:
 | convert_nbr_base        | 9     | 500     | [README.md](../story05/convert_nbr_base/README.md)   | COPY  |
 
 ```
-| map_keys                | 2     | 150     | [README.md](../story07/map_keys/README.md)           | COPY  |
-| print_a                 | 1     | 100     | [README.md](./print_a.md)                            |       |
-| game_cites              | 9     | 500     | [README.md](../story07/game_cites/README.md)         | COPY  |
-| wrap_functions          | 9     | 500     | [README.md](../story09/wrap_functions/README.md)     | COPY  |
+| map_keys                |       |         | [README.md](../story07/map_keys/README.md)           | COPY  |
+| print_a                 |       |         | [README.md](./print_a.md)                            |       |
+| game_cites              |       |         | [README.md](../story07/game_cites/README.md)         | COPY  |
+| wrap_functions          |       |         | [README.md](../story09/wrap_functions/README.md)     | COPY  |
 | brainfuck               |       |         | [README.md](../meteor/brainfuck/README.md)           |
 ```
