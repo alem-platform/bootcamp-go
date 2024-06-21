@@ -52,3 +52,8 @@ Status:
 | wrap_functions          |       |         | [README.md](../story09/wrap_functions/README.md)     | COPY  |
 | brainfuck               |       |         | [README.md](../meteor/brainfuck/README.md)           |
 ```
+
+
+Убраны задачи:
+- my_wc
+- my_cat
