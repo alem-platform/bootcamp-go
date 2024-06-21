@@ -303,7 +303,7 @@ DelayMs: 1000ms
     · · · × ×
     ```
 
-- **Flag `--fullscreen`**: Adjusts the grid to fit the terminal size with empty cells. Ff the terminal size is smaller, it may cut off the entered card. The program should take into account the size of the terminal only at the time of launch.
+- **Flag `--fullscreen`**: Adjusts the grid to fit the terminal size with empty cells. If the terminal size is smaller, it may cut off the entered card. The program should take into account the size of the terminal only at the time of launch.
 
   - **Example Usage:**
     ```sh
