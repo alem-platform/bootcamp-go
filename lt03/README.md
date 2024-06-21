@@ -41,7 +41,6 @@ Status:
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | prime_sum               | 8     | 450     | [README.md](./prime_sum.md)                          | ✅    |
 | rotate_matrix_180       | 8     | 450     | [README.md](./rotate_matrix_180.md)                  | ✅    |
-| my_wc                   | 8     | 450     | [README.md](../story08/my_wc/README.md)              | COPY  |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | brackets                | 9     | 500     | [README.md](../story06/brackets/README.md)           | COPY  |
 | roman_to_int            | 9     | 500     | [README.md](../story07/roman_to_int/README.md)       | COPY  |
