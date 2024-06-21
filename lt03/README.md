@@ -36,7 +36,6 @@ Status:
 | map_update              | 6     | 350     | [README.md](./map_update.md)                         | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | sort                    | 7     | 450     | [README.md](../story09/sort/README.md)               | COPY  |
-| my_cat                  | 7     | 450     | [README.md](../story08/my_cat/README.md)             | COPY  |
 | print_hex               | 7     | 450     | [README.md](./print_hex.md)                          | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | prime_sum               | 8     | 450     | [README.md](./prime_sum.md)                          | ✅    |
