@@ -8,9 +8,7 @@
 
 Implement the `Game-of-Life` simulation.
 
-Read more about the game here: [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
-
-See an example of the game principles here: [Game of Life Example](https://conwaylife.com/)
+Read more about the game here: [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life), or you can play it [here](https://conwaylife.com/)
 
 The program should accept the following symbols: `#.` where `#` represents a live cell and `.` represents an empty cell.
 
