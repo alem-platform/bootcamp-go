@@ -8,7 +8,7 @@
 
 Implement the `Game-of-Life` simulation.
 
-Read more about the game here[Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+Read more about the game here: [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 See an example of the game principles here: [Game of Life Example](https://conwaylife.com/)
 
