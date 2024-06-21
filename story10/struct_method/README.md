@@ -1,6 +1,6 @@
-| Expected file            |
-| ------------------------ |
-| `first_struct/method.go` |
+| Expected file           |
+| ----------------------- |
+| `firststruct/method.go` |
 
 # struct_method
 
@@ -25,10 +25,7 @@ Scoring criteria:
 
 ```go
 func main() {
-    user := User{
-        Name:     "Alice",
-        Password: "StrongPassword123$",
-    }
+    user := NewUser("Alice", "StrongPassword123$")
 
     reliability := user.PasswordReliability()
     fmt.Println("Password reliability:", reliability)

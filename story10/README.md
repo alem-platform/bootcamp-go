@@ -24,11 +24,6 @@
 
 Старые задачи, которые не были включены в текущий story10:
 
-- [README.md](./new_stack/README.md)
-- [README.md](./stack_push/README.md)
-- [README.md](./stack_peek/README.md)
-- [README.md](./stack_pop/README.md)
-- [README.md](./stack_len/README.md)
 - [README.md](./new_set/README.md)
 - [README.md](./set_insert/README.md)
 - [README.md](./set_remove/README.md)

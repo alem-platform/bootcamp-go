@@ -9,7 +9,7 @@ Write a function `PrintUserInfo` that prints information about a `User`.
 **Function definition:**
 
 ```go
-func PrintUserInfo(u User) {
+func PrintUserInfo(u firststruct.User) {
 
 }
 ```
@@ -17,20 +17,16 @@ func PrintUserInfo(u User) {
 **Example:**
 
 ```go
-func main() {
-    userAlem := User{
-        Name:     "Alem",
-        password: "hello.alem",
-    }
+import "bootcamp/firststruct"
 
+func main() {
+    userAlem := firststruct.NewUser("Alem", "hello.alem")
     PrintUserInfo(userAlem)
     // Output:
     // Name: Alem
     // HasPassword: yes
 
-    userDias := User{
-        Name: "Dias",
-    }
+    userDias := firststruct.NewUser("Dias", "")
     PrintUserInfo(userDias)
     // Output:
     // Name: Dias
