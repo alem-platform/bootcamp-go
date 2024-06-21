@@ -23,8 +23,6 @@ The program should handle following flags:
 - Flag `--verbose` - displays information about the map size, the number of ticks, speed, map name, etc. Information is shown at the top.
 - Flag `--delay-ms=` - sets the animation speed in milliseconds. The default speed is `2500` milliseconds.
 
-> If a non-existent flag or argument is entered, an error must be displayed.
-
 ### Input Format
 
 The input consists of a grid of characters representing the initial state of the game, followed by optional flags.
@@ -41,10 +39,12 @@ The input consists of a grid of characters representing the initial state of the
 
 2. **Edge Cases:**
 
+   - The program should run until there are no living cells left on the grid.
    - Handle minimum size grids (3x3) and larger grids.
    - Terminate the program if the input is invalid.
    - If the flags conflict, of the conflicting flags, accept the first one.
-   - The program should run until there are no living cells left on the grid.
+   - If a non-existent flag or argument is entered, an error must be displayed.
+   - All error text is at your discretion; the only requirement for errors is that they are understandable.
 
 ### Example 1: Basic Input and Evolution
 
@@ -52,7 +52,7 @@ The input consists of a grid of characters representing the initial state of the
 student$: go run main.go
 4 4
 ....
-.##.
+.#..
 .##.
 ....
 ```
@@ -61,7 +61,7 @@ student$: go run main.go
 
 ```sh
 · · · ·
-· × × ·
+· × · ·
 · × × ·
 · · · ·
 ```
@@ -103,7 +103,7 @@ Usage: go run main.go [options]
 Options:
   --help        : Show the help message and exit
   --verbose     : Display detailed information about the simulation, including grid size, number of ticks, speed, and map name
-  --delay-ms=<n>: Set the animation speed in milliseconds. Default is 2500 milliseconds
+  --delay-ms=X: Set the animation speed in milliseconds. Default is 2500 milliseconds
 ```
 
 The output may vary, but it should meet the requirements of `help` flag.
@@ -151,14 +151,14 @@ DelayMs: 2500ms
 ```sh
 Tick: 2
 Grid Size: 6x6
-Live Cells: 9
+Live Cells: 6
 DelayMs: 2500ms
 
 · · · · · ·
 · × × × · ·
-× · · × · ·
-· · · × · ·
-· × × · · ·
+· × · · · ·
+· · · · · ·
+· · × × · ·
 · · · · · ·
 ```
 
@@ -167,114 +167,15 @@ DelayMs: 2500ms
 ```sh
 Tick: 3
 Grid Size: 6x6
-Live Cells: 11
+Live Cells: 5
 DelayMs: 2500ms
 
+· · × · · ·
+· × × · · ·
 · × · · · ·
-× · · · × ·
-· · × · · ×
-× · · · · ×
-· × · × × ·
+· · × · · ·
 · · · · · ·
-```
-
-### Example 5: Input with Verbose Mode and Custom Animation DelayMs
-
-**Input:**
-
-```sh
-student$: go run main.go --verbose --delayMs-ms=1000
-10 10
-..........
-..###.....
-...##.....
-.....##...
-...###....
-..#####...
-..###.....
-.....##...
-...##.....
-..........
-```
-
-**Initial Output:**
-
-```sh
-Tick: 1
-Grid Size: 10x10
-Live Cells: 23
-DelayMs: 1000ms
-
-· · · · · · · · · ·
-· · × × × · · · · ·
-· · · × × · · · · ·
-· · · · × × · · · ·
-· · · × × × · · · ·
-· · × × × × × · · ·
-· · × × × · · · · ·
-· · · · × × · · · ·
-· · · × × · · · · ·
-· · · · · · · · · ·
-```
-
-**Output After One Tick:**
-
-```sh
-Tick: 2
-Grid Size: 10x10
-Live Cells: 29
-DelayMs: 1000ms
-
-· · · · · · · · · ·
-· × × · · × · · · ·
-× · · × × · · · · ·
-· · × · · × · · · ·
-· × · · · × · · · ·
-· × · · · × · · · ·
-· × · · · × · · · ·
-· · × · × · · · · ·
-· · · × × · · · · ·
-· · · · · · · · · ·
-```
-
-**Output After Two Ticks:**
-
-```sh
-Tick: 3
-Grid Size: 10x10
-Live Cells: 29
-DelayMs: 1000ms
-
-· · · · · · · · · ·
-× · · × · × · · · ·
-· × · · · × · · · ·
-× · × · · × · · · ·
-× · · · · × · · · ·
-× · · · · × · · · ·
-× · · · · × · · · ·
-· × · · · × · · · ·
-· · × · × · · · · ·
-· · · × · · · · · ·
-```
-
-**Output After Three Ticks:**
-
-```sh
-Tick: 4
-Grid Size: 10x10
-Live Cells: 25
-DelayMs: 1000ms
-
-· · · × · · · · · ·
-× · · · × · × · · ·
-· × · · · × · · · ·
-× · × · · · · · · ·
-× · · · · × · · · ·
-× · · · · × · · · ·
-× · · · · × · · · ·
-· × · · · × · · · ·
-· · × · · · · · · ·
-· · · · × · · · · ·
+· · · · · ·
 ```
 
 ### Bonus Features
@@ -336,8 +237,8 @@ Usage: go run main.go [options]
 Options:
   --help        : Show the help message and exit
   --verbose     : Display detailed information about the simulation, including grid size, number of ticks, speed, and map name
-  --delay-ms=<n>: Set the animation speed in milliseconds. Default is 2500 milliseconds
-  --file=<path> : Load the initial grid from a specified file
+  --delay-ms=X  : Set the animation speed in milliseconds. Default is 2500 milliseconds
+  --file=X      : Load the initial grid from a specified file
   --edges-portal: Enable portal edges where cells that exit the grid appear on the opposite side
   --random=WxH  : Generate a random grid of the specified width (W) and height (H)
   --fullscreen  : Adjust the grid to fit the terminal size with empty cells
