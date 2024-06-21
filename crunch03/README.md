@@ -40,7 +40,6 @@ The input consists of a grid of characters representing the initial state of the
 2. **Edge Cases:**
 
    - Handle minimum size grids (3x3) and larger grids.
-   - Handle improper inputs with error message `Error: invalid input.`.
    - Terminate the program if the input is invalid.
    - If the flags conflict, of the conflicting flags, accept the first one.
    - The program should run until there are no living cells left on the grid.
