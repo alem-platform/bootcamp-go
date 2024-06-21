@@ -17,7 +17,7 @@ The program should accept the following symbols: `#.` where `#` represents a liv
 - Use `×` to display live cells;
 - Use `·` to display dead cells;
 
-The program should henadle following flags:
+The program should handle following flags:
 
 - Flag `--help` - provides information about the program's capabilities and shows all implemented flags.
 - Flag `--verbose` - displays information about the map size, the number of ticks, speed, map name, etc. Information is shown at the top.
