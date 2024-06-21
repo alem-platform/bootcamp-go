@@ -1,6 +1,7 @@
-| Expected file       |
-| ------------------- |
-| `print_hex/main.go` |
+| Expected file       | Available                           |
+| ------------------- |                                     |
+| `print_hex/main.go` | `github.com/alem-platform/ap`, `os` |
+
 
 # print_hex
 
