@@ -23,6 +23,8 @@ The program should handle following flags:
 - Flag `--verbose` - displays information about the map size, the number of ticks, speed, map name, etc. Information is shown at the top.
 - Flag `--delay-ms=` - sets the animation speed in milliseconds. The default speed is `2500` milliseconds.
 
+> If a non-existent flag or argument is entered, an error must be displayed.
+
 ### Input Format
 
 The input consists of a grid of characters representing the initial state of the game, followed by optional flags.
