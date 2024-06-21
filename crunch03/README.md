@@ -42,7 +42,7 @@ The input consists of a grid of characters representing the initial state of the
    - Handle minimum size grids (3x3) and larger grids.
    - Handle improper inputs with error message `Error: invalid input.`.
    - Terminate the program if the input is invalid.
-   - If options conflict, then accept only the first option.
+   - If the flags conflict, of the conflicting flags, accept the first one.
 
 ### Example 1: Basic Input and Evolution
 
