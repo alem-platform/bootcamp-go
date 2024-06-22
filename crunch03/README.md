@@ -1,5 +1,13 @@
 # crunch03
 
+<p data-story-username="miranda_rh">So, this is going to be your last crunch in this bootcamp!
+
+And here's what I want you to do. Look back at the two previous ones and reflect on what you wanted to do but were too shy or too doubtful to try.
+
+This time, do it! This is your life, your training; it won't repeat in the same way again. So be confident, go bold, and drive it like you stole it!
+
+You've got this, buddy.</p>
+
 | Available                                     |
 | --------------------------------------------- |
 | `*` (except packages that implement the game) |
@@ -243,3 +251,53 @@ Options:
   --footprints  : Add traces of visited cells, displayed as '∘'
   --colored     : Add color to live cells and traces if footprints are enabled
 ```
+
+## Assessment criteria
+
+Here's what your reviewers will be looking at:
+
+#### Functionality
+
+- **Correctness:**
+  - Correctly reads the grid input and optional flags
+  - Correctly implements the Game of Life rules for grid evolution
+  - The output matches the specified format, including the display of live and dead cells
+- **Edge Cases:**
+  - Handles minimum-size grids (3x3) and larger grids
+  - Runs until there are no living cells left on the grid
+  - Correctly handles invalid inputs and conflicting or non-existent flags with appropriate error messages
+- **Flag Handling:**
+  - Handles the --help flag correctly, displaying information about the program and implemented flags
+  - Handles the --verbose flag correctly, displaying information about the simulation at each tick
+  - Handles the --delay-ms flag correctly, adjusting the animation speed as specified
+
+#### Code Quality
+
+- **Readability:**
+  - Well-organized and easy-to-follow code
+  - The functions and methods are logically organized and named appropriately
+- **Efficiency:**
+  - Uses efficient algorithms and data structures
+  - The documentation is clear and comprehensive
+
+#### Usability
+
+- **User Interaction:**
+  - Provides clear instructions and error messages
+  - Handles user inputs gracefully, including flags and grid inputs
+- **Game Mechanics:**
+  - Correctly displays the grid evolution according to the Game of Life rules
+  - Provides an engaging and smooth user experience, including the handling of optional flags
+
+#### Code Defense and Presentation 
+
+- **Clarity and Articulation :**
+  - Every member of the team can explain their code, logic, and design choices during the presentation
+  - Demonstrate a deep understanding of the Game of Life rules and their implementation
+  - Can effectively answer questions about their code and the decisions they made
+
+#### Bonus Features
+
+- **Advanced Flag Handling :**
+  - Correctly implements additional flags such as --file, --edges-portal, --random, --fullscreen, --footprints, and --colored
+  - Implement a custom feature that introduces a new rule or visualization to the game
