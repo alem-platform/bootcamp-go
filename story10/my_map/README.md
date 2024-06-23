@@ -35,7 +35,7 @@ func (m *MyMap) Delete(k string) {
 
 }
 
-func (m *MyMap) Items() []struct{ Key string, Value interface{} } {
+func (m *MyMap) Items() []struct{ Key string; Value interface{} } {
 
 }
 ```

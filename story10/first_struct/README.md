@@ -10,6 +10,8 @@ Create function `NewUser` that returns `struct` `User` with the following fields
 - `password` of type `string`
 
 ```go
+package firststruct
+
 func NewUser(name, password string) User {
 
 }
