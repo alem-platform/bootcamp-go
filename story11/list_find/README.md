@@ -2,6 +2,8 @@
 | -------------- |
 | `list/find.go` |
 
+<p data-story-username="aberonshin">And we found them, indeed. The answer was simply no. Not possible. There is no way such a magic formula that could change the world could come without risks. Changes are always risky, even when it comes to biotechnology. Especially when it comes to biotechnology.</p>
+
 # list_find
 
 Implement the method `Find` for the `List` structure. This method should iterate through the list and return the first node for which the provided function returns `true`. If no such node is found, it should return `nil`.
