@@ -2,6 +2,8 @@
 | --------------------- | ------------------ |
 | `getbooksfromfile.go` | `bufio` `os`       |
 
+<p data-story-username="a-J-nx">yt's okay though. Dr. Aberon will tell you his story very soon.</p>
+
 # get_books_from_file
 
 Write a function `GetBooksFromCsv` that reads a CSV file containing book information and returns an array of `Book` structs.
