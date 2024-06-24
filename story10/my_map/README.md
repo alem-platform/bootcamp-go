@@ -1,6 +1,6 @@
-| Expected file | Available packages            |
-| ------------- | ----------------------------- |
-| `mymap.go`    | `github.com/alem-platform/ap` |
+| Expected file |
+| ------------- |
+| `mymap.go`    |
 
 # my_map
 
