@@ -2,6 +2,8 @@
 | ------------- |
 | `list/new.go` |
 
+<p data-story-username="aberonshin">And just like that, we meet again. You've come a long way! I must admit, I am very proud of your progress.</p>
+
 # new_list
 
 Implement the function `NewList`. This function should initialize and return a new instance of a doubly linked list. The list should start empty, with both `Head` and `Tail` pointers set to `nil`.
