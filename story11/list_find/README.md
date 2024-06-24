@@ -22,7 +22,10 @@ func main() {
 	l.PushBack(30)
 
 	node := l.Find(func(v interface{}) bool {
-		return v.(int) == 20
+		if value, ok := v.(int); ok {
+			return value == 20
+		}
+		return false
 	})
 
 	if node != nil {
