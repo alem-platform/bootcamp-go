@@ -4,9 +4,7 @@
 
 # btree_delete_node
 
-Implement the `DeleteNode` method for the `BTree` structure to remove a specific node from the binary search tree.
-
-> Read more about [delete operation in btree here ](https://www.geeksforgeeks.org/delete-operation-in-b-tree)
+Implement the `DeleteNode` method for the `BTree` structure to remove a specific node from the binary search tree. After removal, the tree must also meet the binary search tree conditions.
 
 **Function definition:**
 
