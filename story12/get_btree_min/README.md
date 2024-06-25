@@ -4,7 +4,7 @@
 
 # get_btree_min
 
-Implement the `GetMin()` method for the `BTree` structure to find and return the minimum value stored in the binary search tree. The minimum value in a BST is located at the leftmost node, and this method will traverse the left subtree until it reaches that node.
+Implement the `GetMin()` method for the `BTree` structure to find and return the minimum value stored in the binary search tree.
 
 **Function definition:**
 
