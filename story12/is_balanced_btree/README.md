@@ -37,6 +37,6 @@ func main() {
      20  null 60   80
     */
 
-    fmt.Println(tree.IsBalancedBtree()) // true
+    fmt.Println(IsBalancedBtree(tree)) // true
 }
 ```
