@@ -9,7 +9,16 @@ Implement the `Clear()` method for the `BTree` structure to completely remove al
 **Function definition:**
 
 ```go
+type Btree struct {
+
+}
+
+func NewBTree() *Btree {
+
+}
+
 func (b *BTree) Clear() {
+
 }
 ```
 
