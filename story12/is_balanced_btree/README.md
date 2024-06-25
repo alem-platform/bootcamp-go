@@ -6,7 +6,7 @@
 
 Write a function `IsBalancedBtree` for the `BTree` structure to determine if a binary search tree (BST) is balanced. A tree is considered balanced if, for every node, the height difference between its left and right subtrees is no more than one.
 
-> https://www.geeksforgeeks.org/balanced-binary-tree/?ref=header_search
+>  Read more about [balanced binary tree here](https://www.geeksforgeeks.org/balanced-binary-tree/?ref=header_search)
 
 **Function definition:**
 

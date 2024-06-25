@@ -35,9 +35,7 @@ func main() {
     */
 
     // Tree before deleting leaves:
-    tree.InOrderTraversal(func(n *BTreeNode) {
-        fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
-    })
+    printTree(tree.Root)       // 20 30 40 50 60 70 80
 
     DeleteBtreeLeaves(tree)
     /* Btree Visualization:
@@ -47,9 +45,16 @@ func main() {
     */
 
     // Tree after deleting leaves:
-    tree.InOrderTraversal(func(n *BTreeNode) {
-        fmt.Print(n.Value, " ") // 30 50 70
-    })
+    printTree(tree.Root)      // 30 50 70
+}
+
+func printTree(node *BTreeNode) {
+    if node == nil {
+        return
+    }
+    printTree(node.Left)
+    fmt.Println(node.Value)
+    printTree(node.Right)
 }
 
 ```

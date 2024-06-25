@@ -6,6 +6,8 @@
 
 Implement the `DeleteNode` method for the `BTree` structure to remove a specific node from the binary search tree.
 
+> Read more about [delete operation in btree here ](https://www.geeksforgeeks.org/delete-operation-in-b-tree)
+
 **Function definition:**
 
 ```go
@@ -35,9 +37,7 @@ func main() {
     */
 
     // Tree before deleting node 30:
-    tree.InOrderTraversal(func(n *BTreeNode) {
-        fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
-    })
+    printTree(tree.Root)  // 20 30 40 50 60 70 80
 
     tree.DeleteNode(30)
     /* Btree Visualization after Node deletion:
@@ -49,9 +49,16 @@ func main() {
     */
 
     // Tree after deleting node 30:
-    tree.InOrderTraversal(func(n *BTreeNode) {
-        fmt.Print(n.Value, " ") // 20 40 50 60 70 80
-    })
+     printTree(tree.Root)  // 20 40 50 60 70 80
 }
 
+
+func printTree(node *BTreeNode) {
+    if node == nil {
+        return
+    }
+    printTree(node.Left)
+    fmt.Println(node.Value)
+    printTree(node.Right)
+}
 ```
