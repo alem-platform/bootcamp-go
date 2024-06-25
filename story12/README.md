@@ -31,9 +31,9 @@
 | btree_postorder      | [README.md](./btree_postorder/README.md)      | 2     | ✅     | S   |
 | is_balanced_btree    | [README.md](./is_balanced_btree/README.md)    | 2     | ✅     | Y   |
 | btree_clone          | [README.md](./btree_clone/README.md)          | 2     | ✅     | Y   |
-| delete_btree_leaves  | [README.md](./delete_btree_leaves/README.md)  | 2     | ➕     | Y   |
+| delete_btree_leaves  | [README.md](./delete_btree_leaves/README.md)  | 2     | ✅     | Y   |
 | levels_btree         | [README.md](./levels_btree/README.md)         | 2     | ➕     | Y   |
-| btree_apply_by_level | [README.md](./btree_apply_by_level/README.md) | 2     | ➕     | Y   |
+| btree_apply_by_level | [README.md](./btree_apply_by_level/README.md) | 2     | ✅     | Y   |
 | btree_delete_node    | [README.md](./btree_delete_node/README.md)    | 3     | ➕     |
 
 > Мб создать графы
