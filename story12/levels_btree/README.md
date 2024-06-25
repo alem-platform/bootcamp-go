@@ -4,7 +4,7 @@
 
 # levels_btree
 
-Write a function `LevelsBtree` for the `BTree` structure to calculate the number of levels (or depth) of the binary search tree.
+Write a function `LevelsBtree` for the `BTree` structure to calculate the number of levels in the binary search tree.
 
 **Function definition:**
 
