@@ -5,6 +5,7 @@
 # count_btree_nodes
 
 Write a function `CountBtreeNodes` for the `BTree` structure to count the total number of nodes in the binary search tree.
+
 **Function definition:**
 
 ```go
