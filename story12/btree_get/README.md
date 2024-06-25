@@ -5,6 +5,7 @@
 # btree_get
 
 Implement the `Get` method for the `BTree` structure to search for and return a node containing a specific value within the binary search tree.
+
 **Function definition:**
 
 ```go
@@ -49,14 +50,5 @@ func main() {
     } else {
         fmt.Println("Value not found") // Value not found
     }
-}
-
-func printTree(node *BTreeNode) {
-    if node == nil {
-        return
-    }
-    printTree(node.Left)    // Visit left subtree
-    fmt.Println(node.Value) // Visit node itself
-    printTree(node.Right)   // Visit right subtree
 }
 ```
