@@ -5,7 +5,7 @@
 # stack_peek
 
 Implement the method `Peek` in your `Stack` structure, which returns the top item of the stack without removing it.
-If the queue is empty, then the method should return `nil`.
+If the stack is empty, then the method should return `nil`.
 
 **Function definition:**
 
