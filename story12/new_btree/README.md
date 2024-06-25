@@ -2,6 +2,8 @@
 | ---------------- |
 | `btree/btree.go` |
 
+<p data-story-username="aberonshin">Hello, Colonel. Long time indeed. So, we finally have a chance to talk. I believe we are closer to resolving our conflict than we have ever been.</p>
+
 # new_btree
 
 Implement a binary search tree (BST) structure. This structure should include a method for creating a new tree and a method to replace or insert a value into the tree.
