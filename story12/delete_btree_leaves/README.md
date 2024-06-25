@@ -6,6 +6,8 @@
 
 Write a function `DeleteBtreeLeaves` for the `BTree` structure to remove all leaf nodes from the binary search tree.
 
+- Leaf nodes do not have any child nodes.
+
 **Function definition:**
 
 ```go
