@@ -6,7 +6,7 @@
 
 # new_list
 
-Implement the function `NewList`. This function should initialize and return a new instance of a doubly linked list. The list should start empty, with both `Head` and `Tail` pointers set to `nil`.
+Implement the function `NewList`. This function should initialize and return a new instance of a singly linked list. The list should start empty, with both `Head` and `Tail` pointers set to `nil`.
 
 ```go
 type ListNode struct {
