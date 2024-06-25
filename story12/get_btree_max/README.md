@@ -4,7 +4,7 @@
 
 # get_btree_max
 
-Implement the `GetMax()` method for the `BTree` structure to find and return the maximum value stored in the binary search tree. Since the maximum value in a BST is found at the rightmost node, this method will traverse the right subtree until it finds the last node.
+Implement the `GetMax()` method for the `BTree` structure to find and return the maximum value stored in the binary search tree.
 
 **Function definition:**
 
