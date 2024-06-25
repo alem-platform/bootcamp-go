@@ -24,8 +24,8 @@
 | get_btree_min        | [README.md](./get_btree_min/README.md)        | 1     | ➕     | Y   |
 | get_btree_max        | [README.md](./get_btree_max/README.md)        | 1     | ➕     | Y   |
 | btree_get            | [README.md](./btree_get/README.md)            | 2     | ✅     | S   |
-| count_btree_nodes    | [README.md](./count_btree_nodes/README.md)    | 2     | ➕     | S   |
-| count_btree_leaves   | [README.md](./count_btree_leaves/README.md)   | 2     | ➕     | S   |
+| count_btree_nodes    | [README.md](./count_btree_nodes/README.md)    | 2     | ✅     | S   |
+| count_btree_leaves   | [README.md](./count_btree_leaves/README.md)   | 2     | ✅     | S   |
 | btree_inorder        | [README.md](./btree_inorder/README.md)        | 2     | ➕     | Y   |
 | btree_preorder       | [README.md](./btree_preorder/README.md)       | 2     | ➕     | Y   |
 | btree_postorder      | [README.md](./btree_postorder/README.md)      | 2     | ➕     | Y   |

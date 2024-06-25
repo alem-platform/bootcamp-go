@@ -9,7 +9,7 @@ Write a function `GetMin` for the `BTree` structure to find and return the minim
 **Function definition:**
 
 ```go
-func GetMin(b *btree.BTree) int {
+func GetMin(b *btree.BTree) *BTreeNode {
 
 }
 ```
