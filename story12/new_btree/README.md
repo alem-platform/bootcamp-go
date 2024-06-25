@@ -1,23 +1,29 @@
 | Expected file    |
 | ---------------- |
-| `btree/clear.go` |
+| `btree/btree.go` |
 
-# btree_clear
+# new_btree
 
-Implement the `Clear()` method for the `BTree` structure to completely remove all nodes, effectively emptying the tree.
+Implement a binary search tree (BST) as per the binary search tree structure described on Wikipedia. This structure should include a method for creating a new tree and a method to replace or insert a value into the tree.
 
 **Function definition:**
 
 ```go
-type Btree struct {
-
+type BTree struct {
+  Root *BTreeNode
 }
 
-func NewBTree() *Btree {
-
+type BTreeNode struct {
+  Parent *BTreeNode
+  Left, Right *BTreeNode
+  Value int
 }
 
-func (b *BTree) Clear() {
+func NewBTree() *BTree {
+  return &BTree{}
+}
+
+func (b *BTree) ReplaceOrInsert(v int) {
 
 }
 ```
@@ -31,11 +37,15 @@ func main() {
     tree.ReplaceOrInsert(30)
     tree.ReplaceOrInsert(70)
 
-    printTree(tree.Root) // 30 50 70
-
-    tree.Clear()
-
-    printTree(tree.Root) // Outputs nothing as the tree is now empty
+    printTree(tree.Root) // 20, 30, 40, 50, 70
 }
 
+func printTree(node *BTreeNode) {
+    if node == nil {
+        return
+    }
+    printTree(node.Left)    // Visit left subtree
+    fmt.Println(node.Value) // Visit node itself
+    printTree(node.Right)   // Visit right subtree
+}
 ```
