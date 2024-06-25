@@ -4,7 +4,7 @@
 
 # levels_btree
 
-Write a function `LevelsBtree` for the `BTree` structure to calculate the number of levels (or depth) of the binary search tree. This function will traverse the tree to find the maximum depth, which is defined as the length of the path from the root node down to the farthest leaf node.
+Write a function `LevelsBtree` for the `BTree` structure to calculate the number of levels (or depth) of the binary search tree.
 
 **Function definition:**
 

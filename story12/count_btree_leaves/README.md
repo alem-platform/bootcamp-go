@@ -4,8 +4,7 @@
 
 # count_btree_leaves
 
-Write a function `CountBtreeLeaves` for the `BTree` structure to count the number of leaf nodes (nodes with no children) in the binary search tree. This function will traverse the tree recursively and identify nodes that do not have left or right children.
-
+Write a function `CountBtreeLeaves` for the `BTree` structure to count the number of leaf nodes (nodes with no children) in the binary search tree.
 **Function definition:**
 
 ```go

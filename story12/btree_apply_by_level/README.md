@@ -4,8 +4,7 @@
 
 # btree_apply_by_level
 
-Implement the `ApplyByLevel` method for the `BTree` structure to perform an action on each node at each level of the binary search tree. This method should allow a function to be applied to all nodes level by level.
-
+Implement the `ApplyByLevel` method for the `BTree` structure to perform an action on each node at each level of the binary search tree.
 **Function definition:**
 
 ```go

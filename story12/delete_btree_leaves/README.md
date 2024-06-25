@@ -4,7 +4,7 @@
 
 # delete_btree_leaves
 
-Write a function `DeleteBtreeLeaves` for the `BTree` structure to remove all leaf nodes from the binary search tree. This operation involves identifying and removing nodes that do not have any children, simplifying the tree structure.
+Write a function `DeleteBtreeLeaves` for the `BTree` structure to remove all leaf nodes from the binary search tree.
 
 **Function definition:**
 
