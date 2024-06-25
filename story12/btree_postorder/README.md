@@ -37,8 +37,6 @@ func main() {
       20  40  60  80
     */
 
-    tree.PostOrderTraversal()
-
     tree.PostOrderTraversal(func(n *BTreeNode) {
     fmt.Print(n.Value, " ") // 20 40 30 60 80 70 50
 })

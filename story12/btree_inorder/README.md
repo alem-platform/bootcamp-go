@@ -11,7 +11,7 @@ Implement the `InOrderTraversal` method for the `BTree` structure to perform an 
 **Function definition:**
 
 ```go
-func (b *BTree) InOrderTraversal(fn func(n *btree.BTreeNode)) {
+func (b *BTree) InOrderTraversal(fn func(n *BTreeNode)) {
 
 }
 
