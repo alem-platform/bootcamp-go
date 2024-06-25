@@ -4,7 +4,7 @@
 
 # get_btree_min
 
-Write a function `GetMin` for the `BTree` structure to find and return the minimum value stored in the binary search tree.
+Write a function `GetMin` for the `BTree` structure to find and return the node with minimum value stored in the binary search tree.
 
 **Function definition:**
 

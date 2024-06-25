@@ -4,7 +4,7 @@
 
 # get_btree_max
 
-Write a function `GetMax` for the `BTree` structure to find and return the maximum value stored in the binary search tree.
+Write a function `GetMax` for the `BTree` structure to find and return the node with maximum value stored in the binary search tree.
 
 **Function definition:**
 
