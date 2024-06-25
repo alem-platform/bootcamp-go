@@ -6,7 +6,7 @@
 
 Implement the `PostOrderTraversal` method for the `BTree` structure to perform a post-order traversal of the binary search tree. This method should iterate over each node in the post-order traversal mode and apply the provided function to it.
 
-> Read more about [post-order traversal here](https://www.geeksforgeeks.org/postorder-traversal-of-binary-tree/)
+> Read more about [post-order traversal here](https://en.wikipedia.org/wiki/Tree_traversal#Post-order,_LRN)
 
 **Function definition:**
 

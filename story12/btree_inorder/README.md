@@ -6,7 +6,7 @@
 
 Implement the `InOrderTraversal` method for the `BTree` structure to perform an in-order traversal of the binary search tree. This method should iterate over each node in the in-order traversal mode and apply the provided function to it.
 
-> Read more about [in-order traversal here](https://www.geeksforgeeks.org/inorder-traversal-of-binary-tree)
+> Read more about [in-order traversal here](https://en.wikipedia.org/wiki/Tree_traversal#Inorder_traversal)
 
 **Function definition:**
 

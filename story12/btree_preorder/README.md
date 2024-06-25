@@ -6,7 +6,7 @@
 
 Implement the `PreOrderTraversal` method for the `BTree` structure to perform a pre-order traversal of the binary search tree. This method should iterate over each node in the pre-order traversal mode and apply the provided function to it.
 
-> Read more about [pre-order traversal here](https://www.geeksforgeeks.org/preorder-traversal-of-binary-tree/)
+> Read more about [pre-order traversal here](https://en.wikipedia.org/wiki/Tree_traversal#Pre-order,_NLR)
 
 **Function definition:**
 
