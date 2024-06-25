@@ -4,12 +4,12 @@
 
 # is_balanced_btree
 
-Implement the `IsBalanced()` method for the `BTree` structure to determine if a binary search tree (BST) is balanced. A tree is considered balanced if, for every node, the height difference between its left and right subtrees is no more than one.
+Write a function `IsBalancedBtree` for the `BTree` structure to determine if a binary search tree (BST) is balanced. A tree is considered balanced if, for every node, the height difference between its left and right subtrees is no more than one.
 
 **Function definition:**
 
 ```go
-func  IsBalanced(b *btree.BTree) bool {
+func  IsBalancedBtree(b *btree.BTree) bool {
 
 }
 
@@ -28,6 +28,6 @@ func main() {
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
 
-    fmt.Println(tree.IsBalanced()) // true
+    fmt.Println(tree.IsBalancedBtree()) // true
 }
 ```

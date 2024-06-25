@@ -4,14 +4,14 @@
 
 # btree_preorder
 
-Implement the `PreOrderTraversal()` method for the `BTree` structure to perform a pre-order traversal of the binary search tree. This traversal method visits the node itself first, then the left subtree, and finally the right subtree. Pre-order traversal is especially useful for creating a copy of the tree or for getting a prefix expression on an expression tree.
+Implement the `PreOrderTraversal` method for the `BTree` structure to perform a pre-order traversal of the binary search tree. This method should iterate over each node in the pre-order traversal mode and apply the provided function to it.
 
 > https://www.geeksforgeeks.org/preorder-traversal-of-binary-tree/
 
 **Function definition:**
 
 ```go
-func (b *BTree) PreOrderTraversal() {
+func (b *BTree) PreOrderTraversal(fn func(n *btree.BTreeNode)) {
 
 }
 
@@ -30,7 +30,9 @@ func main() {
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
 
-    tree.PreOrderTraversal() // 50 30 20 40 70 60 80
+    tree.PreOrderTraversal(func(n *BTreeNode) {
+        fmt.Print(n.Value, " ") // 50 30 20 40 70 60 80
+    })
 }
 
 ```

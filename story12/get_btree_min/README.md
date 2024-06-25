@@ -4,7 +4,7 @@
 
 # get_btree_min
 
-Implement the `GetMin()` method for the `BTree` structure to find and return the minimum value stored in the binary search tree.
+Write a function `GetMin` for the `BTree` structure to find and return the minimum value stored in the binary search tree.
 
 **Function definition:**
 
@@ -25,7 +25,9 @@ func main() {
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(40)
 
-    minVal := GetMin(tree)
-    fmt.Println(minVal) // 20
+    minNode := GetMin(tree)
+    if minNode != nil {
+        fmt.Println(minNode.Value) // 20
+    }
 }
 ```

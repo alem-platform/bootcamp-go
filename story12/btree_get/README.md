@@ -4,7 +4,7 @@
 
 # btree_get
 
-Implement the `Get()` method for the `BTree` structure to search for and return a node containing a specific value within the binary search tree. This method should utilize the properties of a binary search tree to efficiently locate the desired node.
+Implement the `Get` method for the `BTree` structure to search for and return a node containing a specific value within the binary search tree. This method should utilize the properties of a binary search tree to efficiently locate the desired node.
 
 **Function definition:**
 

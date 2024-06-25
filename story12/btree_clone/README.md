@@ -4,7 +4,7 @@
 
 # btree_clone
 
-Implement the `Clone()` method for the `BTree` structure to create a new tree that contains the same values as the original. This method should traverse the original tree and construct a new tree with the same structure and node values.
+Implement the `Clone` method for the `BTree` structure to create a new tree that contains the same values as the original. This method should traverse the original tree and construct a new tree with the same structure and node values.
 
 **Function definition:**
 

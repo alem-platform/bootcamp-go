@@ -6,7 +6,7 @@ Certainly! Here's the updated version of the programming exercise for implementi
 
 # stack_len
 
-Implement an additional method `Len()` for the `Stack` structure you previously created. This method should return the current number of items in the stack without modifying its contents.
+Implement an additional method `Len` for the `Stack` structure you previously created. This method should return the current number of items in the stack without modifying its contents.
 
 **Function definition:**
 

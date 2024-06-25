@@ -4,15 +4,15 @@
 
 # btree_postorder
 
-Implement the `PostOrderTraversal()` method for the `BTree` structure to perform a post-order traversal of the binary search tree. In post-order traversal, the nodes are visited in the order of left subtree, right subtree, and then the node itself. This method is particularly useful for deleting or freeing nodes in a binary tree because it ensures that children nodes are processed before their respective parent node.
+Implement the `PostOrderTraversal` method for the `BTree` structure to perform a post-order traversal of the binary search tree. This method should iterate over each node in the post-order traversal mode and apply the provided function to it.
 
 > https://www.geeksforgeeks.org/postorder-traversal-of-binary-tree/
 
 **Function definition:**
 
 ```go
-func (b *BTree) PostOrderTraversal() {
-
+func (b *BTree) PostOrderTraversal(fn func(n *btree.BTreeNode)) {
+order
 }
 
 ```
@@ -30,6 +30,10 @@ func main() {
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
 
-    tree.PostOrderTraversal() // 20 40 30 60 80 70 50
+    tree.PostOrderTraversal()
+
+    tree.PostOrderTraversal(func(n *BTreeNode) {
+    fmt.Print(n.Value, " ") // 20 40 30 60 80 70 50
+})
 }
 ```

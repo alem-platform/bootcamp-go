@@ -4,12 +4,12 @@
 
 # get_btree_max
 
-Implement the `GetMax()` method for the `BTree` structure to find and return the maximum value stored in the binary search tree.
+Write a function `GetMax` for the `BTree` structure to find and return the maximum value stored in the binary search tree.
 
 **Function definition:**
 
 ```go
-func  GetMax(b *tree.BTree) int {
+func  GetMax(b *tree.BTree) *BTreeNode {
 
 }
 ```
@@ -25,7 +25,9 @@ func main() {
     tree.ReplaceOrInsert(90)
     tree.ReplaceOrInsert(60)
 
-    maxVal := GetMax(tree)
-    fmt.Println(maxVal) // 90
+    maxNode := GetMax(tree)
+    if maxNode != nil {
+        fmt.Println(maxNode.Value) // 90
+    }
 }
 ```

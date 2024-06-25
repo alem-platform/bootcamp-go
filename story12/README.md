@@ -29,7 +29,7 @@
 | btree_inorder        | [README.md](./btree_inorder/README.md)        | 2     | ➕     | Y   |
 | btree_preorder       | [README.md](./btree_preorder/README.md)       | 2     | ➕     | Y   |
 | btree_postorder      | [README.md](./btree_postorder/README.md)      | 2     | ➕     | Y   |
-| is_balanced_btree    | [README.md](./is_balanced_btree/REAMD.md)     | 2     | ➕     | Y   |
+| is_balanced_btree    | [README.md](./is_balanced_btree/README.md)    | 2     | ➕     | Y   |
 | btree_clone          | [README.md](./btree_clone/README.md)          | 2     | ➕     | Y   |
 | delete_btree_leaves  | [README.md](./delete_btree_leaves/README.md)  | 2     | ➕     | Y   |
 | levels_btree         | [README.md](./levels_btree/README.md)         | 2     | ➕     | Y   |

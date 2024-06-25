@@ -4,7 +4,7 @@
 
 # btree_clear
 
-Implement the `Clear()` method for the `BTree` structure to completely remove all nodes, effectively emptying the tree.
+Implement the `Clear` method for the `BTree` structure to completely remove all nodes, effectively emptying the tree.
 
 **Function definition:**
 

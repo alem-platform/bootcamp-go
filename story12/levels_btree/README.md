@@ -4,12 +4,12 @@
 
 # levels_btree
 
-Implement the `Levels()` method for the `BTree` structure to calculate the number of levels (or depth) of the binary search tree. This method will traverse the tree to find the maximum depth, which is defined as the length of the path from the root node down to the farthest leaf node.
+Implement the `LevelsBtree` function for the `BTree` structure to calculate the number of levels (or depth) of the binary search tree. This function will traverse the tree to find the maximum depth, which is defined as the length of the path from the root node down to the farthest leaf node.
 
 **Function definition:**
 
 ```go
-func Levels(b *btree.BTree) int {
+func LevelsBtree(b *btree.BTree) int {
 
 }
 
@@ -28,7 +28,7 @@ func main() {
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
 
-    numLevels := tree.Levels()
+    numLevels := LevelsBtree(tree)
     fmt.Println(numLevels) // 3
 }
 ```

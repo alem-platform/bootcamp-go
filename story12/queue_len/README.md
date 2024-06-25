@@ -4,7 +4,7 @@
 
 # queue_len
 
-Implement the method `Len()` for the `Queue` structure to return the current number of items in the queue without modifying its contents.
+Implement the method `Len` for the `Queue` structure to return the current number of items in the queue without modifying its contents.
 
 **Function definition:**
 

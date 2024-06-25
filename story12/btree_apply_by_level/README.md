@@ -4,12 +4,12 @@
 
 # btree_apply_by_level
 
-Implement the `ApplyByLevel()` method for the `BTree` structure to perform an action on each node at each level of the binary search tree. This method should allow a function to be applied to all nodes level by level, which can be useful for tasks like printing each level's values or modifying nodes in some specific way.
+Implement the `ApplyByLevel` method for the `BTree` structure to perform an action on each node at each level of the binary search tree. This method should allow a function to be applied to all nodes level by level, which can be useful for tasks like printing each level's values or modifying nodes in some specific way.
 
 **Function definition:**
 
 ```go
-func (b *BTree) ApplyByLevel(fn func(value int, level int)) {
+func (b *BTree) ApplyByLevel(fn func(node *BTreeNode, level int)) {
 
 }
 ```
@@ -27,8 +27,8 @@ func main() {
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
 
-    tree.ApplyByLevel(func(value int, level int) {
-        fmt.Printf("Value: %d at Level: %d\n", value, level)
+    tree.ApplyByLevel(func(node *BTreeNode, level int) {
+        fmt.Printf("Value: %d at Level: %d\n", node.Value, level)
     })
     // Value: 50 at Level: 0
     // Value: 30 at Level: 1

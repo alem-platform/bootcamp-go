@@ -4,7 +4,7 @@
 
 # count_btree_nodes
 
-Implement the `CountNodes()` method for the `BTree` structure to count the total number of nodes in the binary search tree. This method will recursively traverse the tree and count each node.
+Write a function `CountNodes` for the `BTree` structure to count the total number of nodes in the binary search tree. This function will recursively traverse the tree and count each node.
 
 **Function definition:**
 

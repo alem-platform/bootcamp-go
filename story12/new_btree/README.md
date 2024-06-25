@@ -20,7 +20,7 @@ type BTreeNode struct {
 }
 
 func NewBTree() *BTree {
-  return &BTree{}
+
 }
 
 func (b *BTree) ReplaceOrInsert(v int) {

@@ -4,17 +4,16 @@
 
 # btree_inorder
 
-Implement the `InOrderTraversal()` method for the `BTree` structure to perform an in-order traversal of the binary search tree. This traversal method visits the left subtree, the node itself, and then the right subtree, which results in visiting nodes in ascending order for BSTs.
+Implement the `InOrderTraversal` method for the `BTree` structure to perform an in-order traversal of the binary search tree. This method should iterate over each node in the in-order traversal mode and apply the provided function to it.
 
 > https://www.geeksforgeeks.org/inorder-traversal-of-binary-tree
 
 **Function definition:**
 
 ```go
-func (b *BTree) InOrderTraversal() {
+func (b *BTree) InOrderTraversal(fn func(n *btree.BTreeNode)) {
 
 }
-
 
 ```
 
@@ -31,6 +30,8 @@ func main() {
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
 
-    tree.InOrderTraversal() // 20 30 40 50 60 70 80
+    tree.InOrderTraversal(func(n *BTreeNode) {
+    fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
+})
 }
 ```
