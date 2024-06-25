@@ -14,7 +14,6 @@ Implement the `InOrderTraversal` method for the `BTree` structure to perform an 
 func (b *BTree) InOrderTraversal(fn func(n *BTreeNode)) {
 
 }
-
 ```
 
 **Example:**

@@ -14,7 +14,6 @@ Implement the `PreOrderTraversal` method for the `BTree` structure to perform a 
 func (b *BTree) PreOrderTraversal(fn func(n *btree.BTreeNode)) {
 
 }
-
 ```
 
 **Example:**

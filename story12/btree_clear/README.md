@@ -34,4 +34,13 @@ func main() {
     printTree(tree.Root) // Outputs nothing as the tree is now empty
 }
 
+
+func printTree(node *BTreeNode) {
+    if node == nil {
+        return
+    }
+    printTree(node.Left)
+    fmt.Println(node.Value)
+    printTree(node.Right)
+}
 ```

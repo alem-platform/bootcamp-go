@@ -12,9 +12,8 @@ Implement the `PostOrderTraversal` method for the `BTree` structure to perform a
 
 ```go
 func (b *BTree) PostOrderTraversal(fn func(n *btree.BTreeNode)) {
-order
-}
 
+}
 ```
 
 **Example:**
@@ -38,7 +37,7 @@ func main() {
     */
 
     tree.PostOrderTraversal(func(n *BTreeNode) {
-    fmt.Print(n.Value, " ") // 20 40 30 60 80 70 50
-})
+        fmt.Print(n.Value, " ") // 20 40 30 60 80 70 50
+    })
 }
 ```
