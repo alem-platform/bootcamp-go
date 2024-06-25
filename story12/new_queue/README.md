@@ -5,6 +5,7 @@
 # new_queue
 
 Implement the `Queue` structure in Go, providing a standard queue functionality where items are added at the end and removed from the front. Define the internal structure as appropriate for a queue behavior.
+If the queue is empty, then the Pop method should return `nil`. 
 
 **Function definition:**
 

@@ -5,6 +5,7 @@
 # new_stack
 
 Implement the `Stack` structure in Go. The `Stack` should have methods to add and remove items in a last-in, first-out (LIFO) order. You are to decide how to internally manage the stack data.
+If the stack is empty, then the `Pop` method should return `nil`.
 
 **Function definition:**
 

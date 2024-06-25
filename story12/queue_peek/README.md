@@ -5,6 +5,7 @@
 # queue_peek
 
 Implement the method `Peek()` in your `Queue` structure, which returns the item at the front of the queue without removing it.
+If the queue is empty, then the method should return `nil`.
 
 **Function definition:**
 
