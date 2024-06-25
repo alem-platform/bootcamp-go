@@ -1,8 +1,10 @@
-Certainly! Here's the updated version of the programming exercise for implementing the `Len()` method in the `Stack` structure:
+
 
 | Expected file  |
 | -------------- |
 | `stack/len.go` |
+
+<p data-story-username="aberonshin">Anyhow, it worked. He contacted you right after I did and then followed every step of yours to find me, which inevitably led to me finding him.</p>
 
 # stack_len
 
