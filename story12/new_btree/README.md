@@ -39,7 +39,6 @@ func main() {
     tree.ReplaceOrInsert(30)
     tree.ReplaceOrInsert(10)
     tree.ReplaceOrInsert(70)
-tree.ReplaceOrInsert(10)
     printTree(tree.Root) // [50 L:[20 L:[10] R:[40 L:[30] R:None]] R:[70]]
     /*
             50
@@ -48,7 +47,7 @@ tree.ReplaceOrInsert(10)
        /  \
       10  40
          /  \
-        30  None
+       30  None
     */
 }
 

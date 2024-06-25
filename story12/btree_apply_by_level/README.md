@@ -26,6 +26,13 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
+    /*
+            50          level 0
+          /    \
+        30      70      level 1
+       /  \    /  \
+      20  40  60  80    level 2
+    */
 
     tree.ApplyByLevel(func(node *BTreeNode, level int) {
         fmt.Printf("Value: %d at Level: %d\n", node.Value, level)
@@ -37,6 +44,5 @@ func main() {
     // Value: 40 at Level: 2
     // Value: 60 at Level: 2
     // Value: 80 at Level: 2
-
 }
 ```

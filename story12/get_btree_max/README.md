@@ -20,10 +20,20 @@ func  GetMax(b *tree.BTree) *BTreeNode {
 func main() {
     tree := NewBTree()
     tree.ReplaceOrInsert(50)
+    tree.ReplaceOrInsert(20)
+    tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(30)
-    tree.ReplaceOrInsert(70)
+    tree.ReplaceOrInsert(10)
     tree.ReplaceOrInsert(90)
-    tree.ReplaceOrInsert(60)
+    /*
+            50
+          /    \
+        20     90
+       /  \
+      10  40
+         /  \
+       30  None
+    */
 
     maxNode := GetMax(tree)
     if maxNode != nil {

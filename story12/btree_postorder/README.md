@@ -29,6 +29,13 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
+    /*
+            50
+          /    \
+        30      70
+       /  \    /  \
+      20  40  60  80
+    */
 
     tree.PostOrderTraversal()
 

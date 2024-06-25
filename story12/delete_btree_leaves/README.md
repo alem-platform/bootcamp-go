@@ -26,6 +26,13 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
+    /*
+            50
+          /    \
+        30      70
+       /  \    /  \
+      20  40  60  80
+    */
 
     // Tree before deleting leaves:
     tree.InOrderTraversal(func(n *BTreeNode) {
@@ -33,6 +40,12 @@ func main() {
     })
 
     DeleteBtreeLeaves(tree)
+    /*
+            50
+          /    \
+        30      70
+
+    */
 
     // Tree after deleting leaves:
     tree.InOrderTraversal(func(n *BTreeNode) {

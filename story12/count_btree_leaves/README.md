@@ -27,10 +27,19 @@ func main() {
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
-    tree.ReplaceOrInsert(80)
+    tree.ReplaceOrInsert(10)
+    /*
+            50
+          /    \
+        30      70
+       /  \    /  \
+      20  40  60  null
+     /  \
+    10  null
+    */
 
     // Number of leaf nodes in the tree:
     leafCount := CountBtreeLeaves(tree)
-    fmt.Println(leafCount) // 4
+    fmt.Println(leafCount) // 3
 }
 ```

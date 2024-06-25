@@ -6,6 +6,8 @@
 
 Write a function `IsBalancedBtree` for the `BTree` structure to determine if a binary search tree (BST) is balanced. A tree is considered balanced if, for every node, the height difference between its left and right subtrees is no more than one.
 
+> https://www.geeksforgeeks.org/balanced-binary-tree/?ref=header_search
+
 **Function definition:**
 
 ```go
@@ -27,6 +29,13 @@ func main() {
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
+    /*
+            50
+          /    \
+        30      70
+       /  \    /  \
+     20  null 60   80
+    */
 
     fmt.Println(tree.IsBalancedBtree()) // true
 }

@@ -24,21 +24,31 @@ func main() {
     tree.ReplaceOrInsert(70)
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(40)
+    tree.ReplaceOrInsert(10)
+    /*
+            50
+          /    \
+        30     70
+       /  \
+      20  40
+     /  \
+   10  None
+    */
 
-    fmt.Println("Searching for 40 in the tree:")
+    fmt.Println("Searching for 40 in the tree:") // Searching for 40 in the tree:
     node := tree.Get(40)
     if node != nil {
-        fmt.Println("Found:", node.Value)
+        fmt.Println("Found:", node.Value) // Found: 40
     } else {
         fmt.Println("Value not found")
     }
 
-    fmt.Println("Searching for 100 in the tree:")
+    fmt.Println("Searching for 100 in the tree:") // Searching for 100 in the tree:
     node = tree.Get(100)
     if node != nil {
         fmt.Println("Found:", node.Value)
     } else {
-        fmt.Println("Value not found")
+        fmt.Println("Value not found") // Value not found
     }
 }
 

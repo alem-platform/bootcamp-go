@@ -20,10 +20,19 @@ func GetMin(b *btree.BTree) int {
 func main() {
     tree := NewBTree()
     tree.ReplaceOrInsert(50)
-    tree.ReplaceOrInsert(30)
-    tree.ReplaceOrInsert(70)
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(40)
+    tree.ReplaceOrInsert(30)
+    tree.ReplaceOrInsert(70)
+    /*
+            50
+          /    \
+        20     70
+       /  \
+    None  40
+         /  \
+       30  None
+    */
 
     minNode := GetMin(tree)
     if minNode != nil {

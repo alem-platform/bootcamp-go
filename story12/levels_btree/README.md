@@ -27,6 +27,15 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
+    /*
+            50          level 0
+          /    \
+        30      70      level 1
+       /  \    /  \
+      20  40  60  80    level 2
+
+    total number of levels: 3
+    */
 
     numLevels := LevelsBtree(tree)
     fmt.Println(numLevels) // 3
