@@ -4,7 +4,9 @@
 
 # new_btree
 
-Implement a binary search tree (BST) as per the binary search tree structure described on Wikipedia. This structure should include a method for creating a new tree and a method to replace or insert a value into the tree.
+Implement a binary search tree (BST) structure. This structure should include a method for creating a new tree and a method to replace or insert a value into the tree.
+
+> Read more about [binary search tree here](https://en.wikipedia.org/wiki/Binary_search_tree)
 
 **Function definition:**
 
