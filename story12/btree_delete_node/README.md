@@ -32,12 +32,16 @@ func main() {
     tree.ReplaceOrInsert(80)
 
     // Tree before deleting node 30:
-    tree.InOrderTraversal(tree.Root) // 20 30 40 50 60 70 80
+    tree.InOrderTraversal(func(n *BTreeNode) {
+        fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
+    })
 
     tree.DeleteNode(30)
 
     // Tree after deleting node 30:
-    tree.InOrderTraversal(tree.Root) // 20 40 50 60 70 80
+    tree.InOrderTraversal(func(n *BTreeNode) {
+        fmt.Print(n.Value, " ") // 20 40 50 60 70 80
+    })
 }
 
 ```

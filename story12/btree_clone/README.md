@@ -30,9 +30,14 @@ func main() {
     clonedTree := tree.Clone()
 
     // Original tree in-order traversal
-    tree.InOrderTraversal()        // 20 30 40 50 60 70 80
+    tree.InOrderTraversal(func(n *BTreeNode) {
+        fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
+    })
 
     // Cloned tree in-order traversal
-    clonedTree.InOrderTraversal()  // 20 30 40 50 60 70 80
+
+    clonedTree.InOrderTraversal(func(n *BTreeNode) {
+        fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
+    })
 }
 ```

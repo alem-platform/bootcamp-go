@@ -4,12 +4,12 @@
 
 # count_btree_nodes
 
-Write a function `CountNodes` for the `BTree` structure to count the total number of nodes in the binary search tree. This function will recursively traverse the tree and count each node.
+Write a function `CountBtreeNodes` for the `BTree` structure to count the total number of nodes in the binary search tree. This function will recursively traverse the tree and count each node.
 
 **Function definition:**
 
 ```go
-func  CountNodes(b *btree.BTree) int {
+func  CountBtreeNodes(b *btree.BTree) int {
 
 }
 
@@ -27,7 +27,7 @@ func main() {
     tree.ReplaceOrInsert(40)
 
     fmt.Println("Total number of nodes in the tree:")
-    totalNodes := CountNodes(tree)
+    totalNodes := CountBtreeNodes(tree)
     fmt.Println(totalNodes) // 5
 }
 ```

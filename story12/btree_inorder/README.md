@@ -31,7 +31,7 @@ func main() {
     tree.ReplaceOrInsert(80)
 
     tree.InOrderTraversal(func(n *BTreeNode) {
-    fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
-})
+        fmt.Print(n.Value, " ") // 20 30 40 50 60 70 80
+    })
 }
 ```
