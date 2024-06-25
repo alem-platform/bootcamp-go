@@ -28,14 +28,14 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(10)
-    /*
-            50
-          /    \
-        30      70
-       /  \    /  \
-      20  40  60  null
-     /  \
-    10  null
+    /* Btree Visualization:
+              50
+            /    \
+          30      70
+         /  \    /
+       20   40  60
+      /
+    10
     */
 
     // Number of leaf nodes in the tree:

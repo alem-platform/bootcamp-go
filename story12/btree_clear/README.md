@@ -24,9 +24,13 @@ func main() {
     tree.ReplaceOrInsert(70)
 
     printTree(tree.Root) // 30 50 70
+    /* Btree Visualization:
+            50
+          /    \
+         30    70
+    */
 
     tree.Clear()
-
     printTree(tree.Root) // Outputs nothing as the tree is now empty
 }
 

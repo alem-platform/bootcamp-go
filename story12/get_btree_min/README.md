@@ -24,14 +24,14 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(30)
     tree.ReplaceOrInsert(70)
-    /*
+    /* Btree Visualization:
             50
           /    \
         20     70
-       /  \
-    None  40
-         /  \
-       30  None
+          \
+           40
+          /
+        30
     */
 
     minNode := GetMin(tree)

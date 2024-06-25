@@ -25,14 +25,13 @@ func main() {
     tree.ReplaceOrInsert(70)
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(40)
-    /*
+    /* Btree Visualization:
             50
           /    \
         30     70
        /  \
-      20  40
+     20    40
     */
-
 
     fmt.Println("Total number of nodes in the tree:")
     totalNodes := CountBtreeNodes(tree)

@@ -39,15 +39,15 @@ func main() {
     tree.ReplaceOrInsert(30)
     tree.ReplaceOrInsert(10)
     tree.ReplaceOrInsert(70)
-    printTree(tree.Root) // [50 L:[20 L:[10] R:[40 L:[30] R:None]] R:[70]]
-    /*
+    printTree(tree.Root) // 10 20 30 40 50 70
+    /* Btree Visualization:
             50
           /    \
         20     70
        /  \
-      10  40
-         /  \
-       30  None
+     10    40
+         /
+       30
     */
 }
 
@@ -55,8 +55,8 @@ func printTree(node *BTreeNode) {
     if node == nil {
         return
     }
-    printTree(node.Left)    // Visit left subtree
-    fmt.Println(node.Value) // Visit node itself
-    printTree(node.Right)   // Visit right subtree
+    printTree(node.Left)
+    fmt.Println(node.Value)
+    printTree(node.Right)
 }
 ```

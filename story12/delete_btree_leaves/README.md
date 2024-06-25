@@ -26,7 +26,7 @@ func main() {
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(60)
     tree.ReplaceOrInsert(80)
-    /*
+    /* Btree Visualization:
             50
           /    \
         30      70
@@ -40,11 +40,10 @@ func main() {
     })
 
     DeleteBtreeLeaves(tree)
-    /*
+    /* Btree Visualization:
             50
           /    \
         30      70
-
     */
 
     // Tree after deleting leaves:

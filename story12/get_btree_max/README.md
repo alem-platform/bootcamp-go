@@ -25,14 +25,14 @@ func main() {
     tree.ReplaceOrInsert(30)
     tree.ReplaceOrInsert(10)
     tree.ReplaceOrInsert(90)
-    /*
+    /* Btree Visualization:
             50
           /    \
-        20     90
+        20      90
        /  \
-      10  40
-         /  \
-       30  None
+     10    40
+          /
+        30
     */
 
     maxNode := GetMax(tree)

@@ -25,14 +25,14 @@ func main() {
     tree.ReplaceOrInsert(20)
     tree.ReplaceOrInsert(40)
     tree.ReplaceOrInsert(10)
-    /*
-            50
-          /    \
-        30     70
-       /  \
-      20  40
-     /  \
-   10  None
+    /* Btree Visualization:
+             50
+           /    \
+         30      70
+        /  \
+      20    40
+     /
+   10
     */
 
     fmt.Println("Searching for 40 in the tree:") // Searching for 40 in the tree:
