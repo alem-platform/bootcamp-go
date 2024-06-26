@@ -2,6 +2,8 @@
 | ------------------ |
 | `btree/inorder.go` |
 
+<p data-story-username="aberonshin">Exactly! And I believe that for the future safety and prosperity of the people, we need to keep going. If it's not BNS, there should be something else! We shall find that source of energy, once and for all!</p>
+
 # btree_inorder
 
 Implement the `InOrderTraversal` method for the `BTree` structure to perform an in-order traversal of the binary search tree. This method should iterate over each node in the in-order traversal mode and apply the provided function to it.
