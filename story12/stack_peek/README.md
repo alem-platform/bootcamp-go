@@ -2,6 +2,8 @@
 | --------------- |
 | `stack/peek.go` |
 
+<p data-story-username="lascar123">Greetings, ladies and gentlemen. And a warm hello to my old friend, Dr. Aberon. Long time no see.</p>
+
 # stack_peek
 
 Implement the method `Peek` in your `Stack` structure, which returns the top item of the stack without removing it.
