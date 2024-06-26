@@ -2,6 +2,8 @@
 | -------------- |
 | `btree/get.go` |
 
+<p data-story-username="lascar123">I am not so sure this is close to an end. You seem to believe it's all about you and your ideas, or us and our misunderstanding. But it's not. It's about the safety and prosperity of many people.</p>
+
 # btree_get
 
 Implement the `Get` method for the `BTree` structure to search for and return a node containing a specific value within the binary search tree.
