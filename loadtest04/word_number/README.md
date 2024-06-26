@@ -1,12 +1,20 @@
+| Expected file   |
+| --------------- |
+| `wordnumber.go` |
+
 # word_number
 
-Напишите функцию которая возвращает порядочный номер данного слова в тексте. В случае если функция приняла как слово не слово или в тексте нет данного слова, оно должно возвратить 0.
+Write a function `WordNumber` that returns the ordinal number of a given word in a text. Words are defined as sequences of alphanumeric characters separated by spaces or punctuation. If the input word is not present in the text or is not a valid word, the function should return 0.
+
+**Function definition:**
 
 ```go
 func WordNumber(text string, word string) int {
 
 }
 ```
+
+**Example:**
 
 ```go
 func main() {
