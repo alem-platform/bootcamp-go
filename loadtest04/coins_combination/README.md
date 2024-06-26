@@ -19,7 +19,7 @@ func CoinsCombination(sum int) []int {
 ```go
 func main() {
     fmt.Println(CoinsCombination(10))   // [10]
-    fmt.Println(CoinsCombination(11))   // [10, 1]
-    fmt.Println(CoinsCombination(125))  // [100, 10, 10, 5]
+    fmt.Println(CoinsCombination(11))   // [10 1]
+    fmt.Println(CoinsCombination(125))  // [100 10 10 5]
 }
 ```
