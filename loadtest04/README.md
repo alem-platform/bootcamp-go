@@ -21,7 +21,7 @@
 | 5     | nth_word            | [README.md](./nth_word/README.md)                         | ➕     |
 | 5     | word_number         | [README.md](./word_number/README.md)                      | ➕     |
 | 5     | coins_combination   | [README.md](./coins_combination/README.md)                | ➕     |
-| 6     | is_perfect_number   | [README.md](./is_perfect_number/README.md)                | ➕     |
+| 6     | new_stack           | [README.md](../story12/new_stack/README.md)               | COPY   |
 | 6     | lock_states         | [README.md](../story10/lock_states/README.md)             | COPY   |
 | 6     | set                 | [README.md](./set/README.md)                              | ➕     |
 | 7     | coins_combinations  | [README.md](./coins_combinations/README.md)               | ➕     |
