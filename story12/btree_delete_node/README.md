@@ -2,6 +2,8 @@
 | --------------------- |
 | `btree/deletenode.go` |
 
+<p data-story-username="aberonshin">So, what will it be?</p>
+
 # btree_delete_node
 
 Implement the `DeleteNode` method for the `BTree` structure to remove a specific node from the binary search tree. After removal, the tree must also meet the binary search tree conditions.
