@@ -2,6 +2,8 @@
 | ---------------- |
 | `levelsbtree.go` |
 
+<p data-story-username="aberonshin">You were right this time. With BNS, it's impossible. But I am a scientist, for heaven's sake! I will never agree that nothing else is possible. I will always look for a solution.</p>
+
 # levels_btree
 
 Write a function `LevelsBtree` for the `BTree` structure to calculate the number of levels in the binary search tree.
