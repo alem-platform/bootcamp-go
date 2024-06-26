@@ -2,6 +2,8 @@
 | ------------------ |
 | `list/removeif.go` |
 
+<p data-story-username="aberonshin">Imagine how devastated I was. The result of all my professional life was down to zero! So many people who worked for me and risked everything had done it for nothing. It was a very frustrating failure.</p>
+
 # list_remove_if
 
 Implement the method `RemoveIf` for the `List` structure. This method should remove all nodes from the list for which the provided function returns `true`.

@@ -2,6 +2,8 @@
 | --------------- |
 | `lockstates.go` |
 
+<p data-story-username="a-J-nx">plus, he was afraid that if they did listen to him, Colonel Laskar would be eager to use the formula, and he needed more time. and what is more effective to buy some time than pretending to be dead?</p>
+
 # lock_states
 
 Create a function `NewLock` that returns a `Lock` structure with the following methods:

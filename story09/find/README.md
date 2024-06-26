@@ -2,6 +2,8 @@
 | ------------- |
 | `find.go`     |
 
+<p data-story-username="miranda_rh">I don't, but if you learn how to use the function Find, you may figure it out eventually.</p>
+
 # find
 
 Write a function `Find` that takes an array of integers and a function that tests an integer, and returns a pointer to the first integer in the array that passes the test. If no integers pass the test, return `nil`.
