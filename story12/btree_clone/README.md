@@ -2,6 +2,8 @@
 | ---------------- |
 | `btree/clone.go` |
 
+<p data-story-username="lascar123">I thought you realized it's simply not possible. I was mistaken again.</p>
+
 # btree_clone
 
 Implement the `Clone` method for the `BTree` structure to create a new tree that contains the same values as the original.
