@@ -2,6 +2,10 @@
 | ------------- |
 | `filter.go`   |
 
+<p data-story-username="miranda_rh">So you came to the lab hoping to find Dr. Aberon? Buffoon. Of course he won't be here waiting for you and your research questions.</p>
+
+<p data-story-username="di0n">Do you know anything about his actual whereabouts?</p>
+
 # filter
 
 Write a function `Filter` that takes an array of integers and a function that tests an integer, and returns a new array containing only the integers that pass the test.

@@ -2,6 +2,8 @@
 | ----------------------- |
 | `firststruct/method.go` |
 
+<p data-story-username="a-J-nx">from what ai know, after the contradictory results of the experiments in the mountains, Dr. Aberon locked himself in the lab and went crazy for weeks. they say sometimes he didn't sleep for days, and then he would sleep for a week. but he got some ideas. You see, Aberon’s experiments were groundbreaking, but they weren’t without their dangers. the BNS formula, it’s... volatile. it reacts differently under varying environmental conditions. that's why Dr. Aberon decided to move the lab to the steppe.</p>
+
 # struct_method
 
 Extend the `User` structure with a method `PasswordReliability` that returns a string based on the following complexity criteria:

@@ -1,12 +1,13 @@
-| Expected file        |
-| ---------------------|
-| `knighttour.go`      |
+| Expected file   |
+| --------------- |
+| `knighttour.go` |
 
 <p data-story-username="lascar123">And then I met you. I thought you could lead me to the formula. And maybe, to Dr. Aberon himself.</p>
 
 # knight_tour
 
-Write a function `KnightTour` that takes board size and returns the all solutions to the [knight tour problem](https://en.wikipedia.org/wiki/Knight%27s_tour).
+Write a function `KnightTour` that takes board size and returns the all solutions to the Knight tour problem
+<!-- [knight tour problem](https://en.wikipedia.org/wiki/Knight%27s_tour). -->
 
 - Solutions must be unique
 - Function must return all solutions for giving board

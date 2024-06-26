@@ -2,6 +2,8 @@
 | ------------------ | ----------------------------- |
 | `wrapfunctions.go` | `github.com/alem-platform/ap` |
 
+<p data-story-username="miranda_rh">This and some other details make me think Dr. Aberon is hiding his lab somewhere back in the city. Obviously, it's easier to be lost there than in the Steppe.</p>
+
 # wrap_functions
 
 Write a function `WrapFunctions` that takes a slice of wrapper functions and returns a single function that applies all the specified wrapper funcitons in order to the input string. Additionally, implement the functions listed below:
@@ -30,7 +32,7 @@ func WrapperReverseStr(fn func(str *string)) func(str *string) {
 
 }
 
-func WrapFunctions(decs []func(str *string) func(str *string)) func(str *string) {
+func WrapFunctions(decs []func(fn func(str *string)) func(str *string)) func(str *string) {
 
 }
 ```
@@ -39,50 +41,50 @@ func WrapFunctions(decs []func(str *string) func(str *string)) func(str *string)
 
 ```go
 func main() {
-  mockFn := func(str *string) {
-    return
-  }
+	mockFn := func(str *string) {
+		return
+	}
 
-  fnPrint := WrapperPrintStr(mockFn)
+	fnPrint := WrapperPrintStr(mockFn)
 
-  str := "salem?"
-  fnPrint(&str) // salem?
+	str := "salem?"
+	fnPrint(&str) // salem?
 
-  fnRot1 := WrapperRot1(mockFn)
-  fnRot1(&str)
-  fnPrint(&str) // tbmfn?
+	fnRot1 := WrapperRot1(mockFn)
+	fnRot1(&str)
+	fnPrint(&str) // tbmfn?
 
-  fnRot13 := WrapperRot13(mockFn)
-  fnRot13(&str)
-  fnPrint(&str) // gozsa?
+	fnRot13 := WrapperRot13(mockFn)
+	fnRot13(&str)
+	fnPrint(&str) // gozsa?
 
-  fnReverse := WrapperReverseStr(mockFn)
-  fnReverse(&str)
-  fnPrint(&str) // ?aszog
+	fnReverse := WrapperReverseStr(mockFn)
+	fnReverse(&str)
+	fnPrint(&str) // ?aszog
 
-  fmt.Println("United Func Results")
-  wrappedFns := WrapFunctions([]func(str *string) func(str *string){
-    WrapperPrintStr,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperRot1,
-    WrapperPrintStr,
-    WrapperReverseStr,
-    WrapperPrintStr,
-  })
-  wrappedFns(&str)
-  // ?aszog
-  // gozsa?
-  // salem?
+	fmt.Println("United Func Results")
+	wrappedFns := WrapFunctions([]func(fn func(str *string)) func(str *string){
+		WrapperPrintStr,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperRot1,
+		WrapperPrintStr,
+		WrapperReverseStr,
+		WrapperPrintStr,
+	})
+	wrappedFns(&str)
+	// ?aszog
+	// gozsa?
+	// salem?
 }
 ```
 

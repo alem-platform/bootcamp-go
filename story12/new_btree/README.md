@@ -1,10 +1,16 @@
-# new_btree
-
 | Expected file    |
 | ---------------- |
 | `btree/btree.go` |
 
-> https://en.wikipedia.org/wiki/Binary_search_tree
+<p data-story-username="aberonshin">Hello, Colonel. Long time indeed. So, we finally have a chance to talk. I believe we are closer to resolving our conflict than we have ever been.</p>
+
+# new_btree
+
+Implement a binary search tree (BST) structure. This structure should include a method for creating a new tree and a method to replace or insert a value into the tree.
+
+> Read more about [binary search tree here](https://en.wikipedia.org/wiki/Binary_search_tree)
+
+**Function definition:**
 
 ```go
 type BTree struct {
@@ -17,7 +23,44 @@ type BTreeNode struct {
   Value int
 }
 
+func NewBTree() *BTree {
+
+}
+
 func (b *BTree) ReplaceOrInsert(v int) {
 
+}
+```
+
+**Example:**
+
+```go
+func main() {
+    tree := NewBTree()
+    tree.ReplaceOrInsert(50)
+    tree.ReplaceOrInsert(20)
+    tree.ReplaceOrInsert(40)
+    tree.ReplaceOrInsert(30)
+    tree.ReplaceOrInsert(10)
+    tree.ReplaceOrInsert(70)
+    printTree(tree.Root) // 10 20 30 40 50 70
+    /* Btree Visualization:
+            50
+          /    \
+        20     70
+       /  \
+     10    40
+         /
+       30
+    */
+}
+
+func printTree(node *BTreeNode) {
+    if node == nil {
+        return
+    }
+    printTree(node.Left)
+    fmt.Println(node.Value)
+    printTree(node.Right)
 }
 ```

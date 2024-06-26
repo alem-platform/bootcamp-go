@@ -12,15 +12,15 @@
 | Task                | Link                                         | Level | Status |
 | ------------------- | -------------------------------------------- | ----- | ------ |
 | lesson10            | [README.md](./lesson10/README.md)            | 0     | ?      |
-| first_struct        | [README.md](./first_struct/README.md)        | 1     | ➕     |
-| struct_method       | [README.md](./struct_method/README.md)       | 2     | ➕     |
-| struct_as_argument  | [README.md](./struct_as_argument/README.md)  | 1     | ➕     |
-| struct_compare      | [README.md](./struct_compare/README.md)      | 1     | ➕     |
-| struct_in_struct    | [README.md](./struct_in_struct/README.md)    | 1     | ➕     |
-| lock_states         | [README.md](./lock_states/README.md)         | 2     | ➕     |
-| get_books_from_file | [README.md](./get_books_from_file/README.md) | 2     | ➕     |
-| print_books         | [README.md](./print_books/README.md)         | 2     | ➕     |
-| my_map              | [README.md](./my_map/README.md)              | 3     | ➕     |
+| first_struct        | [README.md](./first_struct/README.md)        | 1     | ✅     |
+| struct_method       | [README.md](./struct_method/README.md)       | 2     | ✅     |
+| struct_as_argument  | [README.md](./struct_as_argument/README.md)  | 1     | ✅     |
+| struct_compare      | [README.md](./struct_compare/README.md)      | 1     | ✅     |
+| struct_in_struct    | [README.md](./struct_in_struct/README.md)    | 1     | ✅     |
+| lock_states         | [README.md](./lock_states/README.md)         | 2     | ✅     |
+| get_books_from_file | [README.md](./get_books_from_file/README.md) | 2     | ✅     |
+| print_books         | [README.md](./print_books/README.md)         | 2     | ✅     |
+| my_map              | [README.md](./my_map/README.md)              | 3     | ✅     |
 
 Старые задачи, которые не были включены в текущий story10:
 

@@ -2,6 +2,8 @@
 | ------------------- |
 | `structinstruct.go` |
 
+<p data-story-username="a-J-nx">He thought his reputation was destroyed anyway, so no one would believe his results. Everyone thought he had gone mad.</p>
+
 # struct_in_struct
 
 Create a function `CreateMyCart` that returns a `Cart` structure.
