@@ -7,7 +7,7 @@
 
 | Level | Task                | Link                                                      | Status |
 | ----- | ------------------- | --------------------------------------------------------- | ------ |
-| 1     | print_alpha_rev     | [README.md](./print_alpha_rev/README.md)                  | COPY   |
+| 1     | print_alpha_rev     | [README.md](./print_alpha_rev/README.md)                  | ✅     |
 | 1     | print_alphabet      | [README.md](../story02/print_alphabet/README.md)          | COPY   |
 | 1     | print_alphabet_fn   | [README.md](../story02/print_alphabet_fn/README.md)       | COPY   |
 | 2     | count_n             | [README.md](./count_n/README.md)                          | ✅     |
