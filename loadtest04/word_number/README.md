@@ -4,7 +4,7 @@
 
 # word_number
 
-Write a function `WordNumber` that returns the ordinal number of a given word in a text. Words are defined as sequences of alphanumeric characters separated by spaces or punctuation. If the input word is not present in the text or is not a valid word, the function should return 0.
+Write a function `WordNumber` that returns the ordinal number of a given word in a text. Words are defined as sequences of alphanumeric characters separated by spaces or punctuation. If the input word is not present in the text or is not a valid word (should contain only alphanumeric characters), the function should return 0.
 
 **Function definition:**
 
