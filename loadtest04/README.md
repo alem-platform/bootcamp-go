@@ -27,8 +27,8 @@
 | 7     | coins_combinations   | [README.md](./coins_combinations/README.md)               | ✅     |
 | 7     | uniq_comb_n          | [README.md](./../story06/uniq_comb_n/README.md)           | COPY   |
 | 7     | matrix_rotate_n      | [README.md](./../story04/slice_matrix_rotate_n/README.md) | COPY   |
-| 8     | list_reverse         | [README.md](./../story11/list_reverse/README.md)          | COPY   |
-| 8     | list_sort            | [README.md](./../story11/list_sort/README.md)             | COPY   |
-| 8     | btree_apply_by_level | [README.md](./../story12/btree_apply_by_level/README.md)  | COPY   |
-| 9     | btree_delete_node    | [README.md](./../story12/btree_delete_node/README.md)     | COPY   |
+| 8     | list_reverse         | [README.md](./list_reverse/README.md)                     | COPY   |
+| 8     | list_sort            | [README.md](./list_sort/README.md)                        | COPY   |
+| 8     | btree_apply_by_level | [README.md](./btree_apply_by_level/README.md)             | COPY   |
+| 9     | btree_delete_node    | [README.md](./btree_delete_node/README.md)                | COPY   |
 | 9     | game_cities          | [README.md](./../story07/game_cities/README.md)           | COPY   |
