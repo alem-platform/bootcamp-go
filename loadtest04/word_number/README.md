@@ -19,7 +19,7 @@ func WordNumber(text string, word string) int {
 ```go
 func main() {
   fmt.Printf("%q\n", WordNumber("salem alem!", "salem")) // 1
-  fmt.Printf("%q\n", WordNumber("salem alem", "alem!")) // 0
+  fmt.Printf("%q\n", WordNumber("salem alem!", "alem!")) // 0
   fmt.Printf("%q\n", WordNumber("how are you?", "salem")) // 0
 }
 ```
