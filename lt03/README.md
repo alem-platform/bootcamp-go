@@ -35,8 +35,8 @@ Status:
 | map_from_keys           | 6     | 350     | [README.md](./map_from_keys.md)                      | ✅    |
 | map_update              | 6     | 350     | [README.md](./map_update.md)                         | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
-| sort                    | 7     | 450     | [README.md](../story09/sort/README.md)               | COPY  |
-| print_hex               | 7     | 450     | [README.md](./print_hex.md)                          | ✅    |
+| sort                    | 7     | 400     | [README.md](../story09/sort/README.md)               | COPY  |
+| print_hex               | 7     | 400     | [README.md](./print_hex.md)                          | ✅    |
 | ----------------------- | ----- | ------- | -------------------------------------------------    | ----- |
 | prime_sum               | 8     | 450     | [README.md](./prime_sum.md)                          | ✅    |
 | rotate_matrix_180       | 8     | 450     | [README.md](./rotate_matrix_180.md)                  | ✅    |
