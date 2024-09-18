@@ -46,14 +46,3 @@ Status:
 | convert_nbr_base        | 9     | 500     | [README.md](../story05/convert_nbr_base/README.md)   | COPY  |
 
 ```
-| map_keys                |       |         | [README.md](../story07/map_keys/README.md)           | COPY  |
-| print_a                 |       |         | [README.md](./print_a.md)                            |       |
-| game_cites              |       |         | [README.md](../story07/game_cites/README.md)         | COPY  |
-| wrap_functions          |       |         | [README.md](../story09/wrap_functions/README.md)     | COPY  |
-| brainfuck               |       |         | [README.md](../meteor/brainfuck/README.md)           |
-```
-
-
-Убраны задачи:
-- my_wc
-- my_cat
