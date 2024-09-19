@@ -108,7 +108,6 @@
 - [ ] Yes
 - [ ] No
 
-
 ## Project presentation and code defense
 
 ### Can the team clearly explain their code, logic, and design choices during the presentation?
